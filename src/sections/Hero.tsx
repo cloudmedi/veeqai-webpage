@@ -97,14 +97,24 @@ const Hero: React.FC = () => {
                 {' '}{t('hero.title.suffix')}
               </div>
             </h1>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-12">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-4">
               {t('hero.subtitle')}
             </p>
+            
+            {/* Slogan */}
+            <div className="mb-12">
+              <p className="text-2xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
+                "Your Voice, Your Music, Your AI"
+              </p>
+              <p className="text-lg text-gray-500 mt-2">
+                "Sesiniz, Müziğiniz, Yapay Zekanız"
+              </p>
+            </div>
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <a
-                href="http://localhost:5173/register"
+                href="https://app.veeq.ai/register"
                 className="inline-block bg-black text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition-colors"
               >
                 {t('hero.cta.startCreating')}
