@@ -53,7 +53,7 @@ function ScrollToTop() {
 }
 
 function LanguageRouter() {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   const location = useLocation()
   
   useEffect(() => {
@@ -68,6 +68,11 @@ function LanguageRouter() {
       window.history.replaceState(null, '', newPath)
     }
   }, [location, i18n])
+  
+  // Update document title based on language
+  useEffect(() => {
+    document.title = t('siteTitle')
+  }, [i18n.language, t])
   
   return null
 }

@@ -1,4 +1,5 @@
 {
+  "siteTitle": "VeeqAI - AI-Powered Voice & Music Generation Platform",
   "nav": {
     "home": "Home",
     "features": "Features",
@@ -169,6 +170,7 @@
       "suffix": "content in minutes"
     },
     "subtitle": "Craft voices, music, and audio for your YouTube videos, podcasts, apps, and courses. No expensive studios or voice actors needed.",
+    "slogan": "Your Voice, Your Music, Your AI",
     "sampleText": "Craft professional voiceovers for your YouTube videos, podcasts, and audiobooks. Generate natural-sounding speech in any voice, any language, instantly.",
     "typewriter": {
       "voiceovers": "voiceovers",

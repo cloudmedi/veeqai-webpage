@@ -101,15 +101,6 @@ const Hero: React.FC = () => {
               {t('hero.subtitle')}
             </p>
             
-            {/* Slogan */}
-            <div className="mb-12">
-              <p className="text-2xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
-                "Your Voice, Your Music, Your AI"
-              </p>
-              <p className="text-lg text-gray-500 mt-2">
-                "Sesiniz, Müziğiniz, Yapay Zekanız"
-              </p>
-            </div>
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
