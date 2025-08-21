@@ -1,0 +1,94 @@
+/* Disable all smooth scrolling behavior */
+* {
+  scroll-behavior: auto !important;
+}
+
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  scroll-behavior: auto !important;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    @apply px-4 py-12;
+  }
+  
+  .container-custom {
+    @apply px-4;
+  }
+}
+
+@media (max-width: 640px) {
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+  
+  .text-7xl {
+    font-size: 3.5rem;
+  }
+  
+  .text-4xl {
+    font-size: 2rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.5rem;
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bg-gradient-hero {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 25%, #1e40af 50%, #7c3aed 75%, #581c87 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-gray-900 {
+    background-color: #111827;
+  }
+  
+  .dark\:bg-gray-800 {
+    background-color: #1f2937;
+  }
+  
+  .dark\:text-white {
+    color: #ffffff;
+  }
+  
+  .dark\:text-gray-300 {
+    color: #d1d5db;
+  }
+}

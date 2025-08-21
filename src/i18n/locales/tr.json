@@ -1,0 +1,3234 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "docs": "Dokümantasyon",
+    "login": "Giriş Yap",
+    "signIn": "Giriş Yap",
+    "signUp": "Üye Ol",
+    "products": "Ürünler",
+    "getStarted": "Başla",
+    "dashboard": "Kontrol Paneli",
+    "dropdown": {
+      "textToSpeech": "Seslendirme",
+      "textToSpeechDesc": "Profesyonel seslendirmeler, podcast'ler ve sesli kitaplar için doğal AI sesleri",
+      "musicGenerator": "Müzik Üreticisi",
+      "musicGeneratorDesc": "Telif hakkı olmayan özgün müzikler ve jenerasyonlar oluşturun",
+      "voiceCloning": "Ses Klonlama",
+      "voiceCloningDesc": "Herhangi bir sesi yüksek doğrulukla klonlayın ve istediğiniz metni okutun",
+      "voiceDesign": "Ses Tasarımı",
+      "voiceDesignDesc": "Oyunlar ve animasyonlar için benzersiz karakter sesleri tasarlayın",
+      "voiceIsolator": "Ses Ayırıcısı",
+      "voiceIsolatorDesc": "Arka plan gürültülerini temizleyin ve ses kalitesini profesyonel seviyeye çıkarın"
+    }
+  },
+  "pricing": {
+    "title": "Planınızı Seçin",
+    "subtitle": "Esnek fiyatlandırma planlarımızla AI destekli ses üretiminin tüm potansiyelini açığa çıkarın. Ücretsiz başlayın ve büyüdükçe ölçeklendirin.",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "save17": "%17 Tasarruf",
+    "save20": "%20 Tasarruf",
+    "limitedTime": "Sınırlı süre",
+    "monthBilledAnnually": "ay yıllık faturalandırma",
+    "year": "yıl",
+    "month": "ay",
+    "saveAnnually": "Yıllık %{{discount}} tasarruf",
+    "creditsPerMonth": "aylık kredi",
+    "yearlyComingSoon": "Yıllık fiyatlandırma yakında",
+    "startFree": "Ücretsiz Başla",
+    "getStarted": "Hemen Başla",
+    "noPlans": "Şu anda mevcut fiyatlandırma planı bulunmamaktadır.",
+    "compareFeatures": "Tüm Özellikleri Karşılaştır",
+    "compareFeaturesDesc": "Her planda tam olarak nelerin dahil olduğunu görün",
+    "monthlyCredits": "Aylık Kredi",
+    "planNames": {
+      "free": "Ücretsiz",
+      "starter": "Başlangıç", 
+      "creator": "İçerik Üretici",
+      "pro": "Profesyonel",
+      "enterprise": "Kurumsal"
+    },
+    "features": {
+      "title": "Özellikler",
+      "textToSpeech": "Gerçekçi Metin Seslendirme",
+      "textToSpeechDesc": "Doğal sesler ({{rate}} kredi/karakter)",
+      "musicGeneration": "AI Müzik Üretimi",
+      "musicGenerationDesc": "Özel müzik üretimi ({{rate}} kredi/30s)",
+      "voiceCloning": "Ses Klonlama",
+      "voiceCloningDesc": "Herhangi bir sesi klonlayın ({{rate}} kredi/ses)",
+      "voiceIsolator": "Ses Ayırıcı",
+      "voiceIsolatorDesc": "Vokalleri ayırın ({{rate}} kredi/dakika)",
+      "apiAccess": "API Erişimi",
+      "apiAccessDesc": "Uygulamalara entegre edin",
+      "commercialLicense": "Ticari Lisans",
+      "commercialLicenseDesc": "Ticari kullanım için",
+      "prioritySupport": "Öncelikli Destek",
+      "prioritySupportDesc": "7/24 özel destek ekibi",
+      "teamCollaboration": "Takım İşbirliği"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "subtitle": "Fiyatlandırma hakkında sorularınız mı var? Size yardımcı olmak için buradayız.",
+      "stillHaveQuestions": "Hala sorularınız mı var? Destek ekibimiz size yardımcı olmak için burada.",
+      "contactSupport": "Destek ile İletişime Geç",
+      "q1": "Krediler nedir ve nasıl çalışır?",
+      "a1": "Krediler kullanım bazlı para birimimizdir. Her AI özelliği kredi tüketir: Metin Seslendirme karakter başına 1 kredi, Müzik Üretimi 30 saniye başına 200 kredi, Ses Klonlama bir ses modeli oluşturmak için 2.000 kredi ve Ses Ayırıcı dakika başına 100 kredi kullanır.",
+      "q2": "Kullanılmayan krediler bir sonraki aya devreder mi?",
+      "a2": "Evet! Kullanılmayan krediler otomatik olarak bir sonraki faturalandırma dönemine devredilir. VeeqAI'yi nasıl kullanacağınız konusunda size esneklik sağlamak için 3 aya kadar kredi biriktirebilirsiniz.",
+      "q3": "Aboneliğimi istediğim zaman iptal edebilir miyim?",
+      "a3": "Kesinlikle! Aboneliğinizi hesap ayarlarınızdan istediğiniz zaman iptal edebilirsiniz. Planınız mevcut faturalandırma döneminizin sonuna kadar aktif kalacak ve kullanılmayan tüm kredilerinizi koruyacaksınız.",
+      "q4": "Aylık ve yıllık faturalandırma arasındaki fark nedir?",
+      "a4": "Yıllık faturalandırma size %17 indirim sağlar (2 ay ücretsiz) ve yılda bir kez faturalandırılır. Aylık faturalandırma her ay ücretlendirilir. Her iki seçenek de aynı özellikleri ve kredi tahsislerini içerir.",
+      "q5": "İade sunuyor musunuz?",
+      "a5": "Tüm ücretli planlar için 14 günlük para iade garantisi sunuyoruz. İlk 14 gün içinde VeeqAI'den memnun kalmazsanız, tam iade için destek ekibimizle iletişime geçin.",
+      "q6": "Planımı yükseltebilir veya düşürebilir miyim?",
+      "a6": "Evet, planınızı istediğiniz zaman değiştirebilirsiniz. Yükseltmeler orantılı faturalandırma ile hemen yürürlüğe girer. Düşürmeler bir sonraki faturalandırma döngünüzün başında yürürlüğe girer.",
+      "q7": "API mevcut mu?",
+      "a7": "Evet! API erişimi Başlangıç planından itibaren mevcuttur. Profesyonel plan, kurumsal uygulamalar için özel uç noktalar ve daha yüksek hız limitleri içerir.",
+      "q8": "Kurumsal çözümler sunuyor musunuz?",
+      "a8": "Evet, büyük organizasyonlar için özel kurumsal çözümler sunuyoruz. Özel fiyatlandırma, SLA garantisi, SSO desteği ve özel hesap yöneticisi dahil olmak üzere çeşitli avantajlar sunuyoruz."
+    },
+    "mostPopular": "En Popüler",
+    "creditSystem": {
+      "title": "Kredi Sistemi Açıklaması",
+      "subtitle": "Şeffaf kredi sistemimiz sadece kullandığınız kadar ödemenizi sağlar. Gizli ücret yok, sürpriz masraf yok.",
+      "textToSpeech": "Seslendirme",
+      "textToSpeechDesc": "Karakter başına 1 kredi",
+      "musicGeneration": "Müzik Üretimi",
+      "musicGenerationDesc": "30 saniye için 200 kredi",
+      "voiceCloning": "Ses Klonlama",
+      "voiceCloningDesc": "Model başına 2,000 kredi",
+      "voiceIsolator": "Ses Ayırıcı",
+      "voiceIsolatorDesc": "Dakika başına 100 kredi"
+    },
+    "enterprise": {
+      "description": "Özel bir plan mı gerekiyor? Sınırsız kredi ve özel destek ile kurumsal çözümler sunuyoruz.",
+      "cta": "Kurumsal Satış İletişim"
+    },
+    "documentation": {
+      "title": "API Dokümantasyonu",
+      "search": "Dokümantasyonda ara...",
+      "navigation": {
+        "gettingStarted": "Başlangıç",
+        "introduction": "Giriş",
+        "authentication": "Kimlik Doğrulama",
+        "quickStart": "Hızlı Başlangıç",
+        "apiExplorer": "API Explorer",
+        "apiReference": "API Referansı",
+        "allEndpoints": "Tüm Endpoint'ler",
+        "musicGeneration": "Müzik Üretimi",
+        "textToSpeech": "Seslendirme",
+        "credits": "Kredi ve Faturalandırma",
+        "toolsSdks": "Araçlar ve SDK'lar",
+        "sdkGenerator": "SDK Üreticisi",
+        "postman": "Postman Koleksiyonu",
+        "openapi": "OpenAPI Spec",
+        "support": "Destek",
+        "errorHandling": "Hata Yönetimi",
+        "rateLimits": "Hız Limitleri",
+        "getHelp": "Yardım Al"
+      },
+      "intro": {
+        "badge": "API Dokümantasyonu",
+        "title": "Giriş",
+        "subtitle": "Veeq AI Genel API Dokümantasyonu",
+        "description": "Veeq AI'ye hoş geldiniz — son teknoloji AI ses teknolojisine açılan kapınız. API'miz geliştiricileri, sanatçıları ve yaratıcıları devrim niteliğinde yollarla ses üretme, dönüştürme ve remikslemesi için güçlendirir.",
+        "goal": "Yeni nesil AI müzik aracı mı geliştiriyorsunuz, ses iş akışlarını otomatikleştiriyor veya yaratıcı ses dönüşümleri ile deneyim yapıyorsunuz — sizi kapsadık.",
+        "getApiKey": "API Anahtarı Al",
+        "quickStart": "Hızlı Başlangıç"
+      },
+      "whatWeOffer": {
+        "title": "Neler Sunuyoruz",
+        "description": "Veeq AI, geniş bir özellik yelpazesi sunan kapsamlı bir AI ses platformudur:",
+        "musicGeneration": {
+          "title": "Müzik Üretimi (MusicAI)",
+          "description": "Metin prompt'larını tam uzunlukta şarkılara dönüştürün."
+        },
+        "voiceChanging": {
+          "title": "Ses Değiştirme",
+          "description": "Herhangi bir sesi yenisine dönüştürün — karakter çalışması, gizlilik veya yaratıcılık için ideal."
+        },
+        "textToSpeech": {
+          "title": "Seslendirme (TTS)",
+          "description": "Özel ses profilleri kullanarak metni etkileyici sese dönüştürün."
+        },
+        "audioProcessing": {
+          "title": "Ses İşleme",
+          "description": "Kayıtlarınızı gürültüden arındırın, yankı ve reverb'den temizleyin."
+        }
+      }
+    }
+  },
+  "hero": {
+    "title": {
+      "prefix": "Dakikalar içinde profesyonel",
+      "suffix": "üretin"
+    },
+    "subtitle": "YouTube videolarınız, podcast'leriniz, uygulamalarınız ve kurslarınız için sesler, müzikler ve ses içerikleri üretin. Pahalı stüdyolara veya seslendirmenlere ihtiyaç yok.",
+    "sampleText": "YouTube videolarınız, podcast'leriniz ve sesli kitaplarınız için profesyonel seslendirmeler hazırlayın. Herhangi bir seste, herhangi bir dilde, anında doğal ses üretin.",
+    "typewriter": {
+      "voiceovers": "seslendirmeler",
+      "soundtracks": "müzikler",
+      "podcasts": "podcast'ler",
+      "commercials": "reklamlar",
+      "stories": "hikayeler"
+    },
+    "cta": {
+      "startCreating": "Ücretsiz Oluşturmaya Başla",
+      "exploreFeatures": "Özellikleri Keşfet"
+    },
+    "tabs": {
+      "textToSpeech": "METİNDEN SESE",
+      "musicGeneration": "MÜZİK ÜRETİMİ",
+      "voiceCloning": "SES KLONLAMA",
+      "voiceDesign": "SES TASARIMI",
+      "voiceIsolator": "SES AYIRICI"
+    },
+    "tryItYourself": "Kendiniz deneyin",
+    "textareaPlaceholder": "Metninizi buraya girin...",
+    "charactersCount": "karakter",
+    "generateAudio": "Ses Üret",
+    "chooseVoice": "Bir ses seçin",
+    "voices": {
+      "professional": {
+        "name": "Profesyonel",
+        "tag": "İş sunumları"
+      },
+      "friendly": {
+        "name": "Samimi",
+        "tag": "Eğitim içerikleri"
+      },
+      "podcast": {
+        "name": "Podcast",
+        "tag": "Sohbet tarzı"
+      },
+      "storyteller": {
+        "name": "Hikayeci",
+        "tag": "Sesli kitaplar ve hikayeler"
+      },
+      "marketing": {
+        "name": "Pazarlama",
+        "tag": "Tanıtım içerikleri"
+      },
+      "news": {
+        "name": "Haber",
+        "tag": "Profesyonel haber sunumu"
+      }
+    },
+    "languages": {
+      "english": "İNGİLİZCE",
+      "turkish": "TÜRKÇE",
+      "spanish": "İSPANYOLCA",
+      "french": "FRANSIZCA",
+      "german": "ALMANCA",
+      "italian": "İTALYANCA",
+      "portuguese": "PORTEKİZCE",
+      "polish": "LEHÇE"
+    },
+    "stats": {
+      "faster": "Seslendirmenleri kiralamaktan daha hızlı",
+      "cheaper": "Geleneksel yöntemlerden daha ucuz",
+      "languages": "Desteklenen dil",
+      "available": "İhtiyacınız olduğunda her zaman hazır"
+    }
+  },
+  "features": {
+    "title": "Güçlü Özellikler",
+    "subtitle": "Muhteşem ses içerikleri üretmek için ihtiyacınız olan her şey",
+    "mainTitle": "Ses üretim sürecinizi tamamen yenileyin",
+    "mainSubtitle": "Geleneksel maliyetler ve karmaşıklık olmadan profesyonel ses içeriği üretmek için gereken tüm araçlar.",
+    "voiceSection": {
+      "title": "Yapay Zeka Ses ve Konuşma Üretimi",
+      "description": "Tutarlı markalaşma için doğal ses tonlarında seslendirmeler hazırlayın ve sesleri klonlayın. Birden fazla dilde konuşma üretin ve içerik tarzınıza uygun ses özelliklerini ayarlayın.",
+      "features": {
+        "textToSpeech": {
+          "title": "Doğal Metinden Sese",
+          "description": "Herhangi bir metni duygu ve kişilik ile profesyonel seslendirilere dönüştürün"
+        },
+        "voiceCloning": {
+          "title": "Anında Ses Klonlama",
+          "description": "Sadece dakikalar süren ses örnekleriyle sesinizi veya herhangi bir sesi klonlayın"
+        },
+        "multiLanguage": {
+          "title": "Birden Fazla Dil Desteği",
+          "description": "Mükemmel telaffuz ile 12+ dilde içerik üretin"
+        },
+        "brandConsistency": {
+          "title": "Marka Tutarlılığı",
+          "description": "Tüm içeriklerinizde ve platformlarınızda aynı sesi koruyun"
+        }
+      },
+      "benefits": {
+        "textToSpeech": {
+          "title": "Metinden Sese",
+          "subtitle": "12+ dilde doğal sesler"
+        },
+        "voiceCloning": {
+          "title": "Ses Klonlama",
+          "subtitle": "Sınırsız içerik için herhangi bir sesi klonlayın"
+        }
+      }
+    },
+    "musicSection": {
+      "title": "Yapay Zeka Müzik ve Ses Araçları",
+      "description": "Özgün müzikler üretin ve ses kayıtlarını temizleyin. Arkaplan parçalarından profesyonel ses işlemeye kadar, eksiksiz ses üretimi için ihtiyacınız olan her şey.",
+      "features": {
+        "musicCreation": {
+          "title": "Özgün Müzik Yaratımı",
+          "description": "Sakin ambient'ten enerjik rock'a kadar herhangi bir tarzda benzersiz müzikler üretin"
+        },
+        "audioEnhancement": {
+          "title": "Ses İyileştirme",
+          "description": "Arkaplan gürültüsünü kaldırın ve ses kalitesini otomatik olarak artırın"
+        },
+        "copyrightFree": {
+          "title": "Telif Hakkı Serbest İçerik",
+          "description": "Üretilen tüm müzikler %100 telif ücreti olmayan ve ticari kullanım için güvenlidir"
+        },
+        "professionalQuality": {
+          "title": "Profesyonel Kalite",
+          "description": "Herhangi bir platform veya proje için hazır stüdyo kalitesinde ses çıktısı"
+        }
+      },
+      "benefits": {
+        "musicGeneration": {
+          "title": "Müzik Üretimi",
+          "subtitle": "Telif hakkı sorunu olmayan özgün parçalar"
+        },
+        "audioProcessing": {
+          "title": "Ses İşleme",
+          "subtitle": "Profesyonel düzenleme ve iyileştirme araçları"
+        }
+      }
+    },
+    "businessSection": {
+      "title": "İçerik Üreticileri ve İşletmeler İçin Tasarlandı",
+      "description": "Kurumsal sınıf araçlar ve destekle ses üretiminizi ölçeklendirin. Pazarlama ekipleri, içerik üreticileri, eğitimciler ve her boyutta işletme için mükemmel.",
+      "features": {
+        "teamCollaboration": {
+          "title": "Ekip İşbirliği",
+          "description": "Projeleri paylaşın ve ekibinizle sorunsuz şekilde işbirliği yapın"
+        },
+        "apiIntegration": {
+          "title": "API Entegrasyonu",
+          "description": "Mevcut araçlarınızla entegre olun ve iş akışınızı otomatikleştirin"
+        },
+        "prioritySupport": {
+          "title": "Öncelikli Destek",
+          "description": "İşletmeniz için özel destek ve özel çözümler alın"
+        },
+        "advancedAnalytics": {
+          "title": "Gelişmiş Analitik",
+          "description": "Kullanımı, performansı takip edin ve ses içerik stratejinizi optimize edin"
+        }
+      },
+      "benefits": {
+        "teamCollaboration": {
+          "title": "Ekip İşbirliği",
+          "subtitle": "Ses projelerinde birlikte çalışın"
+        },
+        "enterpriseFeatures": {
+          "title": "Kurumsal Özellikler",
+          "subtitle": "İşletme ihtiyaçları için gelişmiş araçlar"
+        }
+      }
+    },
+    "stats": {
+      "faster": "Geleneksel yöntemlerden daha hızlı",
+      "cheaper": "Daha uygun maliyetli çözüm",
+      "available": "Dünya çapında 7/24 erişilebilir",
+      "unlimited": "Sınırsız yaratcı olanaklar"
+    },
+    "cta": {
+      "seeAllFeatures": "Tüm Özellikleri Gör",
+      "startFreeTrial": "Ücretsiz Deneme Başlat",
+      "freeCreditsInfo": "Kredi kartı gerekli değil • 100 ücretsiz kredi dahil"
+    },
+    "musicGenerator": {
+      "title": "Müzik Üretici",
+      "description": "Yapay zeka ile saniyeler içinde özgün müzik parçaları üretin"
+    },
+    "textToSpeech": {
+      "title": "Metinden Sese",
+      "description": "Metni birden fazla dilde doğal ses tonlarına dönüştürün"
+    },
+    "voiceCloning": {
+      "title": "Ses Klonlama",
+      "description": "Sadece birkaç dakikalık ses kaydıyla herhangi bir sesi klonlayın"
+    },
+    "voiceDesign": {
+      "title": "Ses Tasarımı",
+      "description": "Benzersiz ihtiyaçlarınız için özel sesler tasarlayın"
+    },
+    "voiceIsolator": {
+      "title": "Ses İzolatörü",
+      "description": "Herhangi bir ses dosyasından sesleri izole edin ve çıkarın"
+    },
+    "textToSpeech": {
+      "title": "Her Metni Doğal Konuşmaya Dönüştürün",
+      "description": "Senaryolarınızı, makalelerinizi ve içeriklerinizi anında profesyonel seslendirilere çevirin. Pahalı ses teknisyenlerini bir daha asla işe almayın. YouTube videoları, podcast'ler, sesli kitaplar, sunumlar ve pazarlama materyalleri için ideal. Günler değil, dakikalar içinde saatlerce içerik hazırlayın.",
+      "stat1": "İngilizce, İspanyolca, Fransızca dahil diller",
+      "stat2": "Ses teknisyeni tutmaya kıyasla ortalama aylık tasarruf",
+      "stat3": "30 dakikalık sesli kitap bölümü hazırlamak için"
+    },
+    "musicGeneration": {
+      "title": "Özgün Arkaplan Müzikleri Yaratın",
+      "description": "Telif hakkı cezaları ve pahalı müzik lisanslaması endişelerini bir kenara bırakın. İçerikleriniz için sınırsız özgün film müzikleri, arkaplan melodileri ve intro'lar üretin. YouTube videoları, podcast'ler, reklamlar ve sosyal medya paylaşımları için mükemmel. Müziğinizin %100 sahibi olun - telif ücreti yok, kısıtlama yok.",
+      "stat1": "Lisans ücreti olmayan sınırsız parça",
+      "stat2": "Tek lisanslı parçanın ortalama maliyeti",
+      "stat3": "Müziğimizi kullanırken telif hakkı ihlali"
+    },
+    "voiceCloning": {
+      "title": "Sınırsız İçerik İçin Sesinizi Kopyalayın",
+      "description": "Bir kez kaydedin, sonsuza kadar içerik yaratın. Kısa bir ses örneği yükleyin ve kendi sesinizle sınırsız materyal üretin - hasta olduğunuzda, seyahat ederken veya uyurken bile. Bir daha asla stüdyoya girmeden tüm video ve podcast'lerinizde tutarlı marka kimliği sürdürün.",
+      "stat1": "Bir kez kaydet, sonsuza dek kullan",
+      "stat2": "Her zaman, her yerde içerik yarat",
+      "stat3": "Tüm içeriklerde marka tutarlılığı"
+    },
+    "voiceDesign": {
+      "title": "Her Karakter İçin Özel Sesler Tasarlayın",
+      "description": "İçerikleriniz için farklı karakterlere mi ihtiyacınız var? Anında benzersiz sesler yaratın - profesyonel anlatıcılardan enerjik sunucular ve dramatik hikayecilere kadar. Sesli kitaplar, eğitim materyalleri, pazarlama videoları ve eğlence için ideal. Ses teknisyenine gerek yok, sadece ne istediğinizi tarif edin.",
+      "stat1": "Hikayeleriniz için farklı karakterler",
+      "stat2": "Ses teknisyeni istihdam maliyeti",
+      "stat3": "Hayal edebileceğiniz her sesi yaratmak için"
+    },
+    "voiceIsolator": {
+      "title": "Karışık Ses Kayıtlarını Temizleyin",
+      "description": "Gürültülü kayıtlarınız mı var? Ses dosyalarınızdaki arkaplan gürültüsünü, yankıları ve dikkat dağıtıcı unsurları kaldırın. Podcast kayıtlarını, telefon görüşmelerini veya ses kopyalama için kullanmak istediğiniz eski ses dosyalarını temizlemek için mükemmel. Amatör kayıtları profesyonel kaliteye dönüştürün.",
+      "stat1": "Arkaplan gürültüsünü tamamen kaldır",
+      "stat2": "Eski kayıtları anında temizle",
+      "stat3": "Her sesten profesyonel kalite"
+    },
+    "whyChoose": {
+      "stat1": "Ses teknisyeni tutmaktan daha hızlı",
+      "stat2": "Geleneksel yöntemlerden daha ekonomik",
+      "stat3": "İhtiyacınız olduğunda her zaman hazır",
+      "stat4": "Sınırsız içerik üretimi"
+    },
+    "successStories": {
+      "title": "Veeq AI ile Zaten Başarı Kazananlar",
+      "contentCreators": {
+        "title": "İçerik Üreticileri ve YouTuber'lar",
+        "description": "Video başına 1.000$+ ses talenteleri için harcama yapmayı bırakın. Sınırsız içerik için tutarlı, profesyonel anlatım hazırlayın. Telif hakkı endişesi olmadan mükemmel arkaplan müziği ekleyin.",
+        "useCase1": {
+          "title": "YouTube Videoları ve Podcast'ler",
+          "description": "Hasta olduğunuzda veya seyahat ederken bile kendi sesinizle saatlerce anlatım üretin"
+        },
+        "useCase2": {
+          "title": "Sesli Kitaplar ve Uzun Form İçerik",
+          "description": "Blog yazılarını dinleyici bağlılığını %300 artıran çekici ses içeriklerine dönüştürün"
+        },
+        "useCase3": {
+          "title": "Çok Dilli Materyaller",
+          "description": "Çevirmen tutmadan 12+ dilde akıcı konuşarak küresel erişiminizi genişletin"
+        }
+      },
+      "businesses": {
+        "title": "İşletmeler ve Kurumlar",
+        "description": "Pahalı ajanslar tutmadan pazarlama ve eğitim programlarınızı büyütün. Üretim maliyetlerini %85 azaltırken tüm temas noktalarında tutarlı marka sesi yaratın.",
+        "useCase1": {
+          "title": "Pazarlama ve Reklamcılık",
+          "description": "Mükemmel marka sesi tutarlılığıyla birden fazla dilde eş zamanlı kampanyalar başlatın"
+        },
+        "useCase2": {
+          "title": "Eğitim ve E-öğrenme",
+          "description": "Tüm modülleri yeniden kaydetmeden eğitim materyallerini anında güncelleyin"
+        },
+        "useCase3": {
+          "title": "Müşteri Desteği ve IVR",
+          "description": "Gerçekten anlayan ve müşterilere yardım eden doğal sesli asistanları devreye alın"
+        }
+      },
+      "savings": {
+        "creators": "İçerik Üreticileri için ortalama tasarruf",
+        "businesses": "İşletmeler için ortalama tasarruf"
+      }
+    },
+    "scale": {
+      "title": "İçerik İşinizi Büyütün",
+      "subtitle": "Bireysel yaratıcıdan içerik imparatorluğuna büyümek için gereken her şey",
+      "creators": {
+        "title": "Büyüyen Yaratıcılar İçin",
+        "feature1": {
+          "title": "Ekip Koordinasyonu",
+          "description": "Hesabınıza editörler ve asistanlar ekleyin. Herkes sorunsuz şekilde birlikte çalışsın."
+        },
+        "feature2": {
+          "title": "Toplu İçerik Yaratımı",
+          "description": "Aynı anda düzinelerce video hazırlayın. Senaryoları yükleyin, dakikalar içinde tüm seslendirileri alın."
+        },
+        "feature3": {
+          "title": "Analitik ve İçgörüler",
+          "description": "İçerik performansınızı ve ses üretim kullanımınızı detaylı raporlarla takip edin."
+        },
+        "feature4": {
+          "title": "Öncelikli İşleme",
+          "description": "Sıranın önüne geçin. Son teslim tarihinde olduğunuzda içeriği daha hızlı üretin."
+        }
+      },
+      "businesses": {
+        "title": "Ciddi İşletmeler İçin",
+        "feature1": {
+          "title": "API Erişimi",
+          "description": "Veeq AI'yi mevcut araçlarınıza ve iş akışlarınıza otomatik olarak entegre edin."
+        },
+        "feature2": {
+          "title": "Beyaz Etiket Çözümleri",
+          "description": "Veeq markasını kaldırın ve kendinizinkini ekleyin. Ajanslar ve bayi satıcılar için ideal."
+        },
+        "feature3": {
+          "title": "Özel Destek",
+          "description": "Ekibiniz için özel hesap yöneticisi ve öncelikli destek alın."
+        },
+        "feature4": {
+          "title": "Özelleştirilmiş Çözümler",
+          "description": "Özel bir şeye mi ihtiyacınız var? Sizin özel gereksinimleriniz için özel özellikler geliştireceğiz."
+        }
+      },
+      "stats": {
+        "uptime": "İşletmeniz için çalışma süresi garantisi",
+        "generation": "Kurumsal için içerik üretimi",
+        "support": "Acil destek için yanıt süresi"
+      }
+    },
+    "finalCta": {
+      "title": "Ses İçeriklerinizi Dönüştürmeye Hazır mısınız?",
+      "description": "İçerik yaratım süreçlerini çoktan devrimleştirmiş binlerce yaratıcı ve işletmeye katılın. 5.000 ücretsiz krediyle başlayın ve farkı kendiniz görün.",
+      "button": "Şimdi Profesyonel İçerik Yaratmaya Başla",
+      "offer": "5.000 ücretsiz kredi • Kredi kartı gerekmez • İstediğiniz zaman iptal edin",
+      "setup": "2 dakikada kurulum • İlk sesinizi 30 saniyede üretin"
+    }
+  },
+  "pricing": {
+    "title": "Basit, Şeffaf Fiyatlandırma",
+    "subtitle": "İhtiyaçlarınıza uygun mükemmel planı seçin",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "save": "%20 Tasarruf",
+    "currency": "₺",
+    "perMonth": "/ay",
+    "perYear": "/yıl",
+    "getStarted": "Başla",
+    "currentPlan": "Mevcut Plan",
+    "features": {
+      "credits": "kredi/ay",
+      "support": "destek",
+      "api": "API Erişimi",
+      "customVoices": "Özel Sesler",
+      "priorityProcessing": "Öncelikli İşleme"
+    },
+    "plans": {
+      "free": {
+        "name": "Ücretsiz",
+        "price": "0",
+        "credits": "100",
+        "support": "Topluluk",
+        "features": ["Ayda 100 kredi", "Temel özellikler", "Topluluk desteği"]
+      },
+      "starter": {
+        "name": "Başlangıç",
+        "price": "299",
+        "credits": "1.000",
+        "support": "E-posta",
+        "features": ["Ayda 1.000 kredi", "Tüm özellikler", "E-posta desteği", "API Erişimi"]
+      },
+      "pro": {
+        "name": "Profesyonel",
+        "price": "999",
+        "credits": "5.000",
+        "support": "Öncelikli",
+        "popular": true,
+        "features": ["Ayda 5.000 kredi", "Tüm özellikler", "Öncelikli destek", "API Erişimi", "Özel sesler"]
+      },
+      "enterprise": {
+        "name": "Kurumsal",
+        "price": "Özel",
+        "credits": "Sınırsız",
+        "support": "Özel",
+        "features": ["Sınırsız kredi", "Tüm özellikler", "Özel destek", "Özel entegrasyon", "SLA"]
+      }
+    }
+  },
+  "footer": {
+    "description": "En gerçekçi yapay zeka ses platformu. Metinden sese, ses klonlama ve müzik üretimi ile canlı konuşmalar yapın.",
+    "partners": "Ortaklar",
+    "helpCenter": "Yardım Merkezi",
+    "apiReference": "API Referansı",
+    "community": "Topluluk",
+    "company": {
+      "title": "Şirket",
+      "about": "Hakkımızda",
+      "careers": "Kariyer",
+      "press": "Basın",
+      "blog": "Blog"
+    },
+    "product": {
+      "title": "Ürün",
+      "features": "Özellikler",
+      "pricing": "Fiyatlandırma",
+      "api": "API",
+      "integrations": "Entegrasyonlar"
+    },
+    "resources": {
+      "title": "Kaynaklar",
+      "docs": "Dokümantasyon",
+      "guides": "Kılavuzlar",
+      "support": "Destek",
+      "status": "Durum"
+    },
+    "legal": {
+      "title": "Yasal",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "cookies": "Çerez Politikası"
+    },
+    "copyright": "© 2025 VeeqAI. Tüm hakları saklıdır."
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "tryAgain": "Tekrar Dene",
+    "learnMore": "Daha Fazla Bilgi",
+    "viewAll": "Tümünü Görüntüle",
+    "close": "Kapat",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "create": "Oluştur",
+    "update": "Güncelle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "sort": "Sırala",
+    "export": "Dışa Aktar",
+    "import": "İçe Aktar",
+    "download": "İndir",
+    "upload": "Yükle",
+    "share": "Paylaş",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!",
+    "email": "E-posta",
+    "password": "Şifre",
+    "name": "İsim",
+    "description": "Açıklama",
+    "date": "Tarih",
+    "time": "Zaman",
+    "status": "Durum",
+    "actions": "İşlemler"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Sizden haber almayı çok isteriz",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta Adresiniz",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "send": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesaj başarıyla gönderildi!",
+      "error": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "email": "E-posta",
+      "phone": "Telefon",
+      "address": "Adres"
+    }
+  },
+  "about": {
+    "title": "Veeq AI Hakkında",
+    "subtitle": "Son teknoloji yapay zeka ile profesyonel ses teknolojisini herkese erişilebilir kılarak içerik üretiminde devrim yaratıyoruz. İster YouTuber, podcaster ya da işletme sahibi olun, platformumuz maliyet, karmaşıklık ve zaman gibi geleneksel engeller olmadan stüdyo kalitesi ses üretmenizi sağlar.",
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Son teknoloji yapay zeka ile profesyonel kalitede ses üretimini herkes için erişilebilir hale getirerek ses teknolojisini demokratikleştirmek.",
+      "democratize": {
+        "title": "Yaratımı Demokratikleştirmek",
+        "description": "Profesyonel ses üretimindeki engelleri kaldırmak"
+      },
+      "removeBarriers": {
+        "title": "Engelleri Kaldırmak",
+        "description": "Pahalı ekipman ve uzmanlık ihtiyacını ortadan kaldırmak"
+      },
+      "empowerInnovation": {
+        "title": "İnovasyonu Güçlendirmek",
+        "description": "Yaratıcıların teknik sınırlarla değil fikirlerle odaklanmasını sağlamak"
+      }
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Herkesin anında profesyonel ses içeriği üretebileceği bir dünya. Dil engellerinin ortadan kalktığı, her sesin duyulduğu ve yaratıcılığın sınır tanımadığı bir gelecek.",
+      "globalCommunication": {
+        "title": "Küresel İletişim",
+        "description": "AI çeviri ile dil engellerini yıkmak"
+      },
+      "creativeFreedom": {
+        "title": "Yaratıcı Özgürlük",
+        "description": "Kısıtlamalar olmadan sınırsız içerik üretimi"
+      },
+      "industryTransformation": {
+        "title": "Sektör Dönüşümü",
+        "description": "Ses içeriğinin nasıl yaratıldığı ve tüketildiğinde devrim yapmak"
+      }
+    },
+    "team": {
+      "title": "Kimiz Biz",
+      "subtitle": "AI ses teknolojisinin geleceğini inşa eden tutkulu ekiple tanışın",
+      "description": "Herkese profesyonel kalitede ses araçlarına erişim hakkı olduğuna inanan AI araştırmacıları, ses mühendisleri ve tutkulu yaratıcılardan oluşan bir ekibiz. Makine öğrenmesi, ses işleme ve içerik üretimindeki çeşitli geçmişlerimiz, gerçek sorunları çözen çözümler geliştirme konusunda bizi motive ediyor.",
+      "expertise": {
+        "title": "Uzmanlık Alanlarımız",
+        "ai": {
+          "title": "AI ve Makine Öğrenmesi",
+          "description": "Gelişmiş sinir ağları ve derin öğrenme modelleri"
+        },
+        "audio": {
+          "title": "Ses Mühendisliği",
+          "description": "Profesyonel ses işleme ve sinyal analizi"
+        },
+        "content": {
+          "title": "İçerik Üretimi",
+          "description": "Podcasting ve video prodüksiyonunda gerçek dünya deneyimi"
+        }
+      },
+      "background": {
+        "title": "Geçmişimiz",
+        "tech": {
+          "title": "Teknoloji Sektörü Veteranları",
+          "description": "Önde gelen teknoloji şirketleri ve startuplardan deneyim"
+        },
+        "academic": {
+          "title": "Akademik Araştırma",
+          "description": "AI ve bilgisayar bilimleri alanında doktora araştırmacıları"
+        },
+        "creative": {
+          "title": "Yaratıcı Profesyoneller",
+          "description": "Müzisyenler, podcasterlar ve içerik yaratıcıları"
+        }
+      }
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "subtitle": "Veeq AI'de yaptığımız her şeye rehberlik eden ilkeler",
+      "innovation": {
+        "title": "Önce İnovasyon",
+        "description": "AI ses teknolojisiyle mümkün olanın sınırlarını sürekli zorluyoruz. Geliştirdiğimiz her özellik gerçek yaratıcılar için gerçek sorunları çözmeyi hedefliyor.",
+        "tagline": "Her zaman daha iyi, daha hızlı ve daha yaratıcı çözümler arıyoruz"
+      },
+      "userCentric": {
+        "title": "Kullanıcı Odaklı Tasarım",
+        "description": "Aldığımız her karar kullanıcılarımızla başlar. Platformumuzu günlük kullanan yaratıcılardan gelen gerçek geri bildirimleri dinler, değiştiririz ve geliştiririz.",
+        "tagline": "Yaratıcılar için, yaratıcılarla birlikte geliştiriyoruz"
+      },
+      "speed": {
+        "title": "Hız ve Sadelik",
+        "description": "Zaman yaratıcılar için en değerli kaynaktır. Platformumuzun hızlı, sezgisel ve verimli olması konusunda takıntılıyız, böylece en önemli olana odaklanabilirsiniz.",
+        "tagline": "Yaratıcı süreçten sürtünmeyi kaldırıyoruz"
+      },
+      "accessibility": {
+        "title": "Küresel Erişilebilirlik",
+        "description": "Harika fikirler her yerden gelir. Diller, kültürler ve coğrafyalar boyunca yaratıcılar için çalışan teknoloji geliştiriyoruz.",
+        "tagline": "Yaratıcılığı sınırsız hale getiriyoruz"
+      }
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "paragraph1": "Veeq AI, profesyonel ses teknolojilerini herkesin kullanımına sunma hedefiyle kuruldu. Yüksek maliyetli, zaman alan ve karmaşık ses prodüksiyon süreçlerini, yapay zeka tabanlı yazılımlarımızla basit, hızlı ve erişilebilir hale getiriyoruz.",
+      "paragraph2": "Kurucularımız, yazılım ve ses teknolojileri alanındaki deneyimlerini bir araya getirerek; stüdyo kalitesinde seslendirme, müzik ve ses içeriklerinin tamamen dijital ortamda üretilebileceği bir platform geliştirdi. Bu sayede pahalı ekipman, uzun prodüksiyon süreçleri ve büyük ekipler artık bir gereklilik olmaktan çıktı.",
+      "paragraph3": "Bugün Veeq AI, YouTuber'lardan podcast yayıncılarına, medya ajanslarından kurumsal markalara kadar dünya çapında binlerce kullanıcının içerik üretim süreçlerini yazılım gücüyle destekliyor. Misyonumuz, profesyonel ses teknolojilerini herkes için, her yerde erişilebilir kılmak."
+    },
+    "connect": {
+      "title": "Bağlantı Kurmak İster misiniz?",
+      "description": "Kullanıcılarımızdan haber almayı seviyoruz! Geri bildirim, soru veya sadece merhaba demek istiyorsanız, yaratıcı arkadaşlar ve ses meraklıları ile bağlantı kurmaktan her zaman heyecan duyarız.",
+      "tryPlatform": {
+        "title": "Platformumuzu Deneyin",
+        "description": "Ücretsiz deneme ile AI ses yaratımının gücünü deneyimleyin. Taahhüt gerekmez.",
+        "button": "Ücretsiz Denemeyi Başlat"
+      },
+      "learnMore": {
+        "title": "Daha Fazla Öğren",
+        "description": "AI ses araçları ve özelliklerimizle yaratabileceklerinizin tümünü keşfedin.",
+        "button": "Özellikleri Keşfet"
+      },
+      "joinCreators": "İçeriklerini dönüştürmek için Veeq AI'yi zaten kullanan 50K+ yaratıcıya katılın"
+    }
+  },
+  "docs": {
+    "title": "Dokümantasyon",
+    "search": "Dokümantasyonda ara...",
+    "navigation": {
+      "gettingStarted": "Başlarken",
+      "authentication": "Kimlik Doğrulama",
+      "quickStart": "Hızlı Başlangıç",
+      "apiReference": "API Referansı",
+      "endpoints": "Uç Noktalar",
+      "sdks": "SDK'lar",
+      "examples": "Örnekler",
+      "guides": "Kılavuzlar",
+      "errorHandling": "Hata Yönetimi",
+      "rateLimits": "Hız Limitleri",
+      "billing": "Faturalandırma",
+      "paymentMethods": "Ödeme Yöntemleri",
+      "help": "Yardım ve Destek"
+    }
+  },
+  "products": {
+    "musicGenerator": {
+      "title": "Yapay Zeka Müzik Üretici",
+      "description": "Gelişmiş yapay zekamızla her tarzda özgün müzikler yapın",
+      "features": {
+        "genres": "Çoklu Türler",
+        "customization": "Tam Özelleştirme",
+        "quality": "Stüdyo Kalitesi",
+        "export": "Çoklu Dışa Aktarma Formatları"
+      },
+      "cta": "Müzik Oluşturmaya Başla"
+    },
+    "textToSpeech": {
+      "title": "Metinden Sese",
+      "description": "Herhangi bir metni doğal ses tonlarına dönüştürün",
+      "features": {
+        "languages": "50+ Dil",
+        "voices": "100+ Doğal Ses",
+        "emotions": "Duygu Kontrolü",
+        "speed": "Hız Kontrolü"
+      },
+      "cta": "Metinden Sese'yi Dene"
+    },
+    "voiceCloning": {
+      "title": "Ses Klonlama",
+      "description": "Sadece dakikalar süren ses kaydıyla herhangi bir sesi klonlayın",
+      "features": {
+        "accuracy": "%99 Doğruluk",
+        "languages": "Çok Dilli",
+        "realtime": "Gerçek Zamanlı İşleme",
+        "secure": "Güvenli ve Özel"
+      },
+      "cta": "Sesinizi Klonlayın"
+    },
+    "voiceDesign": {
+      "title": "Ses Tasarımı",
+      "description": "Markanız için özel sesler tasarlayın",
+      "features": {
+        "customization": "Tam Özelleştirme",
+        "personality": "Kişilik Kontrolü",
+        "consistency": "Tutarlı Çıktı",
+        "branding": "Marka Sesi"
+      },
+      "cta": "Ses Tasarla"
+    },
+    "voiceIsolator": {
+      "title": "Ses İzolatörü",
+      "description": "Herhangi bir ses dosyasından sesleri çıkarın ve izole edin",
+      "features": {
+        "separation": "Temiz Ayrıştırma",
+        "multitrack": "Çoklu Kanal Desteği",
+        "noise": "Gürültü Giderme",
+        "enhancement": "Ses İyileştirme"
+      },
+      "cta": "Ses İzolatörünü Dene"
+    }
+  },
+  "demo": {
+    "header": {
+      "title": "VeeqAI'yi Çalışırken Görün",
+      "description": "Yapay zekamızın basit komutları saniyeler içinde profesyonel ses içeriğine nasıl dönüştürdüğünü izleyin. Müzikten seslendirilere, dijital içeriğin geleceğini deneyimleyin."
+    },
+    "process": {
+      "title": "Fikirden Gerçeğe",
+      "step1": {
+        "title": "Vizyonunuzu Açıklayın",
+        "description": "Ne üretmek istediğinizi basitçe yazın. Yapay zekamız doğal dili ve yaratıcı konseptleri anlar."
+      },
+      "step2": {
+        "title": "Yapay Zeka Sihirini Gerçekleştirir",
+        "description": "Gelişmiş algoritmalar isteğinizi işler ve yüksek kaliteli ses içeriği üretir."
+      },
+      "step3": {
+        "title": "Profesyonel Sonuçlar Alın",
+        "description": "Projeleriniz, videolarınız ve sunumlarınız için hazır stüdyo kalitesinde ses indirin."
+      }
+    },
+    "promptExample": {
+      "label": "Komut",
+      "text": "Enerjik sentezleyiciler ve güçlü ritimlerle tempolu bir elektronik parça yap, antrenman videoları ve motivasyonel içerikler için ideal.",
+      "processing": "İşleniyor... 3.2s"
+    },
+    "samples": {
+      "title": "Yapay Zeka ile Üretilen Müzik Örnekleri",
+      "description": "Aşağıdaki her parça 30 saniyeden kısa sürede basit bir metin komutundan üretildi. Yapay zekamızın sunabileceği kalite ve çeşitliliği dinleyin.",
+      "noContent": "Henüz öne çıkan müzik yok",
+      "checkBackLater": "Yeni içerikler için daha sonra kontrol edin"
+    },
+    "items": {
+      "upbeatElectronic": {
+        "title": "Tempolu Elektronik",
+        "prompt": "Yüksek enerjili elektronik dans müziği"
+      },
+      "synthwaveRetro": {
+        "title": "Synthwave Retro",
+        "prompt": "Neon hisleriyle nostaljik 80'ler synthwave"
+      },
+      "chillLofi": {
+        "title": "Rahat Lo-fi",
+        "prompt": "Çalışmak için rahatlatıcı lo-fi ritimler"
+      },
+      "epicOrchestral": {
+        "title": "Epik Orkestra",
+        "prompt": "Yaylı çalgılarla sinematik orkestra müziği"
+      },
+      "acousticGuitar": {
+        "title": "Akustik Gitar",
+        "prompt": "Sıcak melodilerle yumuşak akustik gitar"
+      }
+    },
+    "cta": {
+      "title": "Müziğinizi Oluşturmaya Hazır mısınız?",
+      "description": "Fikirlerinizi profesyonel ses içeriğine dönüştürün. Ses üretim ihtiyaçları için VeeqAI'ye güvenen binlerce içerik üreticisine katılın.",
+      "startButton": "Müzik Oluşturmaya Başla",
+      "exploreButton": "Tüm Özellikleri Keşfet"
+    }
+  },
+  "featuresPage": {
+    "title": "Anında profesyonel ses içerikleri yaratın",
+    "subtitle": "YouTube videolarınız, podcast'leriniz, uygulamalarınız ve kurslarınız için sesler, müzikler ve ses içerikleri hazırlayın. Pahalı stüdyolara veya seslendirmenlere gerek yok.",
+    "textToSpeech": {
+      "title": "Her Metni Doğal Sese Dönüştürün",
+      "description": "Senaryo, makale ve içeriklerinizi anında profesyonel seslendirilere çevirin. Artık pahalı seslendirmenlere ödeme yapmayın. YouTube videoları, podcast'ler, sesli kitaplar, sunumlar ve pazarlama materyalleri için ideal. Günler değil, dakikalar içinde saatlerce içerik üretin.",
+      "stats": {
+        "languages": "İngilizce, İspanyolca, Fransızca dahil diller",
+        "savings": "Seslendirmen kiralamayla karşılaştırıldığında ortalama aylık tasarruf",
+        "speed": "30 dakikalık sesli kitap bölümü oluşturmak için"
+      }
+    },
+    "musicGeneration": {
+      "title": "Özgün Fon Müzikleri Bestelerin",
+      "description": "Telif hakkı ihlalleri ve pahalı müzik lisansları konusunda endişelenmeyi bırakın. İçerikleriniz için sınırsız özgün müzik parçaları, fon müzikleri ve intro'lar besteleyîn. YouTube videoları, podcast'ler, reklamlar ve sosyal medya paylaşımları için mükemmel. Müziğinizin %100 sahibi olun - telif ücreti yok, kısıtlama yok.",
+      "stats": {
+        "unlimited": "Lisans ücreti olmayan sınırsız parça",
+        "cost": "Tek lisanslı parçanın ortalama maliyeti",
+        "strikes": "Müziğimizi kullanırken telif hakkı ihlali"
+      }
+    },
+    "voiceCloning": {
+      "title": "Sınırsız İçerik İçin Sesinizi Klonlayın",
+      "description": "Bir kez kaydet, sonsuza dek kullan. Kısa bir ses örneği yükleyin ve kendi sesinizle sınırsız içerik geliştirin - hasta olduğunuzda, seyahat ederken hatta uyurken bile. Bir daha stüdyoya adım atmadan tüm video ve podcast'lerinizde tutarlı marka kimliği koruyun.",
+      "stats": {
+        "record": "Bir kez kaydet, sonsuza dek kullan",
+        "availability": "Her zaman, her yerde içerik geliştir",
+        "consistency": "Tüm içeriklerde marka tutarlılığı"
+      }
+    },
+    "voiceDesign": {
+      "title": "Markanız İçin Özel Sesler Tasarlayın",
+      "description": "Markanızı mükemmel şekilde temsil eden benzersiz ses kişilikleri yaratın. Belirli duygular, aksanlar ve konuşma tarzlarıyla sesler dizayn edin. Oyunlardaki karakterler, sesli kitaplar için ideal veya sizi rakiplerinizden ayıran ayırt edici bir marka sesi oluşturmak için.",
+      "stats": {
+        "emotions": "Farklı duygu ve konuşma tarzı",
+        "characters": "Projeleriniz için benzersiz ses karakteri",
+        "accents": "Uluslararası aksan ve dil"
+      }
+    },
+    "voiceIsolator": {
+      "title": "Her Ses Kaydını Çıkarın ve İyileştirin",
+      "description": "Düşük kaliteli kayıtları profesyonel sese çevirin. Arka plan gürültüsünü temizleyin, grup konuşmalarından belirli sesleri ayırın ve ses kalitesini otomatik olarak artırın. Podcast düzenleme, röportaj temizliği ve mevcut içerikleri iyileştirme için kusursuz.",
+      "stats": {
+        "quality": "Ses kalitesi iyileştirme garantisi",
+        "noise": "Arka plan gürültüsü azaltma kapasitesi",
+        "voices": "Grup sesinden bireysel ses ayrıştırma"
+      }
+    },
+    "whyChoose": {
+      "title": "İçerik Üreticileri Neden VeeqAI'yi Tercih Ediyor",
+      "subtitle": "İçerik üretim iş akışlarını dönüştüren binlerce yaratıcıya katılın",
+      "stats": {
+        "timesSaved": "Geleneksel yöntemlerden kat daha hızlı",
+        "moneySaved": "Yaratıcı başına ortalama aylık tasarruf",
+        "qualityScore": "Kullanıcılardan içerik kalitesi puanı",
+        "creators": "Dünya çapında aktif içerik üreticisi"
+      }
+    },
+    "successStories": {
+      "contentCreators": {
+        "title": "İçerik Üreticileri VeeqAI'yi Seviyor",
+        "testimonial": "Eskiden seslendirmenler ve müzik lisansları için ayda 3.000$ harcıyordum. Şimdi aynı kalitede içerikleri ayda 50$'dan az maliyetle yapıyorum. VeeqAI ilk haftada kendini amorti etti.",
+        "author": "Sarah Chen, YouTube İçerik Üreticisi (2.3M abone)"
+      },
+      "businesses": {
+        "title": "İşletmeler VeeqAI ile Büyüyor",
+        "testimonial": "Ayda 200+ eğitim videosu üretiyoruz. VeeqAI üretim maliyetlerimizi %90 azaltırken profesyonel kaliteyi korudu. Kurumsal eğitim için oyun değiştirici.",
+        "author": "Mike Rodriguez, TechCorp Öğrenme ve Geliştirme Direktörü"
+      }
+    },
+    "scaleYourBusiness": {
+      "creators": {
+        "title": "İçerik Üretiminizi Ölçeklendirin",
+        "subtitle": "Ayda 1 videodan 100 videoya",
+        "features": {
+          "batch": "Birden fazla senaryoyu toplu işle",
+          "templates": "Tutarlılık için ses ve müzik şablonları kaydet",
+          "scheduling": "İçerik oluşturma ve teslimatı programla",
+          "analytics": "Kullanımı takip et ve iş akışını optimize et"
+        }
+      },
+      "enterprise": {
+        "title": "Kurumsal Seviye Ses Üretimi",
+        "subtitle": "Ekipler ve büyük ölçekli operasyonlar için geliştirildi",
+        "features": {
+          "collaboration": "Ekip işbirliği ve proje paylaşımı",
+          "api": "Özel entegrasyonlar için API erişimi",
+          "support": "Özel hesap yönetimi ve destek",
+          "compliance": "Kurumsal güvenlik ve uyumluluk özellikleri"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ses İçeriklerinizi Dönüştürmeye Hazır mısınız?",
+      "subtitle": "İçerik üretimlerinde devrim yaratan 50.000+ yaratıcıya katılın",
+      "button": "Bugün Yaratmaya Başla",
+      "offer": "100 ücretsiz kredi ile başla • Kredi kartı gerektirmez • İstediğin zaman iptal et",
+      "features": "✓ Anında ses üretimi ✓ Telif hakkı sorunsuz müzik ✓ Ses klonlama ✓ 7/24 destek"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "lastUpdated": "Son güncelleme"
+    },
+    "terms": {
+      "title": "Kullanım Koşulları",
+      "lastUpdated": "Son güncelleme"
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "lastUpdated": "Son güncelleme"
+    }
+  },
+  "textToSpeechPage": {
+    "hero": {
+      "title": "Metinleri Profesyonel Seslendirilere Dönüştürün",
+      "subtitle": "12+ dilde herhangi bir metinden doğal ses tonları hazırlayın. YouTube videoları, podcast'ler, sesli kitaplar ve sunumlar için mükemmel. Seslendirmen tutmaya gerek yok."
+    },
+    "stats": {
+      "monthlySavings": {
+        "value": "65.000₺",
+        "label": "Ses talentelere kıyasla aylık tasarruf"
+      },
+      "creationTime": {
+        "value": "2dk",
+        "label": "30 dakikalık sesli kitap hazırlamak için"
+      },
+      "languages": {
+        "value": "12+",
+        "label": "Mevcut dil seçeneği"
+      }
+    },
+    "problemSection": {
+      "title": "Seslendirmenlere Servet Harcamayı Bırakın",
+      "traditional": {
+        "title": "Geleneksel Yöntem",
+        "problem1": {
+          "title": "Saatte 5.500-13.500₺",
+          "description": "Profesyonel seslendirmenler yüksek ücretler talep ediyor"
+        },
+        "problem2": {
+          "title": "Haftalarca program koordinasyonu",
+          "description": "Talent, stüdyo ve kayıt zamanlarını planlamak"
+        },
+        "problem3": {
+          "title": "Pahalı revizyon maliyetleri",
+          "description": "Her senaryo değişikliği daha fazla stüdyo zamanı ve maliyet demek"
+        }
+      },
+      "veeqWay": {
+        "title": "Veeq AI Yöntemi",
+        "benefit1": {
+          "title": "Anında yüksek kaliteli seslendirmeler",
+          "description": "Haftalar değil, saniyeler içinde profesyonel konuşma hazırlayın"
+        },
+        "benefit2": {
+          "title": "Sınırsız revizyon hakkı",
+          "description": "Senaryonuzu düzenleyin ve istediğiniz kadar yeniden işleyin"
+        },
+        "benefit3": {
+          "title": "Çoklu dil ve ses seçenekleri",
+          "description": "12+ dilde yüzlerce doğal sese erişim sağlayın"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Ortalama İçerik Üreticisi Yılda: 780.000₺ Tasarruf Ediyor",
+        "description": "Bu, ayda sadece 12 saat seslendirmen tutmanın maliyeti"
+      }
+    },
+    "voiceTypes": {
+      "title": "Her İçerik Türü İçin İdeal Ses",
+      "subtitle": "Eğitimden eğlenceye kadar - markanıza ve hedef kitlenize kusursuz uyum sağlayan yüzlerce doğal ses arasından seçim yapın.",
+      "categories": {
+        "educational": {
+          "title": "Eğitim İçerikleri",
+          "voice1": {
+            "title": "Akademik Anlatıcı",
+            "description": "Dersler için net, otoriter ses tonu"
+          },
+          "voice2": {
+            "title": "Samimi Eğitmen",
+            "description": "Öğreticiler için sıcak, ulaşılabilir tavır"
+          },
+          "voice3": {
+            "title": "Uzman Rehber",
+            "description": "Nasıl yapılır videoları için bilgili ton"
+          }
+        },
+        "business": {
+          "title": "İş Dünyası ve Pazarlama",
+          "voice1": {
+            "title": "Kurumsal Sözcü",
+            "description": "Profesyonel sunumlar için"
+          },
+          "voice2": {
+            "title": "Satış Temsilcisi",
+            "description": "İkna edici pazarlama videoları"
+          },
+          "voice3": {
+            "title": "Marka Sesi",
+            "description": "Tutarlı şirket mesajlaşması"
+          }
+        },
+        "entertainment": {
+          "title": "Eğlence Sektörü",
+          "voice1": {
+            "title": "Hikaye Anlatıcısı",
+            "description": "Çekici sesli kitap narrasyonu"
+          },
+          "voice2": {
+            "title": "Karakter Sesleri",
+            "description": "İçerikler için çoklu kişilikler"
+          },
+          "voice3": {
+            "title": "Podcast Sunucusu",
+            "description": "Konuşma havasında, doğal ton"
+          }
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "3 Kolay Adımda Profesyonel Seslendirmeler",
+      "step1": {
+        "title": "Metninizi Yapıştırın",
+        "description": "Senaryonuzu, makalenizi veya 10.000 kelimeye kadar herhangi bir metin içeriğinizi kopyalayıp yapıştırın"
+      },
+      "step2": {
+        "title": "Sesinizi Belirleyin",
+        "description": "12+ dilde ve farklı tarzlarda yüzlerce doğal ses arasından seçim yapın"
+      },
+      "step3": {
+        "title": "İndirin ve Kullanın",
+        "description": "YouTube, podcast'ler, sunumlar, her yerde kullanıma hazır yüksek kaliteli MP3 dosyalarını alın"
+      }
+    },
+    "useCases": {
+      "title": "Gerçek Kullanıcılardan Gerçek Başarı Hikayeleri",
+      "case1": {
+        "title": "Online Kurs Yaratıcısı",
+        "category": "Eğitim ve E-öğrenme",
+        "testimonial": "\"Kurslarım için seslendirmenlere ayda 220.000₺ harcıyordum. Şimdi Veeq AI ile aylık 40+ saat içerik hazırlıyorum. Öğrencilerim tutarlı, profesyonel anlatımı çok seviyor.\"",
+        "stat1": {
+          "value": "2.600.000₺",
+          "label": "Yıllık tasarruf"
+        },
+        "stat2": {
+          "value": "10 kat",
+          "label": "Daha hızlı üretim"
+        }
+      },
+      "case2": {
+        "title": "YouTube Kanalı",
+        "category": "2.5M abone, teknoloji incelemeleri",
+        "testimonial": "\"Uzun kayıt seanslarından sonra sesim yoruluyor. Şimdi günlük yüklemelerim için Veeq AI kullanıyorum ve sesimi özel içerikler için saklıyorum. İzleyiciler farkı anlayamıyor!\"",
+        "stat1": {
+          "value": "365",
+          "label": "Yılda video"
+        },
+        "stat2": {
+          "value": "Sıfır",
+          "label": "Hastalık izni"
+        }
+      },
+      "case3": {
+        "title": "Sesli Kitap Yayıncısı",
+        "category": "Bağımsız yayın evi",
+        "testimonial": "\"Yılda 50+ sesli kitap yayınlıyoruz. Veeq AI profesyonel kaliteyi korurken üretim maliyetlerimizi %90 azalttı. Teslim süremiz aylardan günlere düştü.\"",
+        "stat1": {
+          "value": "%90",
+          "label": "Maliyet azalması"
+        },
+        "stat2": {
+          "value": "20 kat",
+          "label": "Daha hızlı teslimat"
+        }
+      },
+      "case4": {
+        "title": "Kurumsal Eğitim",
+        "category": "Fortune 500 şirketi",
+        "testimonial": "\"Küresel ekibimiz için çok dilli eğitim materyallerine ihtiyacımız vardı. Veeq AI 8 dilde tutarlı anlatım sağladı, lokalizasyon maliyetlerinde yüz binlerce lira tasarruf ettirdik.\"",
+        "stat1": {
+          "value": "8",
+          "label": "Dil"
+        },
+        "stat2": {
+          "value": "6.8M₺",
+          "label": "Yıllık tasarruf"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Veeq AI Neden Geleneksel Ses Hizmetlerini Geride Bırakıyor",
+      "freelance": {
+        "title": "Serbest Seslendirmenler",
+        "cost": {
+          "value": "5.500₺+",
+          "label": "saatte + revizyonlar"
+        },
+        "time": {
+          "value": "1-2 hafta",
+          "label": "teslimat süresi"
+        },
+        "availability": {
+          "value": "Sınırlı",
+          "label": "uygunluk ve tarzlar"
+        }
+      },
+      "studios": {
+        "title": "Ses Stüdyoları",
+        "cost": {
+          "value": "13.500₺+",
+          "label": "saatte + stüdyo maliyetleri"
+        },
+        "booking": {
+          "value": "Karmaşık",
+          "label": "rezervasyon ve planlama"
+        },
+        "revisions": {
+          "value": "Pahalı",
+          "label": "revizyon maliyetleri"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI",
+        "cost": {
+          "value": "2.70₺",
+          "label": "dakika başına ses"
+        },
+        "speed": {
+          "value": "Anında",
+          "label": "hazırlama ve teslimat"
+        },
+        "revisions": {
+          "value": "Sınırsız",
+          "label": "revizyon ve ses seçeneği"
+        }
+      },
+      "savings": {
+        "title": "Ses üretim maliyetlerinde %95'e varan tasarruf",
+        "subtitle": "Profesyonel yayın kalitesini korurken"
+      }
+    },
+    "cta": {
+      "title": "Bugün Profesyonel Seslendirmeler Hazırlamaya Başlayın",
+      "subtitle": "Ses içerik ihtiyaçları için Veeq AI'ye güvenen binlerce yaratıcı, eğitimci ve işletmeye katılın. Sözleşme yok, bağlılık yok.",
+      "button": "İlk Seslendirinizi Ücretsiz Hazırlayın",
+      "offer": "5.000 ücretsiz kredi • Kredi kartı gerekmez • Anında erişim",
+      "promise": "Herhangi bir metni 60 saniyenin altında profesyonel konuşmaya dönüştürün"
+    }
+  },
+  "musicGeneratorPage": {
+    "hero": {
+      "title": "Saniyeler İçinde Özgün Melodi Besteleyin",
+      "subtitle": "Videolarınız, podcast'leriniz ve içerikleriniz için sınırsız telif haksız müzik kompozisyonu yaratın. Lisans ücreti yok, telif sorunu yok, pahalı prodüktör masrafı yok."
+    },
+    "stats": {
+      "licensingFees": {
+        "value": "₺0",
+        "label": "Telif hakkı masrafı hiçbir zaman"
+      },
+      "generationTime": {
+        "value": "30sn",
+        "label": "Herhangi bir beste tamamlamak için"
+      },
+      "unlimited": {
+        "value": "∞",
+        "label": "Sınırsız müzik kompozisyonu"
+      }
+    },
+    "problemSection": {
+      "title": "Müzik Lisanslarına Para Kaybetmeyi Durdurun",
+      "traditional": {
+        "title": "Eski Pahalı Yöntem",
+        "problem1": {
+          "title": "Lisanslı parça başına 13.500₺+",
+          "description": "Premium müzik kütüphaneleri her beste için yüzlerce lira talep ediyor"
+        },
+        "problem2": {
+          "title": "Telif ihlalleri kanalları bitirir",
+          "description": "Yanlış bir beste YouTube gelir akışınızı tamamen yok edebilir"
+        },
+        "problem3": {
+          "title": "Kısıtlı kullanım hakları",
+          "description": "Çoğu lisans müziğin nasıl kullanılacağını kısıtlar"
+        }
+      },
+      "veeqWay": {
+        "title": "Veeq AI Yöntemi",
+        "benefit1": {
+          "title": "%100 telif ücreti serbest süresiz",
+          "description": "Her bestenin tamamen sahibi olun, istediğiniz yerde kısıtsız kullanın"
+        },
+        "benefit2": {
+          "title": "Sıfır telif ihlali",
+          "description": "Her kompozisyon özgündür ve para kazanmak için güvenlidir"
+        },
+        "benefit3": {
+          "title": "Sınırsız ticari kullanım",
+          "description": "Sat, yayınla, yayına ver - hiçbir zaman kısıt yok"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Ortalama İçerik Üreticisi Tasarrufu: Aylık 97.200₺",
+        "description": "Bu sadece müzik lisansında yıllık 1.166.400₺ tasarruf demek"
+      }
+    },
+    "musicStyles": {
+      "title": "Her Tarz, Her Ruh Hali, Her Bestekarlık",
+      "subtitle": "Sinematik film müziğinden enerjik pop'a - içeriğinize mükemmel uyum sağlayan profesyonel kompozisyon tarzlarında melodi yaratın.",
+      "contentCreator": {
+        "title": "İçerik Üreticilerinin Favorileri",
+        "lofi": {
+          "title": "Lo-fi Hip Hop",
+          "description": "Çalışma/iş vlogları için ideal ritim"
+        },
+        "electronic": {
+          "title": "Enerjik Elektronik",
+          "description": "Yüksek tempolu oyun içerikleri"
+        },
+        "cinematic": {
+          "title": "Sinematik",
+          "description": "Belgesel tarzı içerikler"
+        }
+      },
+      "business": {
+        "title": "İş Dünyası ve Pazarlama",
+        "corporate": {
+          "title": "Kurumsal",
+          "description": "Profesyonel sunumlar"
+        },
+        "motivational": {
+          "title": "Motivasyonel",
+          "description": "İlham verici pazarlama videoları"
+        },
+        "ambient": {
+          "title": "Ortam Müziği",
+          "description": "Çağrı/demo'lar için fon"
+        }
+      },
+      "entertainment": {
+        "title": "Eğlence Sektörü",
+        "orchestral": {
+          "title": "Epik Orkestral",
+          "description": "Film fragmanları, intro'lar"
+        },
+        "jazz": {
+          "title": "Caz ve Blues",
+          "description": "Sofistike içerikler"
+        },
+        "rock": {
+          "title": "Rock ve Metal",
+          "description": "Yüksek enerjili içerikler"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "3 Basit Adımda Profesyonel Müzik Besteleme",
+      "step1": {
+        "title": "Vizyonunuzu Betimleyin",
+        "description": "\"Teknoloji ürün tanıtımı için enerjik elektronik melodi\" veya \"Meditasyon içeriği için sakin akustik gitar armonisi\""
+      },
+      "step2": {
+        "title": "AI Bestenizi Kompoze Eder",
+        "description": "Yapay zeka besteci, 30 saniyeden kısa sürede benzersiz, profesyonel kalitede kompozisyon yaratır"
+      },
+      "step3": {
+        "title": "İndir ve Her Yerde Kullan",
+        "description": "YouTube, TikTok, podcast, reklam için hazır yüksek kaliteli MP3/WAV dosyaları"
+      }
+    },
+    "successStories": {
+      "title": "Gerçek Bestecilerden Gerçek Sonuçlar",
+      "case1": {
+        "title": "YouTube Oyun Kanalı",
+        "category": "1.2M abone",
+        "testimonial": "\"Müzik lisansına aylık 54.000₺ harcıyordum. Şimdi günlük yüklemelerim için sınırsız kompozisyon besteleiyorum. Telif sorununu çözdüğümden beri kanal gelirim %40 arttı.\"",
+        "stat1": {
+          "value": "648.000₺",
+          "label": "Yıllık tasarruf"
+        },
+        "stat2": {
+          "value": "0",
+          "label": "Telif ihlali"
+        }
+      },
+      "case2": {
+        "title": "Pazarlama Ajansı",
+        "category": "Aylık 50+ müşteri kampanyası",
+        "testimonial": "\"Her müşteri kampanyası için özel müzik kompozisyonu besteliyoruz. Eskiden müzik lisansında 405.000₺ maliyetimiz varken şimdi neredeyse hiç harcamamız yok. Kâr marjlarımız fırladı.\"",
+        "stat1": {
+          "value": "%85",
+          "label": "Maliyet azalması"
+        },
+        "stat2": {
+          "value": "3x",
+          "label": "Daha hızlı teslim"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Geleneksel Seçenekler Yerine Neden Veeq AI'yi Tercih Edin",
+      "libraries": {
+        "title": "Müzik Kütüphaneleri",
+        "cost": {
+          "value": "13.500₺+",
+          "label": "parça lisansı başına"
+        },
+        "rights": {
+          "value": "Kısıtlı",
+          "label": "kullanım hakları"
+        },
+        "content": {
+          "value": "Hazır",
+          "label": "önceden bestelenmiş parçalar"
+        }
+      },
+      "producers": {
+        "title": "Müzik Prodüktörleri",
+        "cost": {
+          "value": "54.000₺+",
+          "label": "özel kompozisyon başına"
+        },
+        "time": {
+          "value": "2-4 hafta",
+          "label": "teslim süresi"
+        },
+        "contracts": {
+          "value": "Karmaşık",
+          "label": "sözleşme ve haklar"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Müzik",
+        "cost": {
+          "value": "₺0",
+          "label": "lisans ücreti hiçbir zaman"
+        },
+        "time": {
+          "value": "30 sn",
+          "label": "besteleme süresi"
+        },
+        "ownership": {
+          "value": "%100",
+          "label": "süresiz sahibisin"
+        }
+      },
+      "savings": {
+        "title": "Veeq AI ile yıllık 1.166.400₺+ tasarruf edin",
+        "description": "Geleneksel müzik lisanslamaya karşı ortalama yıllık tasarruf"
+      }
+    },
+    "cta": {
+      "title": "Bugün Telif Haksız Müzik Bestelemeye Başlayın",
+      "subtitle": "Müzik lisansı konusunda hiç endişe duymayan binlerce kompozisyoncu yaratıcıya katılın. Tüm içerikleriniz için sınırsız beste üretin.",
+      "button": "İlk Bestenizi Ücretsiz Kompoze Edin",
+      "offer": "5.000 ücretsiz kredi • Kredi kartı gerekli değil • Müziğinizin %100 sahibi olun",
+      "promise": "30 saniyeden kısa sürede profesyonel müzik kompozisyonu"
+    }
+  },
+  "voiceCloningPage": {
+    "hero": {
+      "title": "Her Sesi Klonlayarak Sınırsız İçerik Çoğaltın",
+      "subtitle": "Kısa bir ses kaydı yükleyin ve o sesin birebir kopyasıyla sınırsız materyal üretin. Marka tutarlılığını korumak, karakter sesleri taklit etmek veya sesinizi sonsuza dek muhafaza etmek için ideal."
+    },
+    "stats": {
+      "sampleTime": {
+        "value": "30sn",
+        "label": "Ses örneği klonlama süresi"
+      },
+      "accuracy": {
+        "value": "%99",
+        "label": "Ses benzetim doğruluğu"
+      },
+      "unlimited": {
+        "value": "∞",
+        "label": "İçerik çoğaltma kapasitesi"
+      }
+    },
+    "problemSection": {
+      "title": "Ses Kimliğinizi ve Marka Tutarlılığınızı Bir Daha Asla Kaybetmeyin",
+      "traditional": {
+        "title": "Yaşanan Geleneksel Sorunlar",
+        "problem1": {
+          "title": "Hastalık günleri içerik programını bozar",
+          "description": "Rahatsızlık ya da seyahat durumlarında kayıt yapamama sorunu"
+        },
+        "problem2": {
+          "title": "Seslendirmenler ayrılır ya da ulaşılamaz hale gelir",
+          "description": "Yetenekli kişiler gittiğinde marka ses kimliğinin kaybolması"
+        },
+        "problem3": {
+          "title": "Karakter seslerinde tutarsızlık",
+          "description": "Farklı oturumlarda sesler değişerek sürükleyiciliği bozar"
+        }
+      },
+      "veeqWay": {
+        "title": "Ses Klonlama Çözümü",
+        "benefit1": {
+          "title": "7/24 içerik çoğaltabilme",
+          "description": "Konuşamadığınız zamanlarda bile sesinizle materyal benzetimi yapın"
+        },
+        "benefit2": {
+          "title": "Sesleri sonsuza dek muhafaza etme",
+          "description": "Marka ses kimliğinizi veya karakter seslerinizi bir daha asla kaybetmeyin"
+        },
+        "benefit3": {
+          "title": "Her defasında mükemmel tutarlılık",
+          "description": "Tüm içeriklerinizde özdeş ses karakteristiği taklit etme"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Bir Kez Kaydet, Sonsuza Dek İçerik Çoğalt",
+        "description": "30 saniyelik tek örnek ile o sesin birebir kopyasıyla sınırsız materyal benzetimi"
+      }
+    },
+    "useCases": {
+      "title": "Her Ses Klonlama İhtiyacı İçin Mükemmel",
+      "subtitle": "Kişisel marka kimliğinden karakter yaratımına - herhangi bir sesi inanılmaz doğrulukla klonlayın ve sınırsız içerik çoğaltma için kullanın.",
+      "personalBranding": {
+        "title": "Kişisel Marka Kimliği",
+        "use1": {
+          "title": "Kendi Sesinizi Klonlayın",
+          "description": "Tutarlı materyal için kendinizin ses kopyasını çıkarın"
+        },
+        "use2": {
+          "title": "CEO/Kurucu Ses Benzetimi",
+          "description": "Liderlik varlığını sürekli kılın"
+        },
+        "use3": {
+          "title": "Marka Sözcüsü Taklidi",
+          "description": "Tutarlı şirket mesajlaşması"
+        }
+      },
+      "contentCreation": {
+        "title": "İçerik Yaratımı",
+        "use1": {
+          "title": "Karakter Seslerini Taklit Etme",
+          "description": "Hikaye anlatımı için çoklu kişilik benzetimi"
+        },
+        "use2": {
+          "title": "Sesli Kitap Narrasyonu Klonlama",
+          "description": "Baştan sona tutarlı anlatıcı ses kopyası"
+        },
+        "use3": {
+          "title": "Podcast Sunucusu Benzetimi",
+          "description": "Hiçbir bölümü kaçırmayın"
+        }
+      },
+      "professionalServices": {
+        "title": "Profesyonel Hizmetler",
+        "use1": {
+          "title": "Ses Muhafazası",
+          "description": "Önemli sesleri arşivleyerek klonlayın"
+        },
+        "use2": {
+          "title": "Çok Dilli İçerik Çoğaltma",
+          "description": "Aynı ses benzetimi, farklı diller"
+        },
+        "use3": {
+          "title": "Ses Oyunculuğu Taklidi",
+          "description": "Ses yelpazesini genişletmek için klonlama"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "3 Basit Adımda Herhangi Bir Sesi Klonlayın",
+      "step1": {
+        "title": "Ses Örneği Yükleme",
+        "description": "Klonlamak istediğiniz sesin net 30 saniye-5 dakikalık örneğini yükleyin"
+      },
+      "step2": {
+        "title": "Yapay Zeka Ses Benzetimini Öğrenir",
+        "description": "AI sistemimiz ses desenlerini, tonlarını, aksanını ve benzersiz özelliklerini analiz eder"
+      },
+      "step3": {
+        "title": "Sınırsız İçerik Çoğaltma",
+        "description": "Herhangi bir metin yazın ve klonlanmış seste %99 doğrulukla konuşma benzetimi yapın"
+      },
+      "qualityTips": {
+        "title": "Ses Klonlama Kalite İpuçları",
+        "tip1": {
+          "title": "✓ Berrak Ses Kaydı",
+          "description": "Arkaplan gürültüsü veya müzik bulunmaması"
+        },
+        "tip2": {
+          "title": "✓ Doğal Konuşma Taklit",
+          "description": "Sohbet havası en iyi sonuçları verir"
+        },
+        "tip3": {
+          "title": "✓ 30sn - 5dk Süre",
+          "description": "Optimal klonlama örnek uzunluğu"
+        }
+      }
+    },
+    "successStories": {
+      "title": "Gerçek Ses Klonlama Başarı Hikayeleri",
+      "case1": {
+        "title": "Günlük Podcast Sunucusu",
+        "category": "İş dünyası podcast'i, aylık 500K indirme",
+        "testimonial": "\"İş seyahatleri sürekli ama her gün yayın yapmam gerekiyor. Klonlanmış sesimle haftalarca içerik önceden hazırlıyorum. Dinleyiciler ne zaman gerçekte konuştuğumu, ne zaman AI kullandığımı anlayamıyor.\"",
+        "stat1": {
+          "value": "365",
+          "label": "Hiç kaçırılmayan bölüm"
+        },
+        "stat2": {
+          "value": "%100",
+          "label": "Dinleyici bağlılığı"
+        }
+      },
+      "case2": {
+        "title": "Sesli Kitap Yazarı",
+        "category": "Fantastik romanlar, 15+ yayınlanmış eser",
+        "testimonial": "\"Fantastik serilerim için 12 farklı karakter sesi klonladım. Her karakter tamamen benzersiz ses taklidine sahip ve tüm kitaplarımda tutarlı. Okuyucular bu sürükleyici deneyimi çok seviyor.\"",
+        "stat1": {
+          "value": "12",
+          "label": "Benzersiz karakter ses benzetimi"
+        },
+        "stat2": {
+          "value": "%400",
+          "label": "Satış artışı"
+        }
+      },
+      "case3": {
+        "title": "Kurumsal Eğitim",
+        "category": "Teknoloji şirketi, 10.000+ çalışan",
+        "testimonial": "\"CEO'muzun klonlanmış sesi tüm personel eğitim modüllerini yönlendirir. İçeriklerimiz binlerce saate çıktığında bile, her çalışan tutarlı liderlik mesajlaşması duyar.\"",
+        "stat1": {
+          "value": "500+",
+          "label": "Eğitim modülü"
+        },
+        "stat2": {
+          "value": "54M₺",
+          "label": "Yıllık ses maliyeti tasarrufu"
+        }
+      },
+      "case4": {
+        "title": "YouTube İçerik Üreticisi",
+        "category": "Oyun kanalı, 3M abone",
+        "testimonial": "\"Sesimi klonladım ve artık uyurken bile içerik çoğaltabiliyorum. Gelecekteki videolar için anlatım önceden benzetim yapıyorum ve tatilde bile yüklem programım hiç bozulmuyor.\"",
+        "stat1": {
+          "value": "Günlük",
+          "label": "Yükleme tutarlılığı"
+        },
+        "stat2": {
+          "value": "%80",
+          "label": "Daha az kayıt zamanı"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Ses Klonlama vs Geleneksel Çözümler",
+      "voiceActors": {
+        "title": "Seslendirmen Sözleşmeleri",
+        "cost": {
+          "value": "135.000₺+",
+          "label": "aylık sabit ödeme ücretleri"
+        },
+        "availability": {
+          "value": "Sınırlı",
+          "label": "uygunluk ve programlama"
+        },
+        "risk": {
+          "value": "Risk",
+          "label": "yeteneğin ayrılması tehlikesi"
+        }
+      },
+      "synthesizers": {
+        "title": "Ses Sentezleyicileri",
+        "quality": {
+          "value": "Robotik",
+          "label": "doğal olmayan ses kalitesi"
+        },
+        "voices": {
+          "value": "Hazır",
+          "label": "sadece önceden yapılmış sesler"
+        },
+        "emotion": {
+          "value": "Zayıf",
+          "label": "duygusal ifade benzetimi"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Ses Klonlama",
+        "accuracy": {
+          "value": "%99",
+          "label": "ses doğruluğu benzetim oranı"
+        },
+        "availability": {
+          "value": "7/24",
+          "label": "anında erişilebilir klonlama"
+        },
+        "content": {
+          "value": "Sınırsız",
+          "label": "içerik çoğaltma kapasitesi"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Sesinizin Sonsuza Dek Sahibi Olun",
+        "description": "Marka ses kimliğinizi kaybetme ya da içerik tutarsızlığı endişesi bir daha yaşamayın"
+      }
+    },
+    "cta": {
+      "title": "Bugün Ses Klonlamaya Başlayın",
+      "subtitle": "Herhangi bir sesi sonsuza dek muhafaza edin ve mükemmel tutarlılıkla sınırsız içerik çoğaltın. Ses klonlama hizmetimizi garantimizle risksiz deneyin.",
+      "button": "İlk Ses Klonlamanızı Ücretsiz Yapın",
+      "offer": "5.000 ücretsiz kredi • Kredi kartı gerekmez • %99 doğruluk garantisi",
+      "promise": "30 saniye yükleyin, sınırsız içerik çoğaltma benzetimi alın"
+    }
+  },
+  "voiceDesign": {
+    "hero": {
+      "title": "Sıfırdan Mükemmel Sesler Tasarlayın",
+      "subtitle": "Basitçe ne istediğinizi tarif ederek özel sesler dizayn edin. Ses örneği gerekmez - sadece yapay zekamıza yaş, cinsiyet, aksan ve kişiliği söyleyin, saniyeler içinde benzersiz ses alın."
+    },
+    "stats": {
+      "textOnly": {
+        "title": "Sadece Metin",
+        "description": "Ses örneği gerekli değil"
+      },
+      "time": {
+        "title": "30sn",
+        "description": "Özel ses tasarlamak için"
+      },
+      "unlimited": {
+        "title": "Sınırsız",
+        "description": "Benzersiz ses kombinasyonu"
+      }
+    },
+    "problem": {
+      "title": "Sıradan Seslerle Yetinmeyi Bırakın",
+      "limitedOptions": {
+        "title": "Kısıtlı Seçenek Sorunu",
+        "generic": {
+          "title": "Sıradan ses kütüphaneleri",
+          "description": "Herkes aynı 20 sesi kullanıyor - hiç benzersizlik yok"
+        },
+        "noFit": {
+          "title": "Doğru uyumu bulamama",
+          "description": "Hazır sesler markanıza veya içeriğinize uymuyor"
+        },
+        "expensive": {
+          "title": "Pahalı seslendirmen kadrosu",
+          "description": "Mükemmel sesi bulmak haftalar alıyor ve binlerce liraya mal oluyor"
+        }
+      }
+    },
+    "solution": {
+      "title": "Ses Tasarım Çözümü",
+      "infinite": {
+        "title": "Sonsuz benzersiz sesler",
+        "description": "Markanıza tamamen özel sesler dizayn edin"
+      },
+      "brandMatch": {
+        "title": "Mükemmel marka uyumu",
+        "description": "Marka kişiliğinizi kusursuz temsil eden sesler tasarlayın"
+      },
+      "instant": {
+        "title": "Anında yaratım",
+        "description": "30 günde değil, 30 saniyede mükemmel sesinizi alın"
+      }
+    },
+    "example": {
+      "description": "\"İngiliz aksanlı sıcak, samimi kadın sesi tasarla\"",
+      "explanation": "Özel sesinizi 30 saniyede almak için yazmanız gereken tek şey bu"
+    },
+    "characteristics": {
+      "title": "Sesinizin Her Yönünü Kontrol Edin",
+      "subtitle": "Yaş, cinsiyet, aksan, kişilik ve duygusal ton üzerinde hassas kontrol ile sesler dizayn edin. İçeriğinizin ihtiyaç duyduğu tam sesi tasarlayın.",
+      "basic": {
+        "title": "Temel Özellikler",
+        "age": {
+          "title": "Yaş Aralığı",
+          "options": "Çocuk, Genç, Yetişkin, Orta Yaş, Yaşlı"
+        },
+        "gender": {
+          "title": "Cinsiyet Kimliği",
+          "options": "Erkek, Kadın, Cinsiyet-nötr, Belirsiz"
+        },
+        "accent": {
+          "title": "Aksan ve Bölge",
+          "options": "Amerikan, İngiliz, Avustralya, Kanada, İrlanda, vb."
+        },
+        "pace": {
+          "title": "Konuşma Hızı",
+          "options": "Yavaş, Normal, Hızlı, Değişken"
+        }
+      },
+      "personality": {
+        "title": "Kişilik ve Ton",
+        "emotional": {
+          "title": "Duygusal Ton",
+          "options": "Sıcak, Otoriter, Samimi, Profesyonel, Oyuncu"
+        },
+        "energy": {
+          "title": "Enerji Seviyesi",
+          "options": "Sakin, Enerjik, Coşkulu, Rahat"
+        },
+        "style": {
+          "title": "Konuşma Tarzı",
+          "options": "Sohbet, Resmi, Rahat, Dramatik"
+        },
+        "traits": {
+          "title": "Karakter Özellikleri",
+          "options": "Kendinden emin, Çekingen, Tuhaf, Ciddi, Komik"
+        }
+      }
+    },
+    "examples": {
+      "title": "Örnek Ses Tasarımları",
+      "corporate": {
+        "title": "\"Kurumsal Profesyonel\"",
+        "description": "Orta yaşlı, kendinden emin erkek, Amerikan aksanlı, otoriter ama ulaşılabilir ton"
+      },
+      "teacher": {
+        "title": "\"Samimi Öğretmen\"",
+        "description": "Genç yetişkin kadın, sıcak ve sabırlı, hafif Kanada aksanlı, cesaret verici kişilik"
+      },
+      "narrator": {
+        "title": "\"Bilge Anlatıcı\"",
+        "description": "Yaşlı erkek, derin ve düşünceli, İngiliz aksanlı, hikaye anlatım tarzı"
+      }
+    },
+    "howItWorks": {
+      "title": "3 Basit Adımda Özel Sesler Tasarlayın",
+      "step1": {
+        "title": "Sesinizi Betimleyin",
+        "description": "\"Sıcak kişilikli, hafif aksanlı kendinden emin genç profesyonel\" gibi bir açıklama yazın"
+      },
+      "step2": {
+        "title": "Yapay Zeka Sesi Şekillendirir",
+        "description": "AI'mız tanımınıza uygun mükemmel özelliklerle benzersiz bir ses biçimlendirir"
+      },
+      "step3": {
+        "title": "Geliştirin ve Kullanın",
+        "description": "Gerekirse sesi inceleyin, sonra özel sesinizle sınırsız içerik üretin"
+      }
+    },
+    "tips": {
+      "title": "Ses Tasarım Uzman İpuçları",
+      "specific": {
+        "title": "✓ Detaylı Olun",
+        "description": "Daha fazla ayrıntı = daha iyi ses uyumu"
+      },
+      "context": {
+        "title": "✓ Bağlamı Düşünün",
+        "description": "Sesi içerik amacına uygun tasarlayın"
+      },
+      "iterate": {
+        "title": "✓ Test Edin ve Geliştirin",
+        "description": "Mükemmel olana kadar inceleyin"
+      }
+    },
+    "useCases": {
+      "title": "Her Kullanım Durumu İçin Mükemmel Sesler",
+      "brandDesigner": {
+        "title": "Marka Ses Tasarımcısı",
+        "subtitle": "Ses markalaşmasında uzmanlaşmış pazarlama ajansı",
+        "quote": "\"Fortune 500 şirketleri için benzersiz marka sesleri tasarlıyoruz. Her müşteri tamamen kendine ait bir ses alıyor - başka hiçbir marka onların gibi konuşmuyor. En büyük farklılaştırıcımız oldu.\"",
+        "stat1": {
+          "number": "500+",
+          "label": "Benzersiz marka sesi"
+        },
+        "stat2": {
+          "number": "%100",
+          "label": "Müşteri memnuniyeti"
+        }
+      },
+      "gameDeveloper": {
+        "title": "Oyun Geliştiricisi",
+        "subtitle": "RPG maceraları geliştiren bağımsız oyun stüdyosu",
+        "quote": "\"RPG'miz için düzinelerce benzersiz karakter sesine ihtiyacımız vardı. Ses Tasarımı ile bilge yaşlılardan yaramaz goblinlere kadar her şeyi tasarlayabildik. Oyuncular ses çeşitliliğimize hayran kalıyor.\"",
+        "stat1": {
+          "number": "47",
+          "label": "Benzersiz karakter sesi"
+        },
+        "stat2": {
+          "number": "200K₺",
+          "label": "Ses oyunculuğu maliyeti tasarrufu"
+        }
+      },
+      "elearning": {
+        "title": "E-öğrenme Platformu",
+        "subtitle": "Küresel iş gücü için kurumsal eğitim",
+        "quote": "\"Farklı kurslar farklı eğitmen kişilikleri gerektirir. Matematik otoriteye, yumuşak beceriler sıcaklığa ihtiyaç duyar. Her konu alanı için mükemmel eğitmen sesini tasarlıyoruz.\"",
+        "stat1": {
+          "number": "25",
+          "label": "Kursa özel ses"
+        },
+        "stat2": {
+          "number": "%85",
+          "label": "Öğrenme tutma artışı"
+        }
+      },
+      "podcast": {
+        "title": "Podcast Ağı",
+        "subtitle": "Çok programlı podcast prodüksiyon şirketi",
+        "quote": "\"Her programın kendi kişiliği ve sesi var. Komedi programları oyuncu sesler, iş programları profesyonel sesler alır. Her program benzersiz konuşur ve içeriğine mükemmel uyar.\"",
+        "stat1": {
+          "number": "12",
+          "label": "Programa özel ses"
+        },
+        "stat2": {
+          "number": "3x",
+          "label": "Daha hızlı program prodüksiyonu"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Ses Tasarımı vs Geleneksel Ses Tedariki",
+      "casting": {
+        "title": "Ses Kadrosu",
+        "time": {
+          "number": "3-8 hafta",
+          "label": "kadro ve seçim süresi"
+        },
+        "cost": {
+          "number": "5.000₺+",
+          "label": "casting direktörü ücretleri"
+        },
+        "talent": {
+          "number": "Kısıtlı",
+          "label": "mevcut yetenek havuzu"
+        }
+      },
+      "libraries": {
+        "title": "Ses Kütüphaneleri",
+        "voices": {
+          "number": "50-200",
+          "label": "önceden kaydedilmiş ses maksimum"
+        },
+        "uniqueness": {
+          "number": "Sıradan",
+          "label": "herkes aynı sesleri kullanıyor"
+        },
+        "control": {
+          "number": "Kontrol Yok",
+          "label": "ses özellikleri üzerinde"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Ses Tasarımı",
+        "time": {
+          "number": "30sn",
+          "label": "herhangi bir ses tasarlamak için"
+        },
+        "combinations": {
+          "number": "Sonsuz",
+          "label": "benzersiz ses kombinasyonu"
+        },
+        "control": {
+          "number": "Tam Kontrol",
+          "label": "her özellik üzerinde"
+        }
+      },
+      "conclusion": {
+        "title": "Size Özel Sesler Tasarlayın",
+        "subtitle": "Artık sıradan sesler yok - markanız için mükemmel sesi dizayn edin"
+      }
+    },
+    "cta": {
+      "title": "Bugün Özel Sesler Tasarlamaya Başlayın",
+      "subtitle": "Markanıza, içeriğinize ve hedef kitlenize mükemmel uyum sağlayan sesler tasarlayın. Ses örneği gerekmez - sadece ne istediğinizi tarif edin ve anında alın.",
+      "button": "İlk Sesinizi Ücretsiz Tasarlayın",
+      "features": "5.000 ücretsiz kredi • Kredi kartı gerekmez • Sınırsız özelleştirme",
+      "promise": "Hayal edebileceğiniz herhangi bir sesi 30 saniyenin altında tasarlayın"
+    }
+  },
+  "voiceIsolatorPage": {
+    "hero": {
+      "title": "Her Ses Kaydını Stüdyo Kalitesinde Arındırın",
+      "subtitle": "Herhangi bir ses kaydından arkaplan gürültüsünü, yankıları ve istenmeyen sesleri ayırın. Karışık kayıtları saniyeler içinde kristal berraklığında, profesyonel seviyede sesler haline dönüştürün."
+    },
+    "stats": {
+      "aiPowered": {
+        "title": "Yapay Zeka",
+        "description": "Gelişmiş gürültü temizleme"
+      },
+      "processingTime": {
+        "title": "30sn",
+        "description": "İşleme süresi"
+      },
+      "quality": {
+        "title": "Stüdyo",
+        "description": "Kalite çıkışı"
+      }
+    },
+    "problem": {
+      "title": "Kötü Ses Yüzünden Kaliteli İçeriği Çöpe Atmayı Bırakın",
+      "common": {
+        "title": "Yaygın Ses Sorunları",
+        "noise": {
+          "title": "Arkaplan gürültüsü kayıtları bozuyor",
+          "description": "Trafik, klima, fan gürültüleri içeriği kullanılamaz hale getiriyor"
+        },
+        "echo": {
+          "title": "Kötü odalardan gelen yankı ve reverb",
+          "description": "Ev kayıtları amatör ve profesyonel olmayan ses veriyor"
+        },
+        "calls": {
+          "title": "Telefon görüşmeleri ve uzaktan röportajlar",
+          "description": "Video görüşmelerinden ve telefon kayıtlarından düşük kalite ses"
+        },
+        "studio": {
+          "title": "Pahalı stüdyo zamanı israfı",
+          "description": "Ses kötü olduğunda yeniden kayıt binlerce liraya mal oluyor"
+        }
+      },
+      "solution": {
+        "title": "Ses Ayırıcı Çözümü",
+        "removeNoise": {
+          "title": "Tüm arkaplan gürültüsünü ayırın",
+          "description": "Yapay zeka istenmeyen sesleri tanımlar ve tamamen izole eder"
+        },
+        "eliminateEcho": {
+          "title": "Yankı ve reverb'i çıkarın",
+          "description": "Herhangi bir odayı profesyonel stüdyoya dönüştürün"
+        },
+        "enhanceVoice": {
+          "title": "Ses netliğini arındırın",
+          "description": "Dikkat dağıtıcı unsurları temizleyerek ses frekanslarını güçlendirin"
+        },
+        "saveThousands": {
+          "title": "Binlerce lira yeniden kayıt tasarrufu",
+          "description": "Herhangi bir kaydı kurtarın ve yayın kalitesinde hale getirin"
+        }
+      },
+      "highlight": {
+        "title": "Her Kaydı Profesyonel Sese Dönüştürün",
+        "description": "Karışık sesi yükleyin, 30 saniyede stüdyo kalitesinde sonuç alın"
+      }
+    },
+    "fixProblems": {
+      "title": "Her Tür Ses Sorunu Çözümlemesi Yapıyoruz",
+      "subtitle": "Ev kayıtlarından telefon görüşmelerine kadar, yapay zekamız istenmeyen sesleri tanımlayıp temizleyebilir ve ses kalitesini koruyup geliştirirken tüm gürültüleri ayırır.",
+      "backgroundNoise": {
+        "title": "Arkaplan Gürültüsü",
+        "traffic": {
+          "title": "Trafik ve Sokak Gürültüsü",
+          "description": "Arabalar, korna sesleri, inşaat gürültüleri"
+        },
+        "ac": {
+          "title": "Klima ve Fan Sesleri",
+          "description": "HVAC sistemleri, bilgisayar fanları"
+        },
+        "office": {
+          "title": "Ofis Ortamı",
+          "description": "Klavye sesleri, konuşmalar, telefonlar"
+        },
+        "home": {
+          "title": "Ev Dikkat Dağıtıcıları",
+          "description": "Televizyon, evcil hayvanlar, ev aletleri"
+        }
+      },
+      "roomAcoustics": {
+        "title": "Oda Akustiği",
+        "echo": {
+          "title": "Yankı ve Reverb",
+          "description": "Büyük odalar, sert yüzeyler"
+        },
+        "bathroom": {
+          "title": "Banyo Kayıtları",
+          "description": "Fayans yansımaları, su sesleri"
+        },
+        "untreated": {
+          "title": "İşlenmemiş Odalar",
+          "description": "Oturma odaları, yatak odaları"
+        },
+        "outdoor": {
+          "title": "Açık Hava Kayıtları",
+          "description": "Rüzgar, doğal akustik"
+        }
+      },
+      "technicalIssues": {
+        "title": "Teknik Problemler",
+        "phone": {
+          "title": "Telefon Görüşme Kalitesi",
+          "description": "Sıkıştırılmış, düşük kaliteli ses"
+        },
+        "videoCalls": {
+          "title": "Video Görüşme Sesi",
+          "description": "Zoom, Teams, Skype kayıtları"
+        },
+        "poorMics": {
+          "title": "Kötü Mikrofonlar",
+          "description": "Laptop dahili mikrofonu, telefon kayıtları"
+        },
+        "interference": {
+          "title": "Ses Paraziti",
+          "description": "Elektriksel vızıltı, dijital bozulmalar"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "3 Adımda Profesyonel Ses Temizleme",
+      "step1": {
+        "title": "Sesinizi Yükleyin",
+        "description": "Herhangi bir ses dosyasını yükleyin - podcast'ler, röportajlar, kayıtlar, telefon görüşmeleri, her format"
+      },
+      "step2": {
+        "title": "Yapay Zeka Analiz Eder ve Temizler",
+        "description": "Yapay zekamız ses ile gürültüyü ayırt eder ve ses kalitesini koruyarak istenmeyen sesleri izole eder"
+      },
+      "step3": {
+        "title": "Temiz Sesi İndirin",
+        "description": "Podcast'ler, videolar, sunumlar veya herhangi bir profesyonel kullanım için hazır stüdyo kalitesinde ses alın"
+      },
+      "formats": {
+        "title": "Desteklenen Ses Formatları",
+        "mp3": {
+          "title": "MP3",
+          "description": "En yaygın format"
+        },
+        "wav": {
+          "title": "WAV",
+          "description": "Sıkıştırılmamış kalite"
+        },
+        "m4a": {
+          "title": "M4A",
+          "description": "iPhone kayıtları"
+        },
+        "flac": {
+          "title": "FLAC",
+          "description": "Kayıpsız ses"
+        }
+      }
+    },
+    "successStories": {
+      "title": "Gerçek Ses Kurtarma Başarı Hikayeleri",
+      "case1": {
+        "title": "Podcast Prodüktörü",
+        "subtitle": "Uzaktan konuklarla röportaj programı",
+        "quote": "Zoom üzerinden konuk röportajları her zaman korkunç geliyordu - yankı, arkaplan gürültüsü, kötü mikrofonlar. Ses Ayırıcı yüzlerce saatlik içeriği kurtardı. Artık her bölüm stüdyo kalitesinde geliyor.",
+        "stat1": {
+          "number": "500+",
+          "label": "Kurtarılan bölüm"
+        },
+        "stat2": {
+          "number": "150.000₺",
+          "label": "Yeniden kayıt maliyeti tasarrufu"
+        }
+      },
+      "case2": {
+        "title": "Belgesel Yönetmeni",
+        "subtitle": "Tarihsel belgesel projesi",
+        "quote": "Evlerinde kayıtlanan yaşlı kişilerle değiştirilemez röportajlarımız vardı - çok gürültülüydü. Ses Ayırıcı bu paha biçilmez kayıtları kurtardı ve yayın kalitesinde hale getirdi.",
+        "stat1": {
+          "number": "25",
+          "label": "Kurtarılan değiştirilemez röportaj"
+        },
+        "stat2": {
+          "number": "Emmy",
+          "label": "Ödül adaylığı"
+        }
+      },
+      "case3": {
+        "title": "Kurumsal Eğitim",
+        "subtitle": "Küresel şirket uzaktan eğitimi",
+        "quote": "Yöneticilerimiz COVID sırasında evden eğitim kaydetmişti. Arkaplan gürültüsü onları profesyonel olmayan gösteriyordu. Ses Ayırıcı her kaydı stüdyodan gelmiş gibi yapyı.",
+        "stat1": {
+          "number": "200+",
+          "label": "Temizlenen eğitim modülü"
+        },
+        "stat2": {
+          "number": "%95",
+          "label": "Çalışan memnuniyet artışı"
+        }
+      },
+      "case4": {
+        "title": "İçerik Üreticisi",
+        "subtitle": "Küçük dairede YouTube kanalı",
+        "quote": "Yoğun cadde yanında yaşıyorum ve akustik tedavi alamıyorum. Ses Ayırıcı tüm trafik gürültüsünü çıkarıyor ve videolarımı profesyonel stüdyo düzenine sahipmişim gibi yapıyor.",
+        "stat1": {
+          "number": "Günlük",
+          "label": "Temizlenen video"
+        },
+        "stat2": {
+          "number": "%300",
+          "label": "Abone artışı"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Ses Ayırıcı vs Geleneksel Ses Temizleme",
+      "manual": {
+        "title": "Manuel Düzenleme",
+        "time": {
+          "value": "5-10 saat",
+          "label": "ses dosyası başına"
+        },
+        "cost": {
+          "value": "1500₺+",
+          "label": "ses teknisyeni maliyetleri"
+        },
+        "quality": {
+          "value": "Sınırlı",
+          "label": "gürültü temizleme kalitesi"
+        }
+      },
+      "software": {
+        "title": "Ses Yazılımı",
+        "learning": {
+          "value": "Öğrenme",
+          "label": "eğrisi gerekli"
+        },
+        "cost": {
+          "value": "30.000₺+",
+          "label": "profesyonel yazılım"
+        },
+        "artifacts": {
+          "value": "Bozulmalar",
+          "label": "ve ses distorsiyonu"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Ses Ayırıcı",
+        "speed": {
+          "value": "30sn",
+          "label": "otomatik işlem"
+        },
+        "setup": {
+          "value": "Kurulum Yok",
+          "label": "yükle ve indir"
+        },
+        "quality": {
+          "value": "Mükemmel",
+          "label": "ses korunması"
+        }
+      },
+      "conclusion": {
+        "title": "Her Kaydı Profesyonel Sese Dönüştürün",
+        "subtitle": "Zaman, para tasarrufu yapın ve kullanılamaz sandığınız içerikleri kurtarın"
+      }
+    },
+    "cta": {
+      "title": "Bugün Seslerinizi Temizlemeye Başlayın",
+      "subtitle": "Karışık kayıtlarınızı yükleyin ve saniyeler içinde stüdyo kalitesinde ses alın. Podcast'ler, videolar, sunumlar ve her türlü profesyonel içerik için mükemmel.",
+      "button": "İlk Sesinizi Ücretsiz Temizleyin",
+      "offer": "5.000 ücretsiz kredi • Kredi kartı gerekmez • Stüdyo kalitesinde sonuçlar",
+      "promise": "Herhangi bir ses dosyasını yükleyin ve 30 saniyede profesyonel sonuçlar alın"
+    }
+  },
+  "quickStart": {
+    "title": "Hızlı Başlangıç",
+    "description": "Veeq AI ile sadece birkaç dakikada başlayın ve çalışır duruma gelin.",
+    "copied": "Kopyalandı",
+    "copy": "Kopyala",
+    "step1": {
+      "title": "1. API Anahtarınızı Edinin",
+      "description": "Öncelikle Veeq AI hesabı oluşturun ve kontrol panelinden JWT tokeninizi alın.",
+      "button": "Başlayın"
+    },
+    "step2": {
+      "title": "2. İlk İsteğinizi Gönderin",
+      "description": "Basit bir HTTP isteğiyle ilk müziğinizi üretin:"
+    },
+    "step3": {
+      "title": "3. Sonraki Adımlar",
+      "description": "İlk isteğinizi gönderdiğinize göre, Veeq AI'den en iyi şekilde yararlanmak için şu kaynakları keşfedin:",
+      "apiExplorer": {
+        "title": "API Test Aracı",
+        "description": "Endpoint'leri doğrudan tarayıcınızda test edin"
+      },
+      "apiReference": {
+        "title": "API Referansı",
+        "description": "Tüm endpoint'lerin kapsamlı dokümantasyonu"
+      },
+      "sdkGenerator": {
+        "title": "SDK Üreticisi",
+        "description": "Diliniz için SDK'ları indirin"
+      },
+      "getHelp": {
+        "title": "Yardım Alın",
+        "description": "Topluluğumuza katılın ve destek alın"
+      }
+    }
+  },
+  "paymentMethods": {
+    "title": "Ödeme Yöntemleri",
+    "description": "Veeq AI tarafından desteklenen tüm ödeme yöntemleri ve para birimlerine genel bakış.",
+    "supported": {
+      "title": "Desteklenen Ödeme Yöntemleri",
+      "cards": "Kredi Kartları",
+      "turkish": "Türkiye'ye Özel",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "amex": "American Express",
+      "iyzico": "iyzico",
+      "bkm": "BKM Express",
+      "threeDSecure": "3D Secure"
+    },
+    "security": {
+      "title": "Güvenlik Özellikleri",
+      "pci": {
+        "title": "PCI DSS Uyumlu",
+        "description": "Seviye 1 PCI DSS sertifikalı altyapı"
+      },
+      "ssl": {
+        "title": "SSL Şifreli",
+        "description": "Tüm işlemler için 256-bit SSL şifreleme"
+      },
+      "threeD": {
+        "title": "3D Secure",
+        "description": "Türk kartları için ek kimlik doğrulama"
+      }
+    },
+    "api": {
+      "title": "API Uç Noktaları",
+      "endpoints": {
+        "list": "Kayıtlı ödeme yöntemlerini listele",
+        "add": "Yeni ödeme yöntemi ekle",
+        "update": "Mevcut ödeme yöntemini güncelle",
+        "remove": "Ödeme yöntemini kaldır"
+      }
+    },
+    "currencies": {
+      "title": "Desteklenen Para Birimleri",
+      "usd": "ABD Doları",
+      "eur": "Euro",
+      "try": "Türk Lirası",
+      "gbp": "İngiliz Sterlini"
+    }
+  },
+  "iyzicoIntegration": {
+    "title": "iyzico Entegrasyonu",
+    "description": "Türk ödeme sistemleri için iyzico'yu Veeq AI ile entegre etme rehberi.",
+    "setupTitle": "iyzico Kurulumu",
+    "createPaymentTitle": "Ödeme Oluştur",
+    "handleCallbackTitle": "Geri Çağrı İşle",
+    "supportedPaymentMethodsTitle": "Desteklenen Ödeme Yöntemleri",
+    "testCardsTitle": "Test Kartları",
+    "bestPracticesTitle": "En İyi Uygulamalar",
+    "copied": "Kopyalandı",
+    "copy": "Kopyala"
+  },
+  "privacyPolicy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme",
+    "introduction": {
+      "title": "Giriş",
+      "content": "VEMLO YAZILIM BİLGİ İLETİŞİM TEKNOLOJİLERİ REKLAM PAZARLAMA LİMİTED ŞİRKETİ (\"biz\", \"bizim\" veya \"şirket\") VeeqAI platformunu işletmektedir. Bu Gizlilik Politikası yapay zeka ses hizmetlerimizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, paylaştığımızı ve koruduğumuzu açıklar."
+    },
+    "informationWeCollect": {
+      "title": "Topladığımız Bilgiler",
+      "personal": {
+        "title": "Kişisel Bilgiler",
+        "content": "Hesap oluşturduğunuzda veya hizmetlerimizi kullandığınızda adınız, e-posta adresiniz, ödeme bilgileriniz ve hesap tercihleriniz dahil kişisel bilgilerinizi toplayabiliriz."
+      },
+      "voice": {
+        "title": "Ses Verileri",
+        "content": "AI modellerini eğitmek, sentetik konuşma üretmek veya ses klonlama özelliklerini kullanmak için sağladığınız ses kayıtlarını ve ses örneklerini toplarız. Bu veriler AI ses hizmetlerimizi sunmak için işlenir."
+      },
+      "usage": {
+        "title": "Kullanım Verileri",
+        "content": "Platformumuzla nasıl etkileşimde bulunduğunuz hakkında IP adresleri, tarayıcı bilgileri, cihaz tanımlayıcıları ve kullanım desenleri dahil bilgileri otomatik olarak toplarız."
+      }
+    },
+    "howWeUse": {
+      "title": "Bilgilerinizi Nasıl Kullanırız",
+      "item1": "AI ses hizmetlerimizi sağlar, sürdürür ve geliştiririz",
+      "item2": "Ses klonlama ve metin-konuşma isteklerini işleriz",
+      "item3": "Deneyiminizi ve önerilerinizi kişiselleştiririz",
+      "item4": "Hizmet güncellemeleri ve destek hakkında sizinle iletişim kuruyoruz",
+      "item5": "Platform güvenliğini sağlar ve dolandırıcılığı önliyoruz",
+      "item6": "Yasal yükümlülüklere uyar ve şartlarımızı uygularız"
+    },
+    "dataSharing": {
+      "title": "Veri Paylaşımı ve Açıklama",
+      "intro": "Kişisel bilgilerinizi satmıyoruz. Bilgilerinizi aşağıdaki durumlarda paylaşabiliriz:",
+      "providers": {
+        "title": "Hizmet Sağlayıcıları",
+        "content": "Hizmetlerimizi sunmada yardımcı olan üçüncü taraf satıcıları ile"
+      },
+      "legal": {
+        "title": "Yasal Gereksinimler",
+        "content": "Yasal olarak gerektiğinde veya haklarımızı ve güvenliğimizi korumak için"
+      },
+      "business": {
+        "title": "Ticari Transferler",
+        "content": "Birleşme, satın alma veya varlık satışı ile bağlantılı olarak"
+      },
+      "consent": {
+        "title": "Rıza",
+        "content": "Belirli amaçlar için açık rızanızla"
+      }
+    },
+    "dataSecurity": {
+      "title": "Veri Güvenliği",
+      "content": "Bilgilerinizi korumak için şifreleme, güvenli sunucular ve erişim kontrolleri dahil sektör standardı güvenlik önlemlerini uygularız. Ancak internet üzerindeki hiçbir aktarma yöntemi %100 güvenli değildir."
+    },
+    "dataRetention": {
+      "title": "Veri Saklama",
+      "content": "Kişisel bilgilerinizi hizmetlerimizi sağlamak ve yasal yükümlülüklere uymak için gerektiği sürece saklarız. AI eğitimi için kullanılan ses verileri model kalitesini korumak için daha uzun süre saklanabilir."
+    },
+    "yourRights": {
+      "title": "Haklarınız",
+      "intro": "Bulunduğunuz yere bağlı olarak aşağıdaki haklara sahip olabilirsiniz:",
+      "access": "Kişisel bilgilerinize erişmek ve güncellemek",
+      "delete": "Hesabınızı ve ilişkili verileri silmek",
+      "object": "Belirli işleme faaliyetlerine itiraz etmek veya kısıtlamak",
+      "portability": "Kişisel bilgileriniz için veri taşınabilirliği",
+      "withdraw": "İşlemin rızaya dayalı olduğu durumlarda rızayı geri çekmek"
+    },
+    "internationalTransfers": {
+      "title": "Uluslararası Transferler",
+      "content": "Bilgileriniz kendi ülkeniz dışındaki ülkelerde işlenebilir ve saklanabilir. Uluslararası veri transferleri için uygun korunma önlemlerinin alındığından emin oluruz."
+    },
+    "childrenPrivacy": {
+      "title": "Çocuk Gizliliği",
+      "content": "Hizmetlerimiz 13 yaş altı çocuklar için tasarlanmamıştır. 13 yaş altındaki çocuklardan bilerek kişisel bilgi toplamayız."
+    },
+    "changes": {
+      "title": "Bu Politikadaki Değişiklikler",
+      "content": "Bu Gizlilik Politikasını periyodik olarak güncelleyebiliriz. Önemli değişiklikleri platformumuzda yeni politikayı yayınlayarak ve \"Son güncelleme\" tarihini güncelleyerek size bildirecek."
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "intro": "Bu Gizlilik Politikası veya gizlilik uygulamalarımız hakkında sorularınız varsa lütfen bize ulaşın:",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "subject": "Konu",
+      "subjectText": "Gizlilik Politikası Sorusu"
+    }
+  },
+  "termsOfService": {
+    "title": "Kullanım Koşulları",
+    "lastUpdated": "Son güncelleme",
+    "agreement": {
+      "title": "Koşulları Kabul Etme",
+      "content": "Bu Kullanım Koşulları (\"Koşullar\") sizinle VEMLO YAZILIM BİLGİ İLETİŞİM TEKNOLOJİLERİ REKLAM PAZARLAMA LİMİTED ŞİRKETİ (\"şirket\", \"biz\", \"bizim\" veya \"bizimki\") arasında VeeqAI platformu ve hizmetlerini kullanımınızla ilgili yasal olarak bağlayıcı bir anlaşmayı oluşturur. Hizmetlerimize erişerek veya kullanarak bu Koşullara bağlı olmayı kabul edersiniz."
+    },
+    "services": {
+      "title": "Hizmet Açıklaması",
+      "intro": "VeeqAI şu hizmetleri kapsayan yapay zeka destekli ses hizmetleri sağlar:",
+      "tts": "Sentetik seslerle metin-konuşma dönüşümü",
+      "cloning": "Ses klonlama ve özel ses üretimi",
+      "music": "Müzik üretimi ve ses işleme",
+      "isolation": "Ses izolasyonu ve ses geliştirme",
+      "api": "Geliştiriciler ve kurumlar için API erişimi"
+    },
+    "account": {
+      "title": "Hesap Kayıt ve Güvenlik",
+      "responsibility": "Belirli özelliklere erişmek için hesap oluşturmalısınız. Hesap bilgilerinizin gizliliğini korumak ve hesabınız altındaki tüm faaliyetlerden sorumlu olmak sizin görevinizdir.",
+      "accuracy": "Kayıt sırasında doğru ve eksiksiz bilgi sağlamalı ve hesap bilgilerinizi güncel tutmalısınız."
+    },
+    "acceptableUse": {
+      "title": "Kabul Edilebilir Kullanım Politikası",
+      "intro": "Hizmetlerimizi şunlar için KULLANMAMAYı kabul edersiniz:",
+      "laws": "Herhangi bir yasa veya düzenlemeyi ihlal eden içerik oluşturmak",
+      "consent": "Ses sahibinin uygun rızası olmadan sesler üretmek",
+      "misleading": "Yanıltıcı, karalayecı veya dolandırıcı içerik oluşturmak",
+      "impersonate": "Başkalarını taklit etmek veya kimliğinizi yanlış şekilde sunmak",
+      "harassment": "Taciz, zorbalık veya tehdit içerik oluşturmak",
+      "intellectual": "Üçüncü şahısların fikri mülkiyet haklarını ihlal etmek",
+      "reverse": "Sistemlerimizi tersine mühendislik yapmaya veya hacklemeye çalışmak",
+      "resell": "Hizmetlerimize erişimi izinsiz olarak paylaşmak veya yeniden satmak"
+    },
+    "rights": {
+      "title": "Ses Verileri ve İçerik Hakları",
+      "yourContent": {
+        "title": "İçeriğiniz",
+        "content": "Sağladığınız orijinal içeriğin sahipliğini elinde tutuyorsunuz, ancak hizmetlerimizi sunmak için içeriğinizi işleme, saklama ve kullanma lisansı veriyorsunuz."
+      },
+      "generated": {
+        "title": "Üretilen İçerik",
+        "content": "AI hizmetlerimiz kullanılarak üretilen içerik kullanım politikalarımıza tabidir. Kullandığınız ses verileri için uygun hak ve izinlere sahip olduğunuzdan emin olmak sizin sorumlulugunuzdur."
+      },
+      "voiceConsent": {
+        "title": "Ses Rızası",
+        "content": "Başkasının sesini klonlamadan veya kullanmadan önce açık rıza almalısınız. Belirli kullanımlar için rıza kanıtı isteyebiliriz."
+      }
+    },
+    "payment": {
+      "title": "Ödeme ve Faturalama",
+      "credits": "Hizmetlerimiz kredi tabanlı sistem üzerinde çalışır. Fiyatlandırma sayfamızda belirtildiği gibi kredi satın alabilir veya planlara abone olabilirsiniz.",
+      "processing": "Tüm ödemeler üçüncü taraf ödeme işlemcileri aracılığıyla güvenli şekilde işlenir. Geri ödemeler geri ödeme politikamıza tabidir.",
+      "pricing": "Mevcut kullanıcılara 30 gün önceden bildirimle fiyatlandırmayı değiştirme hakkımızı saklı tutuyoruz."
+    },
+    "availability": {
+      "title": "Hizmet Erişilebilirliği ve Performans",
+      "content": "Yüksek erişilebilirlik için çaba gösterirken hizmetlerimize kesintisiz erişim garanti etmiyoruz. Hizmet erişilebilirliğini geçici olarak etkileyebilecek bakım, güncelleme veya teknik sorunlar yaşayabiliriz."
+    },
+    "intellectualProperty": {
+      "title": "Fikri Mülkiyet",
+      "content": "VeeqAI platformu, yazılım, algoritmalar ve kullanıcı arayüzleri dahil olmak üzere fikri mülkiyet yasalarıyla korunmaktadır. İznimiz olmadan kopyalayamaz, değiştiremez, dağıtamaz veya türetilmiş eserler oluşturamazsınız."
+    },
+    "privacy": {
+      "title": "Gizlilik ve Veri Koruma",
+      "content": "Bilgilerinizin toplanması ve kullanılması Gizlilik Politikamız tarafından yönetilir. Hizmetlerimizi kullanarak Gizlilik Politikasında açıklanan veri uygulamalarımıza rıza vermiş olursunuz."
+    },
+    "disclaimers": {
+      "title": "Sorumluluk Reddi ve Sorumluluk Sınırı",
+      "service": {
+        "title": "Hizmet Sorumluluk Reddi",
+        "content": "Hizmetlerimiz herhangi bir garanti olmaksızın \"olduğu gibi\" sağlanır. Üretilen içeriğin doğruluğu, eksiksizliği veya kalitesini garanti etmiyoruz."
+      },
+      "liability": {
+        "title": "Sorumluluk Sınırı",
+        "content": "Yasaların izin verdiği azami ölçüde sorumluluğumuz herhangi bir iddiadan önceki 12 ayda hizmetler için ödediğiniz tutarla sınırlıdır."
+      }
+    },
+    "indemnification": {
+      "title": "Tazminat",
+      "content": "Hizmetlerimizi kullanımınız, bu Koşulları ihlal etmeniz veya üçüncü şahıs haklarını ihlal etmenizden kaynaklanan her türlü iddia, hasar veya giderden bizi tazmin etmeyi ve zararsız tutmayı kabul edersiniz."
+    },
+    "termination": {
+      "title": "Sonlandırma",
+      "content": "Bu Koşulları ihlal etmeniz veya herhangi bir başka nedenle bildirimli veya bildirimsiz olarak hesabınızı herhangi bir zamanda askıya alabilir veya sonlandırabiliriz. Hesabınızı hesap ayarlarınız aracılığıyla istediğiniz zaman sonlandırabilirsiniz."
+    },
+    "governingLaw": {
+      "title": "Uygulanacak Hukuk ve Uyguşazlıklar",
+      "content": "Bu Koşullar Türk hukuku tarafından yönetilir. Herhangi bir uyguşazlık uygulanabilir olduğu şekilde tahkim veya Türkiye mahkemeleri aracılığıyla çözülür."
+    },
+    "changes": {
+      "title": "Koşullarda Değişiklikler",
+      "content": "Bu Koşulları herhangi bir zamanda değiştirebiliriz. Önemli değişiklikler hakkında bildirim sağlarız ve devam eden kullanımınız değiştirilmiş Koşulları kabul etmek anlamına gelir."
+    },
+    "contact": {
+      "title": "İletişim Bilgileri",
+      "intro": "Bu Koşullar hakkında sorularınız için lütfen bize ulaşın:",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "subject": "Konu",
+      "subjectText": "Kullanım Koşulları Sorusu"
+    }
+  },
+  "cookiePolicy": {
+    "title": "Çerez Politikası",
+    "lastUpdated": "Son güncelleme",
+    "whatAreCookies": {
+      "title": "Çerezler Nedir",
+      "content": "Çerezler websitemizi ziyaret ettiğinizde bilgisayarınıza veya mobil cihazınıza yerleştirilen küçük metin dosyalarıdır. VEMLO YAZILIM BİLGİ İLETİŞİM TEKNOLOJİLERİ REKLAM PAZARLAMA LİMİTED ŞİRKETİ VeeqAI platformundaki deneyiminizi geliştirmek, kişiselleştirilmiş hizmetler sunmak ve web sitesi kullanımını analiz etmek için çerezleri kullanır."
+    },
+    "typesOfCookies": {
+      "title": "Kullandığımız Çerez Türleri",
+      "purpose": "Amaç",
+      "examples": "Örnekler",
+      "essential": {
+        "title": "Zorunlu Çerezler",
+        "description": "Bu çerezler web sitesinin düzün çalışması için gereklidir ve devre dışı bırakılamazlar.",
+        "purpose": "Kimlik doğrulama, güvenlik, oturum yönetimi",
+        "examples": "Giriş durumu, güvenlik jetonları, kullanıcı tercihleri"
+      },
+      "performance": {
+        "title": "Performans Çerezleri",
+        "description": "Bu çerezler web sitesini nasıl kullandığınız hakkında bilgi toplayarak performansı geliştirmemize yardımcı olur.",
+        "purpose": "Analitik, kullanım desenleri, hata raporlama",
+        "examples": "Sayfa görüntülemeleri, çıkış oranları, özellik kullanım istatistikleri"
+      },
+      "functional": {
+        "title": "Fonksiyonel Çerezler",
+        "description": "Bu çerezler gelişmiş işlevselliği ve kişiselleştirmeyi sağlar.",
+        "purpose": "Kişiselleştirme, dil tercihleri, arayüz ayarları",
+        "examples": "Tema seçimi, dil seçimi, özel ses ayarları"
+      },
+      "marketing": {
+        "title": "Pazarlama Çerezleri",
+        "description": "Bu çerezler reklamverenlerin ilişkili reklamlar sunmasına yardımcı olmak için çevrimiçi faaliyetlerinizi takip eder.",
+        "purpose": "Hedefli reklamcılık, dönüşüm takibi",
+        "examples": "Google Analytics, Facebook Pixel, reklamcılık tanımlayıcıları"
+      }
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Çerezleri",
+      "intro": "Cihazınıza çerez yerleştiren üçüncü taraf hizmetleri kullanabiliriz:",
+      "googleAnalytics": {
+        "title": "Google Analytics",
+        "description": "Web sitesi kullanımını anlamamız ve kullanıcı deneyimini geliştirmemiz için yardımcı olur."
+      },
+      "paymentProcessors": {
+        "title": "Ödeme İşlemcileri",
+        "description": "Abonelikler ve kredi satın almaları için güvenli ödeme işleme."
+      },
+      "customerSupport": {
+        "title": "Müşteri Desteği",
+        "description": "Müşteri yardımı için sohbet araçları ve destek araçları."
+      },
+      "cdnServices": {
+        "title": "CDN Hizmetleri",
+        "description": "Web sitesi performansını artırmak için içerik dağıtım ağları."
+      }
+    },
+    "duration": {
+      "title": "Çerez Süresi",
+      "session": {
+        "title": "Oturum Çerezleri",
+        "description": "Tarayıcınızı kapattığınızda silinen geçici çerezler. Giriş oturumunuzu sürdürmek gibi temel işlevler için kullanılır."
+      },
+      "persistent": {
+        "title": "Kalıcı Çerezler",
+        "description": "Belirli bir süre boyunca cihazınızda kalan veya manuel olarak silinene kadar duran çerezler. Tercihleri hatırlamak ve ziyaretler arasında kullanıcı deneyimini geliştirmek için kullanılır."
+      }
+    },
+    "managing": {
+      "title": "Çerez Tercihlerinizi Yönetme",
+      "browserSettings": {
+        "title": "Tarayıcı Ayarları",
+        "intro": "Tarayıcı ayarlarınız aracılığıyla çerezleri kontrol edebilirsiniz. Popüler tarayıcılarda çerezleri nasıl yöneteceğiniz:",
+        "chrome": "Ayarlar > Gizlilik ve Güvenlik > Çerezler ve diğer site verileri",
+        "firefox": "Ayarlar > Gizlilik ve Güvenlik > Çerezler ve Site Verileri",
+        "safari": "Tercihler > Gizlilik > Web Sitesi Verilerini Yönet",
+        "edge": "Ayarlar > Site İzinleri > Çerezler ve depolanmış veriler"
+      },
+      "cookieBanner": {
+        "title": "Çerez Bannerı",
+        "description": "Web sitemizi ilk ziyaret ettiğinizde hangi çerez türlerini kabul edeceğinizi seçebileceğiniz bir çerez bannerı göreceksiniz. Bu tercihleri alt bilgimizden çerez ayarları bağlantısı aracılığıyla istediğiniz zaman değiştirebilirsiniz."
+      },
+      "accountSettings": {
+        "title": "Hesap Ayarları",
+        "description": "Giriş yapmış kullanıcılar analitik ve pazarlama çerezleri de dahil olmak üzere belirli çerez tercihlerini hesap ayarları aracılığıyla yönetebilir."
+      }
+    },
+    "impact": {
+      "title": "Çerezleri Devre Dışı Bırakmanın Etkisi",
+      "important": "Önemli",
+      "warning": "Belirli çerezleri devre dışı bırakmak web sitemizdeki işlevselliği ve hizmetleri etkileyebilir.",
+      "essential": "Zorunlu çerezler: Bunları devre dışı bırakmak temel işlevselliği engeller",
+      "performance": "Performans çerezleri: Daha yavaş yükleme süreleri ve azaltılmış optimizasyon yaşayabilirsiniz",
+      "functional": "Fonksiyonel çerezler: Kişiselleştirme özellikleri düzgün çalışmayabilir",
+      "marketing": "Pazarlama çerezleri: Daha az ilişkili reklamlar görebilirsiniz"
+    },
+    "mobileApps": {
+      "title": "Mobil Uygulamalar",
+      "content": "Mobil uygulamalarımız benzer takip teknolojileri kullanabilir. Bunları cihaz ayarlarınız veya uygulama tercihleriniz aracılığıyla kontrol edebilirsiniz. Özel talimatlar için cihazınızın yardım dokümantasyonuna başvurun."
+    },
+    "updates": {
+      "title": "Bu Politikadaki Güncellemeler",
+      "content": "Uygulamalarımızdaki veya uygulanabilir yasalardaki değişiklikleri yansıtmak için bu Çerez Politikasını periyodik olarak güncelleyebiliriz. Güncellenmiş politikayı web sitemizde yayınlayarak ve \"Son güncelleme\" tarihini güncelleyerek önemli değişiklikleri size bildirecek."
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "intro": "Çerez kullanımımız veya bu Çerez Politikası hakkında sorularınız varsa lütfen bize ulaşın:",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "subject": "Konu",
+      "subjectText": "Çerez Politikası Sorusu"
+    },
+    "additionalResources": {
+      "title": "Ek Kaynaklar",
+      "intro": "Çerezler ve çevrimiçi gizlilik hakkında daha fazla bilgi için ziyaret edin:"
+    }
+  },
+  "contact": {
+    "title": "Bizimle İletişime Geçin",
+    "subtitle": "Ekibimizle iletişime geçin. Veeq AI hakkındaki tüm sorularınız ve platformumuzun içerik oluşturma iş akışınızı nasıl dönüştürebileceği konusunda size yardımcı olmak için buradayız.",
+    "getInTouch": {
+      "title": "İletişime Geçin",
+      "description": "Aşağıdaki bilgileri kullanarak doğrudan bize ulaşın. AI ses platformumuz ve çözümlerimiz hakkındaki tüm sorularınız için buradayız."
+    },
+    "address": {
+      "title": "Ofis Adresi"
+    },
+    "phone": {
+      "title": "Telefon"
+    },
+    "email": {
+      "title": "E-posta"
+    },
+    "businessHours": {
+      "title": "Çalışma Saatleri",
+      "weekdays": "Pazartesi - Cuma: 09:00 - 18:00",
+      "weekend": "Cumartesi - Pazar: Kapalı",
+      "timezone": "(Türkiye Saati - GMT+3)"
+    },
+    "quickHelp": {
+      "title": "Hızlı yardıma mı ihtiyacınız var?",
+      "docs": {
+        "title": "Dokümantasyon",
+        "description": "API rehberleri, öğreticiler ve sık sorulan sorular"
+      },
+      "features": {
+        "title": "Özellikler",
+        "description": "Tüm AI ses araçlarımızı keşfedin"
+      },
+      "pricing": {
+        "title": "Fiyatlandırma",
+        "description": "İhtiyaçlarınız için mükemmel planı bulun"
+      }
+    },
+    "support": {
+      "title": "Hala sorularınız mı var?",
+      "description": "Ekibimiz Veeq AI'den en iyi şekilde yararlanmanız için burada. Yeni başlıyor olun ya da içerik üretiminizi ölçeklendiriyor olun, başarınız için kararlıyız.",
+      "sales": {
+        "title": "Satış Sorguları",
+        "description": "Kurumsal çözümlerimiz ve özel fiyatlandırma seçeneklerimiz hakkında bilgi alın.",
+        "button": "Satışla İletişime Geçin"
+      },
+      "technical": {
+        "title": "Teknik Destek",
+        "description": "API entegrasyonu, sorun giderme ve teknik sorularınızda yardım alın.",
+        "button": "Destek Alın"
+      }
+    }
+  },
+  "endpoints": {
+    "title": "API Referansı",
+    "description": "Kapsamlı API referansı ve dokümantasyonu. Tüm endpoint'leri keşfedin ve test edin."
+  },
+  "tableOfContents": {
+    "title": "İçindekiler"
+  },
+  "introduction": {
+    "title": "Giriş",
+    "subtitle": "Veeq AI Genel API Dokümantasyonu",
+    "welcome": "Veeq AI'ye hoş geldiniz — son teknoloji AI ses teknolojilerine açılan kapınız. API'miz geliştiricileri, sanatçıları ve yaratıcıları devrim niteliğinde şekillerde ses üretme, dönüştürme ve remiksleme konusunda güçlendirir.",
+    "promise": "Yeni nesil AI müzik aracı geliştiriyor, ses iş akışlarını otomatikleştiriyor veya sadece yaratıcı ses dönüşümleriyle deneyim yapıyor olun — sizi destekliyoruz.",
+    "getApiKey": "API Anahtarı Al",
+    "quickStart": "Hızlı Başlangıç",
+    "whatWeOffer": {
+      "title": "Sunduğumuz Hizmetler",
+      "description": "Veeq AI, aşağıdakiler dahil olmak üzere geniş özellik yelpazesi sunan kapsamlı bir AI ses platformudur:",
+      "musicGeneration": {
+        "title": "Müzik Üretimi (MusicAI)",
+        "description": "Metin komutlarını tam uzunlukta şarkılara dönüştürün."
+      },
+      "voiceChanging": {
+        "title": "Ses Değiştirme",
+        "description": "Herhangi bir sesi yenisine dönüştürün — karakter çalışması, gizlilik veya yaratıcılık için ideal."
+      },
+      "textToSpeech": {
+        "title": "Metin-Seslendirme (TTS)",
+        "description": "Özel ses profilleri kullanarak metni ifadeli sese dönüştürün."
+      },
+      "audioProcessing": {
+        "title": "Ses İşleme",
+        "description": "Kayıtlarınızı gürültüden, yankıdan ve reverb'den arındırın."
+      }
+    },
+    "sections": {
+      "authentication": {
+        "title": "Kimlik Doğrulama",
+        "baseUrl": "Ana URL",
+        "authTitle": "Kimlik Doğrulama",
+        "authDescription": "Tüm API istekleri Authorization başlığında bir JWT token gerektirir:",
+        "rateLimits": "Hız Sınırları",
+        "plans": {
+          "free": {
+            "name": "Ücretsiz Plan",
+            "limit": "10 istek/dakika"
+          },
+          "pro": {
+            "name": "Pro Plan",
+            "limit": "100 istek/dakika"
+          },
+          "enterprise": {
+            "name": "Kurumsal",
+            "limit": "Özel sınırlar"
+          }
+        }
+      },
+      "quickStart": {
+        "title": "Hızlı Başlangıç",
+        "step1": {
+          "title": "1. API Anahtarınızı Edinin",
+          "description": "Öncelikle Veeq AI hesabı oluşturun ve kontrol panelinden JWT tokeninizi alın.",
+          "button": "Başlayın"
+        },
+        "step2": {
+          "title": "2. İlk İsteğinizi Gönderin",
+          "description": "Basit bir HTTP isteğiyle ilk müziğinizi üretin:"
+        },
+        "examples": {
+          "curl": "cURL",
+          "javascript": "JavaScript"
+        }
+      },
+      "apiExplorer": {
+        "title": "API Test Aracı",
+        "description": "API endpoint'lerini doğrudan tarayıcınızdan test edin. JWT tokeninizi girin ve canlı yanıtları görmek için istekler yapın."
+      },
+      "apiReference": {
+        "title": "Kapsamlı API Referansı",
+        "description": "Etkileşimli test özellikleriyle birlikte tüm Veeq AI endpoint'lerinin kapsamlı dokümantasyonu."
+      },
+      "sdks": {
+        "title": "SDK'lar ve Kod Üretimi",
+        "description": "SDK üretimimizle hızlı bir şekilde başlayın. Tercih ettiğiniz programlama dili için kullanıma hazır kodları indirin."
+      },
+      "postman": {
+        "title": "Postman Koleksiyonu",
+        "description": "Kolay test ve geliştirme için tam API koleksiyonumuzu Postman'a aktarın. Kimlik doğrulama kurulumu ve yanıt örneklerini içerir."
+      },
+      "openapi": {
+        "title": "OpenAPI Spesifikasyonu",
+        "description": "Otomatik SDK üretimi, dokümantasyon ve API araçlarıyla entegrasyon için OpenAPI (Swagger) spesifikasyonu oluşturun."
+      },
+      "errorHandling": {
+        "title": "Hata Yönetimi",
+        "responseFormat": {
+          "title": "Hata Yanıt Formatı",
+          "description": "Tüm hatalar tutarlı bir format izler:"
+        },
+        "commonCodes": {
+          "title": "Yaygın Hata Kodları",
+          "401": {
+            "code": "401 Yetkisiz",
+            "description": "Geçersiz veya eksik JWT token"
+          },
+          "402": {
+            "code": "402 Ödeme Gerekli",
+            "description": "Yetersiz kredi veya sınır aşımı"
+          },
+          "429": {
+            "code": "429 Hız Sınırı Aşıldı",
+            "description": "Çok fazla istek"
+          },
+          "500": {
+            "code": "500 İç Sunucu Hatası",
+            "description": "Sunucu işleme hatası"
+          }
+        }
+      },
+      "rateLimits": {
+        "title": "Hız Sınırları",
+        "understanding": {
+          "title": "Hız Sınırlarını Anlama",
+          "description": "API'miz, adil kullanım sağlamak ve tüm kullanıcılar için hizmet kalitesini korumak için hız sınırlaması uygular."
+        },
+        "plans": {
+          "free": {
+            "name": "Ücretsiz Plan",
+            "number": "10",
+            "unit": "istek/dakika"
+          },
+          "pro": {
+            "name": "Pro Plan",
+            "number": "100",
+            "unit": "istek/dakika"
+          },
+          "enterprise": {
+            "name": "Kurumsal",
+            "number": "Özel",
+            "unit": "sınırlar mevcut"
+          }
+        }
+      },
+      "support": {
+        "title": "Topluluk ve Destek",
+        "official": {
+          "title": "Resmi Kaynaklar",
+          "javascript": {
+            "title": "JavaScript/Node.js SDK",
+            "description": "TypeScript desteği ile eksiksiz SDK",
+            "availability": "Üretici ile Mevcut"
+          },
+          "python": {
+            "title": "Python SDK",
+            "description": "Tam özellikli Python istemci kütüphanesi",
+            "availability": "Üretici ile Mevcut"
+          },
+          "multiLang": {
+            "title": "Çok Dilli Destek",
+            "description": "PHP, Go, Ruby ve cURL örnekleri",
+            "availability": "Üretici ile Mevcut"
+          }
+        },
+        "community": {
+          "title": "Topluluk",
+          "discord": {
+            "title": "Discord Topluluğu",
+            "description": "Veeq AI kullanan geliştiricilere katılın"
+          },
+          "github": {
+            "title": "GitHub Örnekleri",
+            "description": "Kod örnekleri ve entegrasyonlar"
+          },
+          "support": {
+            "title": "Destek",
+            "description": "7/24 geliştirici desteği"
+          }
+        },
+        "help": {
+          "title": "Yardıma İhtiyacınız Var mı?",
+          "description": "Geliştirici destek ekibimiz, Veeq AI'yi uygulamalarınıza başarıyla entegre etmenize yardımcı olmak için burada.",
+          "contactSupport": "Desteğe Ulaşın",
+          "joinDiscord": "Discord'a Katılın"
+        }
+      }
+    }
+  },
+  "docsLayout": {
+    "title": "API Dokümantasyonu",
+    "searchPlaceholder": "Dokümantasyon arama...",
+    "navigation": {
+      "gettingStarted": "Başlangıç",
+      "introduction": "Giriş",
+      "authentication": "Kimlik Doğrulama",
+      "quickStart": "Hızlı Başlangıç",
+      "apiExplorer": "API Test Aracı",
+      "apiReference": "API Referansı",
+      "allEndpoints": "Tüm Endpoint'ler",
+      "billing": "Faturalama ve Ödemeler",
+      "paymentMethods": "Ödeme Yöntemleri",
+      "stripeIntegration": "Stripe Entegrasyonu",
+      "iyzicoIntegration": "iyzico Entegrasyonu",
+      "billingManagement": "Fatura Yönetimi",
+      "toolsSdks": "Araçlar ve SDK'lar",
+      "sdkGenerator": "SDK Üreticisi",
+      "postman": "Postman Koleksiyonu",
+      "openapi": "OpenAPI Spec",
+      "support": "Destek",
+      "errorHandling": "Hata Yönetimi",
+      "rateLimits": "Hız Sınırları",
+      "getHelp": "Yardım Al"
+    }
+  },
+  "authentication": {
+    "title": "Kimlik Doğrulama",
+    "description": "JWT token kullanarak Veeq AI API'sine yaptığınız istekleri nasıl doğrulayacağınızı öğrenin.",
+    "baseUrl": "Ana URL",
+    "authTitle": "Kimlik Doğrulama",
+    "authDescription": "Tüm API istekleri Authorization başlığında bir JWT token gerektirir:",
+    "rateLimits": "Hız Sınırları",
+    "plans": {
+      "free": {
+        "name": "Ücretsiz Plan",
+        "limit": "10 istek/dakika"
+      },
+      "pro": {
+        "name": "Pro Plan",
+        "limit": "100 istek/dakika"
+      },
+      "enterprise": {
+        "name": "Kurumsal",
+        "limit": "Özel sınırlar"
+      }
+    },
+    "registration": {
+      "title": "Kullanıcı Kaydı",
+      "description": "Yeni kullanıcı hesabı oluşturun ve JWT token alın:"
+    },
+    "response": "Yanıt",
+    "login": {
+      "title": "Kullanıcı Girişi",
+      "description": "Mevcut kimlik bilgilerinizle giriş yapın:"
+    }
+  },
+  "errorHandling": {
+    "title": "Hata Yönetimi",
+    "description": "Veeq AI API'sinden gelen hataları nasıl yöneteceğinizi ve yanıt kodlarını nasıl anlayacağınızı öğrenin.",
+    "copied": "Kopyalandı",
+    "copy": "Kopyala",
+    "responseFormat": {
+      "title": "Hata Yanıt Formatı",
+      "description": "Tüm hatalar tutarlı bir format izler:"
+    },
+    "statusCodes": {
+      "title": "HTTP Durum Kodları",
+      "200": {
+        "code": "200 OK",
+        "description": "İstek başarılı"
+      },
+      "400": {
+        "code": "400 Kötü İstek",
+        "description": "Geçersiz istek parametreleri"
+      },
+      "401": {
+        "code": "401 Yetkisiz",
+        "description": "Geçersiz veya eksik JWT token"
+      },
+      "402": {
+        "code": "402 Ödeme Gerekli",
+        "description": "Yetersiz kredi veya sınır aşımı"
+      },
+      "429": {
+        "code": "429 Hız Sınırı Aşıldı",
+        "description": "Çok fazla istek"
+      },
+      "500": {
+        "code": "500 İç Sunucu Hatası",
+        "description": "Sunucu işleme hatası"
+      }
+    },
+    "errorCodes": {
+      "title": "Hata Kodu Referansı",
+      "headers": {
+        "code": "Hata Kodu",
+        "description": "Açıklama",
+        "solution": "Çözüm"
+      },
+      "invalidCredentials": {
+        "description": "Geçersiz e-posta veya şifre",
+        "solution": "Kimlik bilgilerinizi kontrol edin"
+      },
+      "insufficientCredits": {
+        "description": "İşlem için yeterli kredi yok",
+        "solution": "Daha fazla kredi satın alın"
+      },
+      "rateLimitExceeded": {
+        "description": "Zaman aralığında çok fazla istek",
+        "solution": "Daha fazla istek yapmadan önce bekleyin"
+      },
+      "invalidModel": {
+        "description": "Belirtilen model bulunamadı",
+        "solution": "Geçerli bir model ID kullanın"
+      },
+      "textTooLong": {
+        "description": "Giriş metni maksimum uzunluğu aşıyor",
+        "solution": "Metin uzunluğunu azaltın"
+      }
+    }
+  },
+  "apiExplorer": {
+    "title": "API Test Aracı",
+    "description": "API endpoint'lerini doğrudan tarayıcınızdan test edin. JWT tokeninizi girin ve canlı yanıtları görmek için istekler yapın.",
+    "endpoints": {
+      "getUserInfo": {
+        "title": "Kullanıcı Bilgilerini Al",
+        "description": "Mevcut kullanıcı detaylarını ve kredi bakiyesini alın.",
+        "params": {
+          "authorization": "Kimlik doğrulama için Bearer token"
+        }
+      },
+      "generateMusic": {
+        "title": "Müzik Üret",
+        "description": "AI modelleri kullanarak metin komutlarından özgün müzik oluşturun.",
+        "examplePrompt": "Sentezleyicilerle neşeli elektronik dans müziği",
+        "params": {
+          "prompt": {
+            "description": "Üretilecek müziğin metin açıklaması",
+            "example": "Neşeli elektronik dans müziği"
+          },
+          "modelId": "Kullanılacak AI modelinin ID'si",
+          "duration": "Saniye cinsinden süre (10-120)"
+        }
+      },
+      "generateSpeech": {
+        "title": "Konuşma Üret",
+        "description": "AI sesleri kullanarak metni doğal sesli konuşmaya dönüştürün.",
+        "exampleText": "Merhaba, Veeq AI'ye hoş geldiniz. Bu örnek bir metin-konuşma üretimidir.",
+        "params": {
+          "text": {
+            "description": "Konuşmaya dönüştürülecek metin",
+            "example": "Merhaba, Veeq AI'ye hoş geldiniz"
+          },
+          "voiceId": "Kullanılacak sesin ID'si",
+          "language": "Dil kodu"
+        }
+      },
+      "getModels": {
+        "title": "Mevcut Modelleri Al",
+        "description": "Müzik üretimi için mevcut AI modellerinin listesini alın.",
+        "params": {
+          "type": "Model türüne göre filtrele (music, tts)"
+        }
+      }
+    }
+  },
+  "endpoints": {
+    "title": "Kapsamlı API Referansı",
+    "description": "Etkileşimli test özellikleriyle birlikte tüm Veeq AI endpoint'lerinin kapsamlı dokümantasyonu."
+  },
+  "sdkGenerator": {
+    "title": "SDK'lar ve Kod Üretimi",
+    "description": "SDK üretimimizle hızlı bir şekilde başlayın. Tercih ettiğiniz programlama dili için kullanıma hazır kodları indirin."
+  },
+  "postmanCollection": {
+    "title": "Postman Koleksiyonu",
+    "description": "Kolay test ve geliştirme için tam API koleksiyonumuzu Postman'a aktarın. Kimlik doğrulama kurulumu ve yanıt örneklerini içerir."
+  },
+  "openApiSpec": {
+    "title": "OpenAPI Spesifikasyonu",
+    "description": "Otomatik SDK üretimi, dokümantasyon ve API araçlarıyla entegrasyon için OpenAPI (Swagger) spesifikasyonu oluşturun."
+  },
+  "rateLimits": {
+    "title": "Hız Sınırları",
+    "description": "Uygulamalarınızda hız sınırlamasını anlama ve nasıl ele alacağınız.",
+    "understanding": {
+      "title": "Hız Sınırlarını Anlama",
+      "description": "API'miz, adil kullanım sağlamak ve tüm kullanıcılar için hizmet kalitesini korumak için hız sınırlaması uygular. Hız sınırları API anahtarı başına uygulanır ve her dakika sıfırlanır."
+    },
+    "plans": {
+      "free": {
+        "name": "Ücretsiz Plan",
+        "number": "10",
+        "unit": "istek/dakika"
+      },
+      "pro": {
+        "name": "Pro Plan", 
+        "number": "100",
+        "unit": "istek/dakika"
+      },
+      "enterprise": {
+        "name": "Kurumsal",
+        "number": "Özel",
+        "unit": "sınırlar mevcut"
+      }
+    },
+    "headers": {
+      "title": "Hız Sınırı Başlıkları",
+      "description": "Her API yanıtı, hız sınırı durumunuzu izlemenize yardımcı olan başlıklar içerir:",
+      "limit": {
+        "name": "X-RateLimit-Limit",
+        "description": "Dakika başına izin verilen maksimum istek sayısı"
+      },
+      "remaining": {
+        "name": "X-RateLimit-Remaining",
+        "description": "Geçerli pencerede kalan istek sayısı"
+      },
+      "reset": {
+        "name": "X-RateLimit-Reset",
+        "description": "Hız sınırı penceresinin sıfırlandığı Unix zaman damgası"
+      }
+    },
+    "handling": {
+      "title": "Hız Sınırlarını Yönetme",
+      "jsExample": "JavaScript Örneği",
+      "pythonExample": "Python Örneği"
+    },
+    "bestPractices": {
+      "title": "En İyi Uygulamalar",
+      "monitor": {
+        "title": "Hız Sınırı Başlıklarını İzle",
+        "description": "Sınırlara çarpmamak için yanıtlardaki hız sınırı başlıklarını her zaman kontrol edin"
+      },
+      "backoff": {
+        "title": "Üstel Geri Çekilme Uygula",
+        "description": "Başarısız istekleri yeniden denerken üstel geri çekilme kullanın"
+      },
+      "cache": {
+        "title": "Yanıtları Önbelleğe Al",
+        "description": "API çağrılarını azaltmak için mümkün olduğunda API yanıtlarını önbelleğe alın"
+      },
+      "batch": {
+        "title": "Toplu İstekler",
+        "description": "Desteklendiğinde birden fazla işlemi tek istekte gruplandırın"
+      },
+      "upgrade": {
+        "title": "Planınızı Yükseltin",
+        "description": "Daha yüksek hız sınırları için Pro veya Kurumsal plana yükseltmeyi düşünün"
+      }
+    }
+  },
+  "help": {
+    "title": "Yardım Al",
+    "description": "Geliştirici destek ekibimiz, Veeq AI'yi uygulamalarınıza başarıyla entegre etmenize yardımcı olmak için burada."
+  },
+  "paymentMethods": {
+    "title": "Ödeme Yöntemleri",
+    "description": "Veeq AI hesabınız için ödeme yöntemlerini ve faturalama bilgilerini yönetin.",
+    "supported": {
+      "title": "Desteklenen Ödeme Yöntemleri",
+      "cards": "Kredi ve Banka Kartları",
+      "turkish": "Türk Ödeme Yöntemleri"
+    },
+    "security": {
+      "title": "Ödeme Güvenliği"
+    },
+    "api": {
+      "title": "Faturalama API Endpoint'leri"
+    },
+    "currencies": {
+      "title": "Desteklenen Para Birimleri"
+    }
+  },
+  "stripeIntegration": {
+    "title": "Stripe Entegrasyonu",
+    "description": "Kapsamlı API'miz ile uluslararası kullanıcılar için Stripe ödemelerini entegre edin.",
+    "copied": "Kopyalandı",
+    "copy": "Kopyala",
+    "setup": {
+      "title": "Stripe Kurulumu"
+    },
+    "paymentIntent": {
+      "title": "Ödeme Niyeti Oluştur"
+    },
+    "webhooks": {
+      "title": "Webhook İşleme"
+    },
+    "testCards": {
+      "title": "Test Kartları"
+    },
+    "bestPractices": {
+      "title": "En İyi Uygulamalar"
+    }
+  },
+  "billingManagement": {
+    "title": "Faturalama Yönetimi",
+    "description": "API'miz aracılığıyla abonelikleri, faturaları ve faturalama bilgilerini yönetin.",
+    "subscription": {
+      "title": "Abonelik Yönetimi",
+      "getCurrent": "Mevcut abonelik detaylarını alın",
+      "upgrade": "Abonelik planını yükseltin",
+      "cancel": "Aboneliği iptal edin (dönem sonuna kadar aktif)",
+      "resume": "İptal edilen aboneliği yeniden başlatın"
+    },
+    "invoice": {
+      "title": "Fatura Yönetimi",
+      "list": "Tüm faturaları listele",
+      "getDetails": "Belirli fatura detaylarını al",
+      "download": "Fatura PDF'ini indir"
+    },
+    "credits": {
+      "title": "Kredi ve Kullanım",
+      "getBalance": "Mevcut kredi bakiyesini al",
+      "purchase": "Ek kredi satın al",
+      "getUsage": "Kullanım istatistiklerini al"
+    },
+    "address": {
+      "title": "Faturalama Adresi",
+      "getCurrent": "Mevcut faturalama adresini al",
+      "update": "Faturalama adresini güncelle"
+    },
+    "notifications": {
+      "title": "Faturalama Bildirimleri",
+      "getPreferences": "Bildirim tercihlerini al",
+      "updateSettings": "Bildirim ayarlarını güncelle"
+    },
+    "plans": {
+      "title": "Plan Detayları"
+    }
+  },
+  "paymentMethods": {
+    "title": "Ödeme Yöntemleri",
+    "description": "Veeq AI hesabınız için ödeme yöntemlerini ve faturalama bilgilerini yönetin.",
+    "supported": {
+      "title": "Desteklenen Ödeme Yöntemleri",
+      "cards": "Kredi ve Banka Kartları",
+      "turkish": "Türk Ödeme Yöntemleri"
+    },
+    "security": {
+      "title": "Ödeme Güvenliği"
+    },
+    "api": {
+      "title": "Faturalama API Endpoint'leri",
+      "endpoints": {
+        "list": "Kayıtlı ödeme yöntemlerini listele",
+        "add": "Yeni ödeme yöntemi ekle",
+        "update": "Ödeme yöntemini güncelle",
+        "remove": "Ödeme yöntemini kaldır"
+      }
+    },
+    "currencies": {
+      "title": "Desteklenen Para Birimleri"
+    }
+  }
+}

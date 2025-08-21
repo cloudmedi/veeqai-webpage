@@ -1,0 +1,3216 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "docs": "Documentation",
+    "login": "Login",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "products": "Products",
+    "getStarted": "Get Started",
+    "dashboard": "Dashboard",
+    "dropdown": {
+      "textToSpeech": "Text to Speech",
+      "textToSpeechDesc": "Natural AI voices for professional narrations, podcasts, and audiobooks",
+      "musicGenerator": "Music Generator",
+      "musicGeneratorDesc": "Create royalty-free original music and jingles for your projects",
+      "voiceCloning": "Voice Cloning",
+      "voiceCloningDesc": "Clone any voice with high accuracy and make it speak any text",
+      "voiceDesign": "Voice Design",
+      "voiceDesignDesc": "Design unique character voices for games and animations",
+      "voiceIsolator": "Voice Isolator",
+      "voiceIsolatorDesc": "Remove background noise and enhance audio quality to professional level"
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Unlock the full potential of AI-powered audio creation with our flexible pricing plans. Start free and scale as you grow.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save17": "Save 17%",
+    "save20": "Save 20%",
+    "limitedTime": "Limited-time",
+    "monthBilledAnnually": "month billed annually",
+    "year": "year",
+    "month": "month",
+    "saveAnnually": "Save {{discount}}% annually",
+    "creditsPerMonth": "credits per month",
+    "yearlyComingSoon": "Yearly pricing coming soon",
+    "startFree": "Start Free",
+    "getStarted": "Get Started",
+    "noPlans": "No pricing plans available at the moment.",
+    "compareFeatures": "Compare All Features",
+    "compareFeaturesDesc": "See exactly what's included in each plan",
+    "monthlyCredits": "Monthly Credits",
+    "planNames": {
+      "free": "Free",
+      "starter": "Starter",
+      "creator": "Creator", 
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    },
+    "features": {
+      "title": "Features",
+      "textToSpeech": "Lifelike Text-to-Speech",
+      "textToSpeechDesc": "Natural voices ({{rate}} credits/char)",
+      "musicGeneration": "AI Music Generation",
+      "musicGenerationDesc": "Custom music creation ({{rate}} credits/30s)",
+      "voiceCloning": "Voice Cloning",
+      "voiceCloningDesc": "Clone any voice ({{rate}} credits/voice)",
+      "voiceIsolator": "Voice Isolator",
+      "voiceIsolatorDesc": "Separate vocals ({{rate}} credits/min)",
+      "apiAccess": "API Access",
+      "apiAccessDesc": "Integrate into applications",
+      "commercialLicense": "Commercial License",
+      "commercialLicenseDesc": "Use for commercial purposes",
+      "prioritySupport": "Priority Support",
+      "prioritySupportDesc": "24/7 dedicated support team",
+      "teamCollaboration": "Team Collaboration"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Have questions about our pricing? We're here to help.",
+      "stillHaveQuestions": "Still have questions? Our support team is here to help.",
+      "contactSupport": "Contact Support",
+      "q1": "What are credits and how do they work?",
+      "a1": "Credits are our usage-based currency. Each AI feature consumes credits: Text-to-Speech uses 1 credit per character, Music Generation uses 200 credits per 30 seconds, Voice Cloning uses 2,000 credits to create a voice model, and Voice Isolator uses 100 credits per minute.",
+      "q2": "Do unused credits roll over to the next month?",
+      "a2": "Yes! Unused credits automatically roll over to the next billing cycle. You can accumulate up to 3 months worth of credits, giving you flexibility in how you use VeeqAI.",
+      "q3": "Can I cancel my subscription anytime?",
+      "a3": "Absolutely! You can cancel your subscription at any time from your account settings. Your plan will remain active until the end of your current billing period, and you'll keep all unused credits.",
+      "q4": "What's the difference between monthly and yearly billing?",
+      "a4": "Yearly billing gives you a 17% discount (equivalent to 2 months free) and is billed once per year. Monthly billing is charged every month. Both options include the same features and credit allocations.",
+      "q5": "Do you offer refunds?",
+      "a5": "We offer a 14-day money-back guarantee for all paid plans. If you're not satisfied with VeeqAI within the first 14 days, contact our support team for a full refund.",
+      "q6": "Can I upgrade or downgrade my plan?",
+      "a6": "Yes, you can change your plan at any time. Upgrades take effect immediately with prorated billing. Downgrades take effect at the start of your next billing cycle.",
+      "q7": "Is there an API available?",
+      "a7": "Yes! API access is available starting from the Starter plan. The Professional plan includes dedicated endpoints and higher rate limits for enterprise applications.",
+      "q8": "Do you offer enterprise solutions?",
+      "a8": "Yes, we offer custom enterprise solutions for large organizations. This includes custom pricing, SLA guarantees, SSO support, and dedicated account management."
+    },
+    "mostPopular": "Most Popular",
+    "creditSystem": {
+      "title": "Credit System Explained",
+      "subtitle": "Our transparent credit system ensures you only pay for what you use. No hidden fees, no surprise charges.",
+      "textToSpeech": "Text-to-Speech",
+      "textToSpeechDesc": "1 credit per character",
+      "musicGeneration": "Music Generation",
+      "musicGenerationDesc": "200 credits per 30s",
+      "voiceCloning": "Voice Cloning",
+      "voiceCloningDesc": "2,000 credits per model",
+      "voiceIsolator": "Voice Isolator",
+      "voiceIsolatorDesc": "100 credits per minute"
+    },
+    "enterprise": {
+      "description": "Need a custom plan? We offer enterprise solutions with unlimited credits and dedicated support.",
+      "cta": "Contact Enterprise Sales"
+    },
+    "documentation": {
+      "title": "API Documentation",
+      "search": "Search documentation...",
+      "navigation": {
+        "gettingStarted": "Getting Started",
+        "introduction": "Introduction",
+        "authentication": "Authentication",
+        "quickStart": "Quick Start",
+        "apiExplorer": "API Explorer",
+        "apiReference": "API Reference",
+        "allEndpoints": "All Endpoints",
+        "musicGeneration": "Music Generation",
+        "textToSpeech": "Text-to-Speech",
+        "credits": "Credits & Billing",
+        "toolsSdks": "Tools & SDKs",
+        "sdkGenerator": "SDK Generator",
+        "postman": "Postman Collection",
+        "openapi": "OpenAPI Spec",
+        "support": "Support",
+        "errorHandling": "Error Handling",
+        "rateLimits": "Rate Limits",
+        "getHelp": "Get Help"
+      },
+      "intro": {
+        "badge": "API Documentation",
+        "title": "Introduction",
+        "subtitle": "Veeq AI Public API Documentation",
+        "description": "Welcome to Veeq AI — your gateway to cutting-edge AI audio technology. Our API empowers developers, artists, and creators to generate, transform, and remix audio in revolutionary ways.",
+        "goal": "Whether you're building the next-gen AI music tool, automating voice workflows, or just experimenting with creative audio conversions — we've got you covered.",
+        "getApiKey": "Get API Key",
+        "quickStart": "Quick Start"
+      },
+      "whatWeOffer": {
+        "title": "What We Offer",
+        "description": "Veeq AI is a comprehensive AI audio platform offering a wide range of features including:",
+        "musicGeneration": {
+          "title": "Music Generation (MusicAI)",
+          "description": "Turn text prompts into full-length songs."
+        },
+        "voiceChanging": {
+          "title": "Voice Changing",
+          "description": "Convert any voice into a new one — ideal for character work, privacy, or creativity."
+        },
+        "textToSpeech": {
+          "title": "Text-to-Speech (TTS)",
+          "description": "Convert text to expressive voice using custom voice profiles."
+        },
+        "audioProcessing": {
+          "title": "Audio Processing",
+          "description": "De-noise, de-echo, and de-reverb your recordings."
+        }
+      }
+    }
+  },
+  "hero": {
+    "title": {
+      "prefix": "Produce professional",
+      "suffix": "content in minutes"
+    },
+    "subtitle": "Craft voices, music, and audio for your YouTube videos, podcasts, apps, and courses. No expensive studios or voice actors needed.",
+    "sampleText": "Craft professional voiceovers for your YouTube videos, podcasts, and audiobooks. Generate natural-sounding speech in any voice, any language, instantly.",
+    "typewriter": {
+      "voiceovers": "voiceovers",
+      "soundtracks": "soundtracks",
+      "podcasts": "podcasts",
+      "commercials": "commercials",
+      "stories": "stories"
+    },
+    "cta": {
+      "startCreating": "Start Creating Free",
+      "exploreFeatures": "Explore Features"
+    },
+    "tabs": {
+      "textToSpeech": "TEXT TO SPEECH",
+      "musicGeneration": "MUSIC GENERATION",
+      "voiceCloning": "VOICE CLONING",
+      "voiceDesign": "VOICE DESIGN",
+      "voiceIsolator": "VOICE ISOLATOR"
+    },
+    "tryItYourself": "Try it yourself",
+    "textareaPlaceholder": "Enter your text here...",
+    "charactersCount": "characters",
+    "generateAudio": "Create Audio",
+    "chooseVoice": "Choose a voice",
+    "voices": {
+      "professional": {
+        "name": "Professional",
+        "tag": "Business presentations"
+      },
+      "friendly": {
+        "name": "Friendly",
+        "tag": "Educational content"
+      },
+      "podcast": {
+        "name": "Podcast",
+        "tag": "Conversational style"
+      },
+      "storyteller": {
+        "name": "Storyteller",
+        "tag": "Audiobooks & stories"
+      },
+      "marketing": {
+        "name": "Marketing",
+        "tag": "Promotional content"
+      },
+      "news": {
+        "name": "News",
+        "tag": "Professional reporting"
+      }
+    },
+    "languages": {
+      "english": "ENGLISH",
+      "turkish": "TURKISH",
+      "spanish": "SPANISH",
+      "french": "FRENCH",
+      "german": "GERMAN",
+      "italian": "ITALIAN",
+      "portuguese": "PORTUGUESE",
+      "polish": "POLISH"
+    },
+    "stats": {
+      "faster": "Faster than hiring voice actors",
+      "cheaper": "Cheaper than traditional methods",
+      "languages": "Languages supported",
+      "available": "Available whenever you need"
+    }
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to produce amazing audio content",
+    "mainTitle": "Create professional audio content in minutes",
+    "mainDescription": "Generate voices, music, and audio for your YouTube videos, podcasts, apps, and courses. No expensive studios or voice actors needed.",
+    "voiceSection": {
+      "title": "AI Voice & Speech Generation",
+      "description": "Build natural-sounding voiceovers and clone voices for consistent branding. Generate speech in multiple languages and customize voice characteristics to match your content style.",
+      "features": {
+        "textToSpeech": {
+          "title": "Natural Text-to-Speech",
+          "description": "Transform any text into professional voiceovers with emotion and personality"
+        },
+        "voiceCloning": {
+          "title": "Instant Voice Cloning",
+          "description": "Clone your voice or any voice with just minutes of audio samples"
+        },
+        "multiLanguage": {
+          "title": "Multi-Language Support",
+          "description": "Produce content in 12+ languages with perfect pronunciation"
+        },
+        "brandConsistency": {
+          "title": "Brand Consistency",
+          "description": "Maintain the same voice across all your content and platforms"
+        }
+      },
+      "benefits": {
+        "textToSpeech": {
+          "title": "Text-to-Speech",
+          "subtitle": "Natural voices in 12+ languages"
+        },
+        "voiceCloning": {
+          "title": "Voice Cloning",
+          "subtitle": "Clone any voice for unlimited content"
+        }
+      }
+    },
+    "musicSection": {
+      "title": "AI Music & Audio Tools",
+      "description": "Compose original music and clean up audio recordings. From background tracks to professional audio processing, everything you need for complete audio production.",
+      "features": {
+        "musicCreation": {
+          "title": "Original Music Creation",
+          "description": "Compose unique soundtracks in any style - from calm ambient to energetic rock"
+        },
+        "audioEnhancement": {
+          "title": "Audio Enhancement",
+          "description": "Remove background noise and improve audio quality automatically"
+        },
+        "copyrightFree": {
+          "title": "Copyright-Free Content",
+          "description": "All generated music is 100% royalty-free and safe for commercial use"
+        },
+        "professionalQuality": {
+          "title": "Professional Quality",
+          "description": "Studio-grade audio output ready for any platform or project"
+        }
+      },
+      "benefits": {
+        "musicGeneration": {
+          "title": "Music Generation",
+          "subtitle": "Original tracks with no copyright issues"
+        },
+        "audioProcessing": {
+          "title": "Audio Processing",
+          "subtitle": "Professional editing and enhancement tools"
+        }
+      }
+    },
+    "businessSection": {
+      "title": "Built for Content Creators & Businesses",
+      "description": "Scale your audio production with enterprise-grade tools and support. Perfect for marketing teams, content creators, educators, and businesses of all sizes.",
+      "features": {
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "description": "Share projects and collaborate with your team seamlessly"
+        },
+        "apiIntegration": {
+          "title": "API Integration",
+          "description": "Integrate with your existing tools and automate your workflow"
+        },
+        "prioritySupport": {
+          "title": "Priority Support",
+          "description": "Get dedicated support and custom solutions for your business"
+        },
+        "advancedAnalytics": {
+          "title": "Advanced Analytics",
+          "description": "Track usage, performance, and optimize your audio content strategy"
+        }
+      },
+      "benefits": {
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "subtitle": "Work together on audio projects"
+        },
+        "enterpriseFeatures": {
+          "title": "Enterprise Features",
+          "subtitle": "Advanced tools for business needs"
+        }
+      }
+    },
+    "stats": {
+      "faster": "Faster than traditional methods",
+      "cheaper": "More cost-effective solution",
+      "available": "Available 24/7 worldwide",
+      "unlimited": "Unlimited creative possibilities"
+    },
+    "cta": {
+      "seeAllFeatures": "See All Features",
+      "startFreeTrial": "Start Free Trial",
+      "freeCreditsInfo": "No credit card required • 100 free credits included"
+    },
+    "musicGenerator": {
+      "title": "Music Generator",
+      "description": "Compose original music tracks with AI in seconds"
+    },
+    "textToSpeech": {
+      "title": "Text to Speech",
+      "description": "Convert text to natural-sounding speech in multiple languages"
+    },
+    "voiceCloning": {
+      "title": "Voice Cloning",
+      "description": "Clone any voice with just a few minutes of audio"
+    },
+    "voiceDesign": {
+      "title": "Voice Design",
+      "description": "Design custom voices for your unique needs"
+    },
+    "voiceIsolator": {
+      "title": "Voice Isolator",
+      "description": "Isolate and extract voices from any audio"
+    },
+    "textToSpeech": {
+      "title": "Turn Any Text Into Natural Speech",
+      "description": "Transform your scripts, articles, and content into professional voiceovers instantly. Never hire expensive voice actors again. Perfect for YouTube videos, podcasts, audiobooks, presentations, and marketing materials. Generate hours of content in minutes, not days.",
+      "stat1": "Languages including English, Spanish, French",
+      "stat2": "Average monthly savings vs. hiring voice talent",
+      "stat3": "To create 30-minute audiobook chapter"
+    },
+    "musicGeneration": {
+      "title": "Create Original Background Music",
+      "description": "Stop worrying about copyright strikes and expensive music licensing. Generate unlimited original soundtracks, background music, and intros for your content. Perfect for YouTube videos, podcasts, commercials, and social media posts. Own your music 100% - no royalties, no restrictions.",
+      "stat1": "Unlimited tracks with no licensing fees",
+      "stat2": "Average cost of single licensed track",
+      "stat3": "Copyright strikes when using our music"
+    },
+    "voiceCloning": {
+      "title": "Clone Your Voice for Unlimited Content",
+      "description": "Record yourself once, create content forever. Upload a short audio sample and generate unlimited content in your own voice - even when you're sick, traveling, or sleeping. Maintain consistent branding across all your videos and podcasts without ever stepping into a studio again.",
+      "stat1": "Record once, use forever",
+      "stat2": "Create content anytime, anywhere",
+      "stat3": "Brand consistency across all content"
+    },
+    "voiceDesign": {
+      "title": "Design Custom Voices for Any Character",
+      "description": "Need different characters for your content? Create unique voices instantly - from professional narrators to energetic hosts to dramatic storytellers. Perfect for audiobooks, educational content, marketing videos, and entertainment. No voice actors needed, just describe what you want.",
+      "stat1": "Different characters for your stories",
+      "stat2": "No voice actor hiring costs",
+      "stat3": "To create any voice you can imagine"
+    },
+    "voiceIsolator": {
+      "title": "Clean Up Messy Audio Recordings",
+      "description": "Got noisy recordings? Remove background noise, echo, and distractions from your audio files. Perfect for cleaning up podcast recordings, phone interviews, or old audio files you want to use for voice cloning. Turn amateur recordings into professional-quality audio.",
+      "stat1": "Remove background noise completely",
+      "stat2": "Clean up old recordings instantly",
+      "stat3": "Professional quality from any audio"
+    },
+    "whyChoose": {
+      "stat1": "Faster than hiring voice actors",
+      "stat2": "Cheaper than traditional methods",
+      "stat3": "Available whenever you need it",
+      "stat4": "Unlimited content generation"
+    },
+    "successStories": {
+      "title": "Who's Already Winning with Veeq AI",
+      "contentCreators": {
+        "title": "Content Creators & YouTubers",
+        "description": "Stop spending $1,000+ per video on voice talent. Create consistent, professional narration for unlimited content. Add perfect background music without copyright worries.",
+        "useCase1": {
+          "title": "YouTube Videos & Podcasts",
+          "description": "Generate hours of narration in your own voice, even when you're sick or traveling"
+        },
+        "useCase2": {
+          "title": "Audiobooks & Long-form Content",
+          "description": "Transform blog posts into engaging audio content that increases audience retention by 300%"
+        },
+        "useCase3": {
+          "title": "Multilingual Content",
+          "description": "Expand your global reach by speaking 12+ languages fluently without hiring translators"
+        }
+      },
+      "businesses": {
+        "title": "Businesses & Enterprises",
+        "description": "Scale your marketing and training without hiring expensive agencies. Create consistent brand voices across all touchpoints while reducing production costs by 85%.",
+        "useCase1": {
+          "title": "Marketing & Advertisements",
+          "description": "Launch campaigns in multiple languages simultaneously with perfect brand voice consistency"
+        },
+        "useCase2": {
+          "title": "Training & E-learning",
+          "description": "Update training materials instantly without re-recording entire modules"
+        },
+        "useCase3": {
+          "title": "Customer Support & IVR",
+          "description": "Deploy natural-sounding voice assistants that actually understand and help customers"
+        }
+      },
+      "savings": {
+        "creators": "Average savings for Content Creators",
+        "businesses": "Average savings for Businesses"
+      }
+    },
+    "scale": {
+      "title": "Scale Your Content Business",
+      "subtitle": "Everything you need to grow from solo creator to content empire",
+      "creators": {
+        "title": "For Growing Creators",
+        "feature1": {
+          "title": "Team Collaboration",
+          "description": "Add editors and assistants to your account. Everyone works together seamlessly."
+        },
+        "feature2": {
+          "title": "Batch Content Creation",
+          "description": "Create dozens of videos at once. Upload scripts, get all voiceovers in minutes."
+        },
+        "feature3": {
+          "title": "Analytics & Insights",
+          "description": "Track your content performance and audio generation usage with detailed reports."
+        },
+        "feature4": {
+          "title": "Priority Processing",
+          "description": "Jump to the front of the queue. Generate content faster when you're on deadline."
+        }
+      },
+      "businesses": {
+        "title": "For Serious Businesses",
+        "feature1": {
+          "title": "API Access",
+          "description": "Integrate Veeq AI into your existing tools and workflows automatically."
+        },
+        "feature2": {
+          "title": "White-Label Solutions",
+          "description": "Remove Veeq branding and add your own. Perfect for agencies and resellers."
+        },
+        "feature3": {
+          "title": "Dedicated Support",
+          "description": "Get a dedicated account manager and priority support for your team."
+        },
+        "feature4": {
+          "title": "Custom Solutions",
+          "description": "Need something special? We'll build custom features for your specific needs."
+        }
+      },
+      "stats": {
+        "uptime": "Uptime guarantee for your business",
+        "generation": "Content generation for Enterprise",
+        "support": "Response time for urgent support"
+      }
+    },
+    "finalCta": {
+      "title": "Ready to Transform Your Audio Content?",
+      "description": "Join thousands of creators and businesses who've already revolutionized their content creation process. Start with 5,000 free credits and see the difference for yourself.",
+      "button": "Start Creating Professional Content Now",
+      "offer": "5,000 free credits • No credit card required • Cancel anytime",
+      "setup": "Set up in 2 minutes • Generate your first audio in 30 seconds"
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your needs",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save 20%",
+    "currency": "$",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "getStarted": "Get Started",
+    "currentPlan": "Current Plan",
+    "features": {
+      "credits": "credits/month",
+      "support": "support",
+      "api": "API Access",
+      "customVoices": "Custom Voices",
+      "priorityProcessing": "Priority Processing"
+    },
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "0",
+        "credits": "100",
+        "support": "Community",
+        "features": ["100 credits/month", "Basic features", "Community support"]
+      },
+      "starter": {
+        "name": "Starter",
+        "price": "9",
+        "credits": "1,000",
+        "support": "Email",
+        "features": ["1,000 credits/month", "All features", "Email support", "API Access"]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "29",
+        "credits": "5,000",
+        "support": "Priority",
+        "popular": true,
+        "features": ["5,000 credits/month", "All features", "Priority support", "API Access", "Custom voices"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "credits": "Unlimited",
+        "support": "Dedicated",
+        "features": ["Unlimited credits", "All features", "Dedicated support", "Custom integration", "SLA"]
+      }
+    }
+  },
+  "footer": {
+    "description": "The most realistic AI voice platform. Build lifelike speech with text-to-speech, voice cloning, and music generation.",
+    "partners": "Partners",
+    "helpCenter": "Help Center",
+    "apiReference": "API Reference",
+    "community": "Community",
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "careers": "Careers",
+      "press": "Press",
+      "blog": "Blog"
+    },
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "api": "API",
+      "integrations": "Integrations"
+    },
+    "resources": {
+      "title": "Resources",
+      "docs": "Documentation",
+      "guides": "Guides",
+      "support": "Support",
+      "status": "Status"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© 2025 VeeqAI. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "tryAgain": "Try Again",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "download": "Download",
+    "upload": "Upload",
+    "share": "Share",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "description": "Description",
+    "date": "Date",
+    "time": "Time",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    }
+  },
+  "about": {
+    "title": "About Veeq AI",
+    "subtitle": "We're revolutionizing content creation by making professional audio accessible to everyone through cutting-edge AI technology. Whether you're a YouTuber, podcaster, or business owner, our platform empowers you to create studio-quality audio without the traditional barriers of cost, complexity, or time.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To democratize audio creation by making professional-quality audio generation accessible to everyone through cutting-edge AI technology.",
+      "democratize": {
+        "title": "Democratize Creation",
+        "description": "Remove barriers to professional audio production"
+      },
+      "removeBarriers": {
+        "title": "Remove Barriers",
+        "description": "Eliminate the need for expensive equipment and expertise"
+      },
+      "empowerInnovation": {
+        "title": "Empower Innovation",
+        "description": "Enable creators to focus on ideas, not technical limitations"
+      }
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A world where anyone can create professional audio content instantly. Where language barriers disappear, where every voice can be heard, and where creativity knows no bounds.",
+      "globalCommunication": {
+        "title": "Global Communication",
+        "description": "Break down language barriers with AI translation"
+      },
+      "creativeFreedom": {
+        "title": "Creative Freedom",
+        "description": "Unlimited content creation without constraints"
+      },
+      "industryTransformation": {
+        "title": "Industry Transformation",
+        "description": "Revolutionize how audio content is created and consumed"
+      }
+    },
+    "team": {
+      "title": "Who We Are",
+      "subtitle": "Meet the passionate team building the future of AI audio technology",
+      "description": "We're a team of AI researchers, audio engineers, and passionate creators who believe that everyone deserves access to professional-quality audio tools. Our diverse backgrounds in machine learning, audio processing, and content creation drive us to build solutions that actually solve real problems.",
+      "expertise": {
+        "title": "Our Expertise",
+        "ai": {
+          "title": "AI & Machine Learning",
+          "description": "Advanced neural networks and deep learning models"
+        },
+        "audio": {
+          "title": "Audio Engineering",
+          "description": "Professional audio processing and signal analysis"
+        },
+        "content": {
+          "title": "Content Creation",
+          "description": "Real-world experience in podcasting and video production"
+        }
+      },
+      "background": {
+        "title": "Our Background",
+        "tech": {
+          "title": "Tech Industry Veterans",
+          "description": "Experience from leading tech companies and startups"
+        },
+        "academic": {
+          "title": "Academic Research",
+          "description": "PhD researchers in AI and computer science"
+        },
+        "creative": {
+          "title": "Creative Professionals",
+          "description": "Musicians, podcasters, and content creators"
+        }
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do at Veeq AI",
+      "innovation": {
+        "title": "Innovation First",
+        "description": "We're constantly pushing the boundaries of what's possible with AI audio technology. Every feature we build aims to solve real problems for real creators.",
+        "tagline": "Always seeking better, faster, and more creative solutions"
+      },
+      "userCentric": {
+        "title": "User-Centric Design",
+        "description": "Every decision we make starts with our users. We listen, iterate, and improve based on real feedback from the creators who use our platform daily.",
+        "tagline": "Building for creators, with creators"
+      },
+      "speed": {
+        "title": "Speed & Simplicity",
+        "description": "Time is the most valuable resource for creators. We obsess over making our platform fast, intuitive, and efficient so you can focus on what matters most.",
+        "tagline": "Removing friction from the creative process"
+      },
+      "accessibility": {
+        "title": "Global Accessibility",
+        "description": "Great ideas come from everywhere. We build technology that works for creators across languages, cultures, and geographies.",
+        "tagline": "Making creativity borderless"
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Veeq AI was founded with a clear goal: to make professional audio technologies accessible to everyone. We transform high-cost, time-consuming, and complex audio production processes into simple, fast, and affordable solutions through our AI-powered software.",
+      "paragraph2": "Our founders combined their expertise in software development and audio technologies to create a platform capable of producing studio-quality voiceovers, music, and audio content entirely in a digital environment. This eliminates the need for expensive equipment, lengthy production cycles, and large teams.",
+      "paragraph3": "Today, Veeq AI supports thousands of users worldwide — from YouTubers and podcasters to media agencies and corporate brands — by empowering their content creation processes with the strength of software. Our mission is to make professional audio technology available to anyone, anywhere."
+    },
+    "connect": {
+      "title": "Want to Connect?",
+      "description": "We love hearing from our users! Whether you have feedback, questions, or just want to say hello, we're always excited to connect with fellow creators and audio enthusiasts.",
+      "tryPlatform": {
+        "title": "Try Our Platform",
+        "description": "Experience the power of AI audio creation with our free trial. No commitment required.",
+        "button": "Start Free Trial"
+      },
+      "learnMore": {
+        "title": "Learn More",
+        "description": "Discover all the amazing things you can create with our AI audio tools and features.",
+        "button": "Explore Features"
+      },
+      "joinCreators": "Join 50K+ creators who are already using Veeq AI to transform their content"
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "search": "Search documentation...",
+    "navigation": {
+      "gettingStarted": "Getting Started",
+      "authentication": "Authentication",
+      "quickStart": "Quick Start",
+      "apiReference": "API Reference",
+      "endpoints": "Endpoints",
+      "sdks": "SDKs",
+      "examples": "Examples",
+      "guides": "Guides",
+      "errorHandling": "Error Handling",
+      "rateLimits": "Rate Limits",
+      "billing": "Billing",
+      "paymentMethods": "Payment Methods",
+      "help": "Help & Support"
+    }
+  },
+  "products": {
+    "musicGenerator": {
+      "title": "AI Music Generator",
+      "description": "Compose original music in any style with our advanced AI",
+      "features": {
+        "genres": "Multiple Genres",
+        "customization": "Full Customization",
+        "quality": "Studio Quality",
+        "export": "Multiple Export Formats"
+      },
+      "cta": "Start Creating Music"
+    },
+    "textToSpeech": {
+      "title": "Text to Speech",
+      "description": "Convert any text to natural-sounding speech",
+      "features": {
+        "languages": "50+ Languages",
+        "voices": "100+ Natural Voices",
+        "emotions": "Emotional Control",
+        "speed": "Speed Control"
+      },
+      "cta": "Try Text to Speech"
+    },
+    "voiceCloning": {
+      "title": "Voice Cloning",
+      "description": "Clone any voice with just minutes of audio",
+      "features": {
+        "accuracy": "99% Accuracy",
+        "languages": "Multilingual",
+        "realtime": "Real-time Processing",
+        "secure": "Secure & Private"
+      },
+      "cta": "Clone Your Voice"
+    },
+    "voiceDesign": {
+      "title": "Voice Design",
+      "description": "Design custom voices for your brand",
+      "features": {
+        "customization": "Full Customization",
+        "personality": "Personality Control",
+        "consistency": "Consistent Output",
+        "branding": "Brand Voice"
+      },
+      "cta": "Design a Voice"
+    },
+    "voiceIsolator": {
+      "title": "Voice Isolator",
+      "description": "Extract and isolate voices from any audio",
+      "features": {
+        "separation": "Clean Separation",
+        "multitrack": "Multi-track Support",
+        "noise": "Noise Removal",
+        "enhancement": "Voice Enhancement"
+      },
+      "cta": "Try Voice Isolator"
+    }
+  },
+  "demo": {
+    "header": {
+      "title": "See VeeqAI in Action",
+      "description": "Watch how our AI transforms simple prompts into professional audio content in seconds. From music to voiceovers, experience the future of content creation."
+    },
+    "process": {
+      "title": "From Idea to Reality",
+      "step1": {
+        "title": "Describe Your Vision",
+        "description": "Simply type what you want to build. Our AI understands natural language and creative concepts."
+      },
+      "step2": {
+        "title": "AI Works Its Magic",
+        "description": "Advanced algorithms process your request and generate high-quality audio content."
+      },
+      "step3": {
+        "title": "Get Professional Results",
+        "description": "Download studio-quality audio ready for your projects, videos, and presentations."
+      }
+    },
+    "promptExample": {
+      "label": "Prompt",
+      "text": "Design an upbeat electronic track with energetic synthesizers and driving beats, perfect for workout videos and motivational content.",
+      "processing": "Processing... 3.2s"
+    },
+    "samples": {
+      "title": "AI-Generated Music Samples",
+      "description": "Every track below was created from a simple text prompt in under 30 seconds. Listen to the quality and variety our AI can produce.",
+      "noContent": "No featured music available",
+      "checkBackLater": "Check back later for new content"
+    },
+    "items": {
+      "upbeatElectronic": {
+        "title": "Upbeat Electronic",
+        "prompt": "High-energy electronic dance music"
+      },
+      "synthwaveRetro": {
+        "title": "Synthwave Retro",
+        "prompt": "Nostalgic 80s synthwave with neon vibes"
+      },
+      "chillLofi": {
+        "title": "Chill Lo-fi",
+        "prompt": "Relaxing lo-fi beats for studying"
+      },
+      "epicOrchestral": {
+        "title": "Epic Orchestral",
+        "prompt": "Cinematic orchestral music with strings"
+      },
+      "acousticGuitar": {
+        "title": "Acoustic Guitar",
+        "prompt": "Soft acoustic guitar with warm melodies"
+      }
+    },
+    "cta": {
+      "title": "Ready to Craft Your Music?",
+      "description": "Transform your ideas into professional audio content. Join thousands of creators who trust VeeqAI for their audio production needs.",
+      "startButton": "Start Creating Music",
+      "exploreButton": "Explore All Features"
+    }
+  },
+  "featuresPage": {
+    "title": "Create professional audio content in minutes",
+    "subtitle": "Generate voices, music, and audio for your YouTube videos, podcasts, apps, and courses. No expensive studios or voice actors needed.",
+    "textToSpeech": {
+      "title": "Turn Any Text Into Natural Speech",
+      "description": "Transform your scripts, articles, and content into professional voiceovers instantly. Never hire expensive voice actors again. Perfect for YouTube videos, podcasts, audiobooks, presentations, and marketing materials. Generate hours of content in minutes, not days.",
+      "stats": {
+        "languages": "Languages including English, Spanish, French",
+        "savings": "Average monthly savings vs. hiring voice talent",
+        "speed": "To create 30-minute audiobook chapter"
+      }
+    },
+    "musicGeneration": {
+      "title": "Create Original Background Music",
+      "description": "Stop worrying about copyright strikes and expensive music licensing. Generate unlimited original soundtracks, background music, and intros for your content. Perfect for YouTube videos, podcasts, commercials, and social media posts. Own your music 100% - no royalties, no restrictions.",
+      "stats": {
+        "unlimited": "Unlimited tracks with no licensing fees",
+        "cost": "Average cost of single licensed track",
+        "strikes": "Copyright strikes when using our music"
+      }
+    },
+    "voiceCloning": {
+      "title": "Clone Your Voice for Unlimited Content",
+      "description": "Record yourself once, create content forever. Upload a short audio sample and generate unlimited content in your own voice - even when you're sick, traveling, or sleeping. Maintain consistent branding across all your videos and podcasts without ever stepping into a studio again.",
+      "stats": {
+        "record": "Record once, use forever",
+        "availability": "Create content anytime, anywhere",
+        "consistency": "Brand consistency across all content"
+      }
+    },
+    "voiceDesign": {
+      "title": "Design Custom Voices for Your Brand",
+      "description": "Create unique voice personalities that represent your brand perfectly. Design voices with specific emotions, accents, and speaking styles. Perfect for characters in games, audiobooks, or creating a distinctive brand voice that sets you apart from competitors.",
+      "stats": {
+        "emotions": "Different emotions and speaking styles",
+        "characters": "Unique voice characters for your projects",
+        "accents": "International accents and languages"
+      }
+    },
+    "voiceIsolator": {
+      "title": "Extract & Enhance Any Voice Recording",
+      "description": "Turn poor-quality recordings into professional audio. Remove background noise, extract specific voices from group conversations, and enhance audio quality automatically. Perfect for podcast editing, interview cleanup, and improving existing content.",
+      "stats": {
+        "quality": "Audio quality improvement guarantee",
+        "noise": "Background noise reduction capability",
+        "voices": "Individual voice separation from group audio"
+      }
+    },
+    "whyChoose": {
+      "title": "Why Content Creators Choose VeeqAI",
+      "subtitle": "Join thousands of creators who've transformed their content production workflow",
+      "stats": {
+        "timesSaved": "Times faster than traditional methods",
+        "moneySaved": "Average monthly savings per creator",
+        "qualityScore": "Content quality rating from users",
+        "creators": "Active content creators worldwide"
+      }
+    },
+    "successStories": {
+      "contentCreators": {
+        "title": "Content Creators Love VeeqAI",
+        "testimonial": "I used to spend $3,000/month on voice actors and music licensing. Now I create the same quality content for under $50/month. VeeqAI paid for itself in the first week.",
+        "author": "Sarah Chen, YouTube Creator (2.3M subscribers)"
+      },
+      "businesses": {
+        "title": "Businesses Scale With VeeqAI",
+        "testimonial": "We produce 200+ training videos monthly. VeeqAI reduced our production costs by 90% while maintaining professional quality. Game-changer for corporate training.",
+        "author": "Mike Rodriguez, L&D Director at TechCorp"
+      }
+    },
+    "scaleYourBusiness": {
+      "creators": {
+        "title": "Scale Your Content Creation",
+        "subtitle": "From 1 video to 100 videos per month",
+        "features": {
+          "batch": "Batch process multiple scripts at once",
+          "templates": "Save voice and music templates for consistency",
+          "scheduling": "Schedule content creation and delivery",
+          "analytics": "Track usage and optimize your workflow"
+        }
+      },
+      "enterprise": {
+        "title": "Enterprise-Grade Audio Production",
+        "subtitle": "Built for teams and large-scale operations",
+        "features": {
+          "collaboration": "Team collaboration and project sharing",
+          "api": "API access for custom integrations",
+          "support": "Dedicated account management and support",
+          "compliance": "Enterprise security and compliance features"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Audio Content?",
+      "subtitle": "Join 50,000+ creators who've revolutionized their content production",
+      "button": "Start Creating Today",
+      "offer": "Start with 100 free credits • No credit card required • Cancel anytime",
+      "features": "✓ Instant voice generation ✓ Copyright-free music ✓ Voice cloning ✓ 24/7 support"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated"
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated"
+    }
+  },
+  "textToSpeechPage": {
+    "hero": {
+      "title": "Transform Text Into Professional Voiceovers",
+      "subtitle": "Generate natural-sounding speech from any text in 12+ languages. Perfect for YouTube videos, podcasts, audiobooks, and presentations. No voice actors needed."
+    },
+    "stats": {
+      "monthlySavings": {
+        "value": "$2,400",
+        "label": "Monthly savings vs. voice talent"
+      },
+      "creationTime": {
+        "value": "2min",
+        "label": "To create 30min audiobook"
+      },
+      "languages": {
+        "value": "12+",
+        "label": "Languages available"
+      }
+    },
+    "problemSection": {
+      "title": "Stop Spending Fortune on Voice Actors",
+      "traditional": {
+        "title": "The Traditional Way",
+        "problem1": {
+          "title": "$200-500 per hour",
+          "description": "Professional voice actors charge premium rates"
+        },
+        "problem2": {
+          "title": "Weeks of scheduling delays",
+          "description": "Coordinating with talent, studios, and recording times"
+        },
+        "problem3": {
+          "title": "Expensive revisions",
+          "description": "Every script change means more studio time and costs"
+        }
+      },
+      "veeqWay": {
+        "title": "The Veeq AI Way",
+        "benefit1": {
+          "title": "Instant high-quality voiceovers",
+          "description": "Generate professional speech in seconds, not weeks"
+        },
+        "benefit2": {
+          "title": "Unlimited revisions",
+          "description": "Edit your script and regenerate as many times as needed"
+        },
+        "benefit3": {
+          "title": "Multiple languages & voices",
+          "description": "Access hundreds of natural voices in 12+ languages"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Average Content Creator Saves: $28,800/year",
+        "description": "That's the cost of hiring voice actors for just 12 hours per month"
+      }
+    },
+    "voiceTypes": {
+      "title": "Perfect Voice for Every Content Type",
+      "subtitle": "From educational content to entertainment - choose from hundreds of natural-sounding voices that match your brand and audience perfectly.",
+      "categories": {
+        "educational": {
+          "title": "Educational Content",
+          "voice1": {
+            "title": "Professional Narrator",
+            "description": "Clear, authoritative voice for courses"
+          },
+          "voice2": {
+            "title": "Friendly Teacher",
+            "description": "Warm, approachable for tutorials"
+          },
+          "voice3": {
+            "title": "Expert Guide",
+            "description": "Knowledgeable tone for how-tos"
+          }
+        },
+        "business": {
+          "title": "Business & Marketing",
+          "voice1": {
+            "title": "Corporate Spokesperson",
+            "description": "Professional presentations"
+          },
+          "voice2": {
+            "title": "Sales Pitch",
+            "description": "Persuasive marketing videos"
+          },
+          "voice3": {
+            "title": "Brand Voice",
+            "description": "Consistent company messaging"
+          }
+        },
+        "entertainment": {
+          "title": "Entertainment",
+          "voice1": {
+            "title": "Storyteller",
+            "description": "Engaging audiobook narration"
+          },
+          "voice2": {
+            "title": "Character Voices",
+            "description": "Multiple personas for content"
+          },
+          "voice3": {
+            "title": "Podcast Host",
+            "description": "Conversational, natural tone"
+          }
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Professional Voiceovers in 3 Easy Steps",
+      "step1": {
+        "title": "Paste Your Text",
+        "description": "Copy and paste your script, article, or any text content up to 10,000 words"
+      },
+      "step2": {
+        "title": "Choose Your Voice",
+        "description": "Select from hundreds of natural voices in 12+ languages and different styles"
+      },
+      "step3": {
+        "title": "Download & Use",
+        "description": "Get high-quality MP3 files ready for YouTube, podcasts, presentations, anywhere"
+      }
+    },
+    "useCases": {
+      "title": "Real Success Stories from Real Users",
+      "case1": {
+        "title": "Online Course Creator",
+        "category": "Education & E-learning",
+        "testimonial": "\"I was spending $8,000/month on voice actors for my courses. Now I create 40+ hours of content monthly with Veeq AI. My students love the consistent, professional narration.\"",
+        "stat1": {
+          "value": "$96,000",
+          "label": "Saved annually"
+        },
+        "stat2": {
+          "value": "10x",
+          "label": "Faster production"
+        }
+      },
+      "case2": {
+        "title": "YouTube Channel",
+        "category": "2.5M subscribers, tech reviews",
+        "testimonial": "\"My voice gets tired after long recording sessions. Now I use Veeq AI for my daily uploads and save my voice for special content. Viewers can't tell the difference!\"",
+        "stat1": {
+          "value": "365",
+          "label": "Videos per year"
+        },
+        "stat2": {
+          "value": "Zero",
+          "label": "Sick days taken"
+        }
+      },
+      "case3": {
+        "title": "Audiobook Publisher",
+        "category": "Independent publishing house",
+        "testimonial": "\"We publish 50+ audiobooks yearly. Veeq AI reduced our production costs by 90% while maintaining professional quality. Our turnaround time went from months to days.\"",
+        "stat1": {
+          "value": "90%",
+          "label": "Cost reduction"
+        },
+        "stat2": {
+          "value": "20x",
+          "label": "Faster delivery"
+        }
+      },
+      "case4": {
+        "title": "Corporate Training",
+        "category": "Fortune 500 company",
+        "testimonial": "\"We needed multilingual training materials for our global team. Veeq AI delivered consistent narration in 8 languages, saving us hundreds of thousands in localization costs.\"",
+        "stat1": {
+          "value": "8",
+          "label": "Languages"
+        },
+        "stat2": {
+          "value": "$250K",
+          "label": "Annual savings"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Why Veeq AI Beats Traditional Voice Services",
+      "freelance": {
+        "title": "Freelance Voice Actors",
+        "cost": {
+          "value": "$200+",
+          "label": "per hour + revisions"
+        },
+        "time": {
+          "value": "1-2 weeks",
+          "label": "delivery time"
+        },
+        "availability": {
+          "value": "Limited",
+          "label": "availability & styles"
+        }
+      },
+      "studios": {
+        "title": "Voice Studios",
+        "cost": {
+          "value": "$500+",
+          "label": "per hour + studio costs"
+        },
+        "booking": {
+          "value": "Complex",
+          "label": "booking & scheduling"
+        },
+        "revisions": {
+          "value": "Expensive",
+          "label": "revision costs"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI",
+        "cost": {
+          "value": "$0.10",
+          "label": "per minute of audio"
+        },
+        "speed": {
+          "value": "Instant",
+          "label": "generation & delivery"
+        },
+        "revisions": {
+          "value": "Unlimited",
+          "label": "revisions & voices"
+        }
+      },
+      "savings": {
+        "title": "Save up to 95% on voice production costs",
+        "subtitle": "While maintaining professional broadcast quality"
+      }
+    },
+    "cta": {
+      "title": "Start Creating Professional Voiceovers Today",
+      "subtitle": "Join thousands of creators, educators, and businesses who trust Veeq AI for their voice content needs. No contracts, no commitments.",
+      "button": "Generate Your First Voiceover Free",
+      "offer": "5,000 free credits • No credit card required • Instant access",
+      "promise": "Transform any text into professional speech in under 60 seconds"
+    }
+  },
+  "musicGeneratorPage": {
+    "hero": {
+      "title": "Create Original Music in Seconds",
+      "subtitle": "Generate unlimited copyright-free music for your videos, podcasts, and content. No licensing fees, no copyright strikes, no expensive music producers needed."
+    },
+    "stats": {
+      "licensingFees": {
+        "value": "$0",
+        "label": "Licensing fees forever"
+      },
+      "generationTime": {
+        "value": "30sec",
+        "label": "To generate any track"
+      },
+      "unlimited": {
+        "value": "∞",
+        "label": "Unlimited music creation"
+      }
+    },
+    "problemSection": {
+      "title": "Stop Losing Money on Music Licensing",
+      "traditional": {
+        "title": "The Old Expensive Way",
+        "problem1": {
+          "title": "$500+ per licensed track",
+          "description": "Premium music libraries charge hundreds for each song"
+        },
+        "problem2": {
+          "title": "Copyright strikes kill channels",
+          "description": "One wrong song can destroy your YouTube monetization"
+        },
+        "problem3": {
+          "title": "Limited usage rights",
+          "description": "Most licenses restrict how you can use the music"
+        }
+      },
+      "veeqWay": {
+        "title": "The Veeq AI Way",
+        "benefit1": {
+          "title": "100% royalty-free forever",
+          "description": "Own every track completely, use anywhere without limits"
+        },
+        "benefit2": {
+          "title": "Zero copyright strikes",
+          "description": "Every track is original and safe for monetization"
+        },
+        "benefit3": {
+          "title": "Unlimited commercial use",
+          "description": "Sell, stream, broadcast - no restrictions ever"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Average Creator Savings: $3,600/month",
+        "description": "That's $43,200 saved every year on music licensing alone"
+      }
+    },
+    "musicStyles": {
+      "title": "Every Genre, Every Mood, Every Style",
+      "subtitle": "From cinematic soundtracks to upbeat pop - generate professional music in any style that matches your content perfectly.",
+      "contentCreator": {
+        "title": "Content Creator Favorites",
+        "lofi": {
+          "title": "Lo-fi Hip Hop",
+          "description": "Perfect for study/work vlogs"
+        },
+        "electronic": {
+          "title": "Upbeat Electronic",
+          "description": "High-energy gaming content"
+        },
+        "cinematic": {
+          "title": "Cinematic",
+          "description": "Documentary-style content"
+        }
+      },
+      "business": {
+        "title": "Business & Marketing",
+        "corporate": {
+          "title": "Corporate",
+          "description": "Professional presentations"
+        },
+        "motivational": {
+          "title": "Motivational",
+          "description": "Inspirational marketing videos"
+        },
+        "ambient": {
+          "title": "Ambient",
+          "description": "Background for calls/demos"
+        }
+      },
+      "entertainment": {
+        "title": "Entertainment",
+        "orchestral": {
+          "title": "Epic Orchestral",
+          "description": "Movie trailers, intros"
+        },
+        "jazz": {
+          "title": "Jazz & Blues",
+          "description": "Sophisticated content"
+        },
+        "rock": {
+          "title": "Rock & Metal",
+          "description": "High-energy content"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Professional Music in 3 Simple Steps",
+      "step1": {
+        "title": "Describe Your Vision",
+        "description": "\"Upbeat electronic music for a tech product demo\" or \"Calm acoustic guitar for meditation content\""
+      },
+      "step2": {
+        "title": "AI Creates Your Track",
+        "description": "Our AI composer generates a unique, professional-quality track in under 30 seconds"
+      },
+      "step3": {
+        "title": "Download & Use Everywhere",
+        "description": "High-quality MP3/WAV files ready for YouTube, TikTok, podcasts, commercials, anywhere"
+      }
+    },
+    "successStories": {
+      "title": "Real Results from Real Creators",
+      "case1": {
+        "title": "YouTube Gaming Channel",
+        "category": "1.2M subscribers",
+        "testimonial": "\"I was spending $2,000/month on music licensing. Now I generate unlimited tracks for my daily uploads. My channel revenue increased 40% since I stopped worrying about copyright.\"",
+        "stat1": {
+          "value": "$24,000",
+          "label": "Saved annually"
+        },
+        "stat2": {
+          "value": "0",
+          "label": "Copyright strikes"
+        }
+      },
+      "case2": {
+        "title": "Marketing Agency",
+        "category": "50+ client campaigns monthly",
+        "testimonial": "\"We create custom soundtracks for every client campaign. What used to cost $15K in music licensing now costs practically nothing. Our profit margins skyrocketed.\"",
+        "stat1": {
+          "value": "85%",
+          "label": "Cost reduction"
+        },
+        "stat2": {
+          "value": "3x",
+          "label": "Faster delivery"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Why Choose Veeq AI Over Traditional Options",
+      "libraries": {
+        "title": "Music Libraries",
+        "cost": {
+          "value": "$500+",
+          "label": "per track license"
+        },
+        "rights": {
+          "value": "Limited",
+          "label": "usage rights"
+        },
+        "content": {
+          "value": "Generic",
+          "label": "pre-made tracks"
+        }
+      },
+      "producers": {
+        "title": "Music Producers",
+        "cost": {
+          "value": "$2,000+",
+          "label": "per custom track"
+        },
+        "time": {
+          "value": "2-4 weeks",
+          "label": "delivery time"
+        },
+        "contracts": {
+          "value": "Complex",
+          "label": "contracts & rights"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Music",
+        "cost": {
+          "value": "$0",
+          "label": "licensing fees ever"
+        },
+        "time": {
+          "value": "30 sec",
+          "label": "generation time"
+        },
+        "ownership": {
+          "value": "100%",
+          "label": "yours forever"
+        }
+      },
+      "savings": {
+        "title": "Save $43,200+ annually with Veeq AI",
+        "description": "Average yearly savings vs. traditional music licensing"
+      }
+    },
+    "cta": {
+      "title": "Start Creating Copyright-Free Music Today",
+      "subtitle": "Join thousands of creators who never worry about music licensing again. Generate unlimited tracks for all your content.",
+      "button": "Create Your First Track Free",
+      "offer": "5,000 free credits • No credit card required • Own your music 100%",
+      "promise": "Generate professional music in under 30 seconds"
+    }
+  },
+  "voiceCloningPage": {
+    "hero": {
+      "title": "Clone Any Voice for Unlimited Content",
+      "subtitle": "Upload a short audio sample and generate unlimited content in that exact voice. Perfect for maintaining brand consistency, creating character voices, or preserving your own voice forever."
+    },
+    "stats": {
+      "sampleTime": {
+        "value": "30sec",
+        "label": "Audio sample needed"
+      },
+      "accuracy": {
+        "value": "99%",
+        "label": "Voice accuracy match"
+      },
+      "unlimited": {
+        "value": "∞",
+        "label": "Content generation"
+      }
+    },
+    "problemSection": {
+      "title": "Never Lose Your Voice or Brand Consistency Again",
+      "traditional": {
+        "title": "The Common Problems",
+        "problem1": {
+          "title": "Sick days ruin content schedules",
+          "description": "Can't record when you're under the weather or traveling"
+        },
+        "problem2": {
+          "title": "Voice actors quit or become unavailable",
+          "description": "Losing your brand voice when talent moves on"
+        },
+        "problem3": {
+          "title": "Inconsistent character voices",
+          "description": "Different sessions sound different, breaking immersion"
+        }
+      },
+      "veeqWay": {
+        "title": "The Voice Cloning Solution",
+        "benefit1": {
+          "title": "Create content 24/7",
+          "description": "Generate content in your voice even when you can't speak"
+        },
+        "benefit2": {
+          "title": "Preserve voices forever",
+          "description": "Never lose your brand voice or character voices again"
+        },
+        "benefit3": {
+          "title": "Perfect consistency every time",
+          "description": "Identical voice characteristics across all your content"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Record Once, Create Content Forever",
+        "description": "One 30-second sample gives you unlimited content generation in that exact voice"
+      }
+    },
+    "useCases": {
+      "title": "Perfect for Every Voice Cloning Need",
+      "subtitle": "From personal branding to character creation - clone any voice with incredible accuracy and use it for unlimited content generation.",
+      "personalBranding": {
+        "title": "Personal Branding",
+        "use1": {
+          "title": "Your Own Voice",
+          "description": "Clone yourself for consistent content"
+        },
+        "use2": {
+          "title": "CEO/Founder Voice",
+          "description": "Maintain leadership presence"
+        },
+        "use3": {
+          "title": "Brand Spokesperson",
+          "description": "Consistent company messaging"
+        }
+      },
+      "contentCreation": {
+        "title": "Content Creation",
+        "use1": {
+          "title": "Character Voices",
+          "description": "Multiple personas for storytelling"
+        },
+        "use2": {
+          "title": "Audiobook Narration",
+          "description": "Consistent narrator throughout"
+        },
+        "use3": {
+          "title": "Podcast Hosts",
+          "description": "Never miss an episode"
+        }
+      },
+      "professionalServices": {
+        "title": "Professional Services",
+        "use1": {
+          "title": "Voice Preservation",
+          "description": "Archive important voices"
+        },
+        "use2": {
+          "title": "Multilingual Content",
+          "description": "Same voice, different languages"
+        },
+        "use3": {
+          "title": "Voice Acting",
+          "description": "Expand your voice range"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Clone Any Voice in 3 Simple Steps",
+      "step1": {
+        "title": "Upload Audio Sample",
+        "description": "Upload a clear 30-second to 5-minute audio sample of the voice you want to clone"
+      },
+      "step2": {
+        "title": "AI Learns The Voice",
+        "description": "Our AI analyzes the voice patterns, tone, accent, and unique characteristics"
+      },
+      "step3": {
+        "title": "Generate Unlimited Content",
+        "description": "Type any text and generate speech in the cloned voice with 99% accuracy"
+      },
+      "qualityTips": {
+        "title": "Voice Cloning Quality Tips",
+        "tip1": {
+          "title": "✓ Clear Audio",
+          "description": "No background noise or music"
+        },
+        "tip2": {
+          "title": "✓ Natural Speech",
+          "description": "Conversational tone works best"
+        },
+        "tip3": {
+          "title": "✓ 30sec - 5min",
+          "description": "Optimal sample length"
+        }
+      }
+    },
+    "successStories": {
+      "title": "Real Voice Cloning Success Stories",
+      "case1": {
+        "title": "Daily Podcast Host",
+        "category": "Business podcast, 500K downloads/month",
+        "testimonial": "\"I travel constantly for business but need to publish daily. My cloned voice lets me pre-record weeks of content. My audience has no idea when I'm actually speaking vs. when it's AI.\"",
+        "stat1": {
+          "value": "365",
+          "label": "Episodes never missed"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Audience retention"
+        }
+      },
+      "case2": {
+        "title": "Audiobook Author",
+        "category": "Fantasy novelist, 15+ published books",
+        "testimonial": "\"I created 12 different character voices for my fantasy series. Each character sounds completely unique and consistent across all my books. Readers love the immersive experience.\"",
+        "stat1": {
+          "value": "12",
+          "label": "Unique character voices"
+        },
+        "stat2": {
+          "value": "400%",
+          "label": "Sales increase"
+        }
+      },
+      "case3": {
+        "title": "Corporate Training",
+        "category": "Tech company, 10,000+ employees",
+        "testimonial": "\"Our CEO's voice guides all employee training modules. Even as our content scales to thousands of hours, every employee hears consistent leadership messaging.\"",
+        "stat1": {
+          "value": "500+",
+          "label": "Training modules"
+        },
+        "stat2": {
+          "value": "$2M",
+          "label": "Annual voice cost savings"
+        }
+      },
+      "case4": {
+        "title": "YouTube Creator",
+        "category": "Gaming channel, 3M subscribers",
+        "testimonial": "\"I cloned my voice and now I can create content even when I'm sleeping. I pre-generate narration for future videos and my upload schedule never breaks, even during vacations.\"",
+        "stat1": {
+          "value": "Daily",
+          "label": "Upload consistency"
+        },
+        "stat2": {
+          "value": "80%",
+          "label": "Less recording time"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Voice Cloning vs Traditional Solutions",
+      "voiceActors": {
+        "title": "Voice Actor Contracts",
+        "cost": {
+          "value": "$5,000+",
+          "label": "monthly retainer fees"
+        },
+        "availability": {
+          "value": "Limited",
+          "label": "availability & scheduling"
+        },
+        "risk": {
+          "value": "Risk",
+          "label": "of talent leaving"
+        }
+      },
+      "synthesizers": {
+        "title": "Voice Synthesizers",
+        "quality": {
+          "value": "Robotic",
+          "label": "unnatural sound quality"
+        },
+        "voices": {
+          "value": "Generic",
+          "label": "pre-built voices only"
+        },
+        "emotion": {
+          "value": "Poor",
+          "label": "emotional expression"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Voice Cloning",
+        "accuracy": {
+          "value": "99%",
+          "label": "voice accuracy match"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "instant availability"
+        },
+        "content": {
+          "value": "Unlimited",
+          "label": "content generation"
+        }
+      },
+      "savingsHighlight": {
+        "title": "Own Your Voice Forever",
+        "description": "Never worry about losing your brand voice or content consistency again"
+      }
+    },
+    "cta": {
+      "title": "Start Cloning Voices Today",
+      "subtitle": "Preserve any voice forever and generate unlimited content with perfect consistency. Try voice cloning risk-free with our guarantee.",
+      "button": "Clone Your First Voice Free",
+      "offer": "5,000 free credits • No credit card required • 99% accuracy guarantee",
+      "promise": "Upload 30 seconds, get unlimited content generation"
+    }
+  },
+  "voiceDesign": {
+    "hero": {
+      "title": "Design Perfect Voices From Scratch",
+      "subtitle": "Create custom voices by simply describing what you want. No audio samples needed - just tell our AI the age, gender, accent, and personality, and get a unique voice in seconds."
+    },
+    "stats": {
+      "textOnly": {
+        "title": "Text Only",
+        "description": "No audio samples required"
+      },
+      "time": {
+        "title": "30sec",
+        "description": "To create custom voice"
+      },
+      "unlimited": {
+        "title": "Unlimited",
+        "description": "Unique voice combinations"
+      }
+    },
+    "problem": {
+      "title": "Stop Settling for Generic Voices",
+      "limitedOptions": {
+        "title": "The Limited Options Problem",
+        "generic": {
+          "title": "Generic voice libraries",
+          "description": "Everyone uses the same 20 voices - no uniqueness"
+        },
+        "noFit": {
+          "title": "Can't find the right fit",
+          "description": "None of the preset voices match your brand or content"
+        },
+        "expensive": {
+          "title": "Expensive voice actor casting",
+          "description": "Finding the perfect voice takes weeks and costs thousands"
+        }
+      }
+    },
+    "solution": {
+      "title": "The Voice Design Solution",
+      "infinite": {
+        "title": "Infinite unique voices",
+        "description": "Create voices that are completely unique to your brand"
+      },
+      "brandMatch": {
+        "title": "Perfect brand match",
+        "description": "Design voices that perfectly represent your brand personality"
+      },
+      "instant": {
+        "title": "Instant creation",
+        "description": "Get your perfect voice in 30 seconds, not 30 days"
+      }
+    },
+    "example": {
+      "description": "\"Create a warm, friendly female voice with a slight British accent\"",
+      "explanation": "That's all you need to type to get your custom voice in 30 seconds"
+    },
+    "characteristics": {
+      "title": "Control Every Aspect of Your Voice",
+      "subtitle": "Design voices with precise control over age, gender, accent, personality, and emotional tone. Create the exact voice your content needs.",
+      "basic": {
+        "title": "Basic Characteristics",
+        "age": {
+          "title": "Age Range",
+          "options": "Child, Teen, Young Adult, Middle-aged, Senior"
+        },
+        "gender": {
+          "title": "Gender Identity",
+          "options": "Male, Female, Non-binary, Gender-neutral"
+        },
+        "accent": {
+          "title": "Accent & Region",
+          "options": "American, British, Australian, Canadian, Irish, etc."
+        },
+        "pace": {
+          "title": "Speaking Pace",
+          "options": "Slow, Normal, Fast, Variable"
+        }
+      },
+      "personality": {
+        "title": "Personality & Tone",
+        "emotional": {
+          "title": "Emotional Tone",
+          "options": "Warm, Authoritative, Friendly, Professional, Playful"
+        },
+        "energy": {
+          "title": "Energy Level",
+          "options": "Calm, Energetic, Enthusiastic, Relaxed"
+        },
+        "style": {
+          "title": "Speaking Style",
+          "options": "Conversational, Formal, Casual, Dramatic"
+        },
+        "traits": {
+          "title": "Character Traits",
+          "options": "Confident, Shy, Quirky, Serious, Humorous"
+        }
+      }
+    },
+    "examples": {
+      "title": "Example Voice Designs",
+      "corporate": {
+        "title": "\"Corporate Professional\"",
+        "description": "Middle-aged, confident male with American accent, authoritative but approachable tone"
+      },
+      "teacher": {
+        "title": "\"Friendly Teacher\"",
+        "description": "Young adult female, warm and patient, slight Canadian accent, encouraging personality"
+      },
+      "narrator": {
+        "title": "\"Wise Narrator\"",
+        "description": "Senior male, deep and thoughtful, British accent, storytelling style with gravitas"
+      }
+    },
+    "howItWorks": {
+      "title": "Create Custom Voices in 3 Simple Steps",
+      "step1": {
+        "title": "Describe Your Voice",
+        "description": "Type a description like \"confident young professional with warm personality and slight accent\""
+      },
+      "step2": {
+        "title": "AI Generates Voice",
+        "description": "Our AI creates a unique voice matching your description with perfect characteristics"
+      },
+      "step3": {
+        "title": "Refine & Use",
+        "description": "Fine-tune the voice if needed, then generate unlimited content with your custom voice"
+      }
+    },
+    "tips": {
+      "title": "Voice Design Pro Tips",
+      "specific": {
+        "title": "✓ Be Specific",
+        "description": "More details = better voice match"
+      },
+      "context": {
+        "title": "✓ Consider Context",
+        "description": "Match voice to content purpose"
+      },
+      "iterate": {
+        "title": "✓ Test & Iterate",
+        "description": "Refine until it's perfect"
+      }
+    },
+    "useCases": {
+      "title": "Perfect Voices for Every Use Case",
+      "brandDesigner": {
+        "title": "Brand Voice Designer",
+        "subtitle": "Marketing agency specializing in voice branding",
+        "quote": "\"We create unique brand voices for Fortune 500 companies. Each client gets a voice that's completely theirs - no one else sounds like their brand. It's become our biggest differentiator.\"",
+        "stat1": {
+          "number": "500+",
+          "label": "Unique brand voices"
+        },
+        "stat2": {
+          "number": "100%",
+          "label": "Client satisfaction"
+        }
+      },
+      "gameDeveloper": {
+        "title": "Game Developer",
+        "subtitle": "Indie game studio creating RPG adventures",
+        "quote": "\"We needed dozens of unique character voices for our RPG. Voice Design let us create everything from wise elders to mischievous goblins. Players are amazed by the voice diversity.\"",
+        "stat1": {
+          "number": "47",
+          "label": "Unique character voices"
+        },
+        "stat2": {
+          "number": "$200K",
+          "label": "Voice acting cost saved"
+        }
+      },
+      "elearning": {
+        "title": "E-learning Platform",
+        "subtitle": "Corporate training for global workforce",
+        "quote": "\"Different courses need different instructor personalities. Math needs authority, soft skills need warmth. We design the perfect instructor voice for each subject area.\"",
+        "stat1": {
+          "number": "25",
+          "label": "Course-specific voices"
+        },
+        "stat2": {
+          "number": "85%",
+          "label": "Learning retention increase"
+        }
+      },
+      "podcast": {
+        "title": "Podcast Network",
+        "subtitle": "Multi-show podcast production company",
+        "quote": "\"Each show has its own personality and voice. Comedy shows get playful voices, business shows get professional ones. Every show sounds unique and perfectly matches its content.\"",
+        "stat1": {
+          "number": "12",
+          "label": "Show-specific voices"
+        },
+        "stat2": {
+          "number": "3x",
+          "label": "Faster show production"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Voice Design vs Traditional Voice Sourcing",
+      "casting": {
+        "title": "Voice Casting",
+        "time": {
+          "number": "3-8 weeks",
+          "label": "casting & selection time"
+        },
+        "cost": {
+          "number": "$5,000+",
+          "label": "casting director fees"
+        },
+        "talent": {
+          "number": "Limited",
+          "label": "available talent pool"
+        }
+      },
+      "libraries": {
+        "title": "Voice Libraries",
+        "voices": {
+          "number": "50-200",
+          "label": "pre-recorded voices max"
+        },
+        "uniqueness": {
+          "number": "Generic",
+          "label": "everyone uses same voices"
+        },
+        "control": {
+          "number": "No Control",
+          "label": "over voice characteristics"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Voice Design",
+        "time": {
+          "number": "30sec",
+          "label": "to create any voice"
+        },
+        "combinations": {
+          "number": "Infinite",
+          "label": "unique voice combinations"
+        },
+        "control": {
+          "number": "Full Control",
+          "label": "over every characteristic"
+        }
+      },
+      "conclusion": {
+        "title": "Create Voices That Are Uniquely Yours",
+        "subtitle": "No more generic voices - design the perfect voice for your brand"
+      }
+    },
+    "cta": {
+      "title": "Start Designing Custom Voices Today",
+      "subtitle": "Create voices that perfectly match your brand, content, and audience. No audio samples needed - just describe what you want and get it instantly.",
+      "button": "Design Your First Voice Free",
+      "features": "5,000 free credits • No credit card required • Unlimited customization",
+      "promise": "Create any voice you can imagine in under 30 seconds"
+    }
+  },
+  "voiceIsolatorPage": {
+    "hero": {
+      "title": "Clean Any Audio to Studio Quality",
+      "subtitle": "Remove background noise, echo, and unwanted sounds from any audio recording. Transform messy recordings into crystal-clear, professional-grade audio in seconds."
+    },
+    "stats": {
+      "aiPowered": {
+        "title": "AI-Powered",
+        "description": "Advanced noise removal"
+      },
+      "processingTime": {
+        "title": "30sec",
+        "description": "Processing time"
+      },
+      "quality": {
+        "title": "Studio",
+        "description": "Quality output"
+      }
+    },
+    "problem": {
+      "title": "Stop Throwing Away Good Content Due to Bad Audio",
+      "common": {
+        "title": "Common Audio Problems",
+        "noise": {
+          "title": "Background noise ruins recordings",
+          "description": "Traffic, AC, fan noise makes content unusable"
+        },
+        "echo": {
+          "title": "Echo and reverb from poor rooms",
+          "description": "Home recordings sound amateur and unprofessional"
+        },
+        "calls": {
+          "title": "Phone calls and remote interviews",
+          "description": "Low quality audio from video calls and phone recordings"
+        },
+        "studio": {
+          "title": "Expensive studio time wasted",
+          "description": "Re-recording costs thousands when audio is bad"
+        }
+      },
+      "solution": {
+        "title": "Voice Isolator Solution",
+        "removeNoise": {
+          "title": "Remove all background noise",
+          "description": "AI identifies and eliminates unwanted sounds completely"
+        },
+        "eliminateEcho": {
+          "title": "Eliminate echo and reverb",
+          "description": "Transform any room into a professional studio"
+        },
+        "enhanceVoice": {
+          "title": "Enhance voice clarity",
+          "description": "Boost voice frequencies while removing distractions"
+        },
+        "saveThousands": {
+          "title": "Save thousands in re-recording",
+          "description": "Rescue any recording and make it broadcast-ready"
+        }
+      },
+      "highlight": {
+        "title": "Turn Any Recording Into Professional Audio",
+        "description": "Upload messy audio, get studio-quality results in 30 seconds"
+      }
+    },
+    "fixProblems": {
+      "title": "We Fix Every Type of Audio Problem",
+      "subtitle": "From home recordings to phone calls, our AI can identify and remove any unwanted sounds while preserving and enhancing the voice quality.",
+      "backgroundNoise": {
+        "title": "Background Noise",
+        "traffic": {
+          "title": "Traffic & Street Noise",
+          "description": "Cars, horns, construction sounds"
+        },
+        "ac": {
+          "title": "Air Conditioning & Fans",
+          "description": "HVAC systems, computer fans"
+        },
+        "office": {
+          "title": "Office Environment",
+          "description": "Typing, conversations, phones"
+        },
+        "home": {
+          "title": "Home Distractions",
+          "description": "TV, pets, household appliances"
+        }
+      },
+      "roomAcoustics": {
+        "title": "Room Acoustics",
+        "echo": {
+          "title": "Echo & Reverb",
+          "description": "Large rooms, hard surfaces"
+        },
+        "bathroom": {
+          "title": "Bathroom Recordings",
+          "description": "Tile reflections, water sounds"
+        },
+        "untreated": {
+          "title": "Untreated Rooms",
+          "description": "Living rooms, bedrooms"
+        },
+        "outdoor": {
+          "title": "Outdoor Recordings",
+          "description": "Wind, natural acoustics"
+        }
+      },
+      "technicalIssues": {
+        "title": "Technical Issues",
+        "phone": {
+          "title": "Phone Call Quality",
+          "description": "Compressed, low-quality audio"
+        },
+        "videoCalls": {
+          "title": "Video Call Audio",
+          "description": "Zoom, Teams, Skype recordings"
+        },
+        "poorMics": {
+          "title": "Poor Microphones",
+          "description": "Built-in laptop mics, phone recordings"
+        },
+        "interference": {
+          "title": "Audio Interference",
+          "description": "Electrical hum, digital artifacts"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Professional Audio Cleaning in 3 Steps",
+      "step1": {
+        "title": "Upload Your Audio",
+        "description": "Upload any audio file - podcasts, interviews, recordings, phone calls, any format"
+      },
+      "step2": {
+        "title": "AI Analyzes & Cleans",
+        "description": "Our AI identifies voice vs. noise and removes unwanted sounds while preserving voice quality"
+      },
+      "step3": {
+        "title": "Download Clean Audio",
+        "description": "Get studio-quality audio ready for podcasts, videos, presentations, or any professional use"
+      },
+      "formats": {
+        "title": "Supported Audio Formats",
+        "mp3": {
+          "title": "MP3",
+          "description": "Most common format"
+        },
+        "wav": {
+          "title": "WAV",
+          "description": "Uncompressed quality"
+        },
+        "m4a": {
+          "title": "M4A",
+          "description": "iPhone recordings"
+        },
+        "flac": {
+          "title": "FLAC",
+          "description": "Lossless audio"
+        }
+      }
+    },
+    "successStories": {
+      "title": "Real Audio Rescue Success Stories",
+      "case1": {
+        "title": "Podcast Producer",
+        "subtitle": "Interview show with remote guests",
+        "quote": "Guest interviews over Zoom always sounded terrible - echo, background noise, poor mics. Voice Isolator saved hundreds of hours of content. Now every episode sounds studio-quality.",
+        "stat1": {
+          "number": "500+",
+          "label": "Episodes rescued"
+        },
+        "stat2": {
+          "number": "$50K",
+          "label": "Re-recording costs saved"
+        }
+      },
+      "case2": {
+        "title": "Documentary Filmmaker",
+        "subtitle": "Historical documentary project",
+        "quote": "We had irreplaceable interviews with elderly subjects recorded in their homes - lots of noise. Voice Isolator saved these priceless recordings and made them broadcast-ready.",
+        "stat1": {
+          "number": "25",
+          "label": "Irreplaceable interviews saved"
+        },
+        "stat2": {
+          "number": "Emmy",
+          "label": "Award nomination"
+        }
+      },
+      "case3": {
+        "title": "Corporate Training",
+        "subtitle": "Global company remote training",
+        "quote": "Our executives recorded training from home offices during COVID. Background noise made them sound unprofessional. Voice Isolator made every recording sound like it came from a studio.",
+        "stat1": {
+          "number": "200+",
+          "label": "Training modules cleaned"
+        },
+        "stat2": {
+          "number": "95%",
+          "label": "Employee satisfaction increase"
+        }
+      },
+      "case4": {
+        "title": "Content Creator",
+        "subtitle": "YouTube channel in small apartment",
+        "quote": "I live next to a busy street and can't afford acoustic treatment. Voice Isolator removes all the traffic noise and makes my videos sound like I have a professional studio setup.",
+        "stat1": {
+          "number": "Daily",
+          "label": "Videos cleaned"
+        },
+        "stat2": {
+          "number": "300%",
+          "label": "Subscriber growth"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Voice Isolator vs Traditional Audio Cleaning",
+      "manual": {
+        "title": "Manual Editing",
+        "time": {
+          "value": "5-10 hours",
+          "label": "per audio file"
+        },
+        "cost": {
+          "value": "$500+",
+          "label": "audio engineer costs"
+        },
+        "quality": {
+          "value": "Limited",
+          "label": "noise removal quality"
+        }
+      },
+      "software": {
+        "title": "Audio Software",
+        "learning": {
+          "value": "Learning",
+          "label": "curve required"
+        },
+        "cost": {
+          "value": "$1000+",
+          "label": "professional software"
+        },
+        "artifacts": {
+          "value": "Artifacts",
+          "label": "and voice distortion"
+        }
+      },
+      "veeq": {
+        "title": "Veeq AI Voice Isolator",
+        "speed": {
+          "value": "30sec",
+          "label": "automatic processing"
+        },
+        "setup": {
+          "value": "No Setup",
+          "label": "upload and download"
+        },
+        "quality": {
+          "value": "Perfect",
+          "label": "voice preservation"
+        }
+      },
+      "conclusion": {
+        "title": "Transform Any Recording Into Professional Audio",
+        "subtitle": "Save time, money, and rescue content you thought was unusable"
+      }
+    },
+    "cta": {
+      "title": "Start Cleaning Your Audio Today",
+      "subtitle": "Upload your messy recordings and get studio-quality audio back in seconds. Perfect for podcasts, videos, presentations, and any professional content.",
+      "button": "Clean Your First Audio Free",
+      "offer": "5,000 free credits • No credit card required • Studio-quality results",
+      "promise": "Upload any audio file and get professional results in 30 seconds"
+    }
+  },
+  "quickStart": {
+    "title": "Quick Start",
+    "description": "Get up and running with Veeq AI in just a few minutes.",
+    "copied": "Copied",
+    "copy": "Copy",
+    "step1": {
+      "title": "1. Get Your API Key",
+      "description": "First, register for a Veeq AI account and obtain your JWT token from the dashboard.",
+      "button": "Get Started"
+    },
+    "step2": {
+      "title": "2. Make Your First Request",
+      "description": "Generate your first piece of music with a simple HTTP request:"
+    },
+    "step3": {
+      "title": "3. Next Steps",
+      "description": "Now that you've made your first request, explore these resources to get the most out of Veeq AI:",
+      "apiExplorer": {
+        "title": "API Explorer",
+        "description": "Test endpoints directly in your browser"
+      },
+      "apiReference": {
+        "title": "API Reference",
+        "description": "Complete documentation of all endpoints"
+      },
+      "sdkGenerator": {
+        "title": "SDK Generator",
+        "description": "Download SDKs for your language"
+      },
+      "getHelp": {
+        "title": "Get Help",
+        "description": "Join our community and get support"
+      }
+    }
+  },
+  "paymentMethods": {
+    "title": "Payment Methods",
+    "description": "Overview of all payment methods and currencies supported by Veeq AI.",
+    "supported": {
+      "title": "Supported Payment Methods",
+      "cards": "Credit Cards",
+      "turkish": "Turkish Specific",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "amex": "American Express",
+      "iyzico": "iyzico",
+      "bkm": "BKM Express",
+      "threeDSecure": "3D Secure"
+    },
+    "security": {
+      "title": "Security Features",
+      "pci": {
+        "title": "PCI DSS Compliant",
+        "description": "Level 1 PCI DSS certified infrastructure"
+      },
+      "ssl": {
+        "title": "SSL Encrypted",
+        "description": "256-bit SSL encryption for all transactions"
+      },
+      "threeD": {
+        "title": "3D Secure",
+        "description": "Additional authentication for Turkish cards"
+      }
+    },
+    "api": {
+      "title": "API Endpoints",
+      "endpoints": {
+        "list": "List saved payment methods",
+        "add": "Add new payment method",
+        "update": "Update existing payment method",
+        "remove": "Remove payment method"
+      }
+    },
+    "currencies": {
+      "title": "Supported Currencies",
+      "usd": "US Dollar",
+      "eur": "Euro",
+      "try": "Turkish Lira",
+      "gbp": "British Pound"
+    }
+  },
+  "iyzicoIntegration": {
+    "title": "iyzico Integration",
+    "description": "Complete guide to integrating iyzico with Veeq AI for Turkish payment systems.",
+    "setupTitle": "Setup iyzico",
+    "createPaymentTitle": "Create Payment",
+    "handleCallbackTitle": "Handle Callback",
+    "supportedPaymentMethodsTitle": "Supported Payment Methods",
+    "testCardsTitle": "Test Cards",
+    "bestPracticesTitle": "Best Practices",
+    "copied": "Copied",
+    "copy": "Copy"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "introduction": {
+      "title": "Introduction",
+      "content": "VEMLO YAZILIM BİLGİ İLETİŞİM TEKNOLOJİLERİ REKLAM PAZARLAMA LİMİTED ŞİRKETİ (\"we,\" \"us,\" or \"our\") operates the VeeqAI platform. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our artificial intelligence voice services."
+    },
+    "informationWeCollect": {
+      "title": "Information We Collect",
+      "personal": {
+        "title": "Personal Information",
+        "content": "When you create an account or use our services, we may collect personal information including your name, email address, payment information, and account preferences."
+      },
+      "voice": {
+        "title": "Voice Data",
+        "content": "We collect audio recordings and voice samples that you provide to train AI models, generate synthetic speech, or use voice cloning features. This data is processed to provide our AI voice services."
+      },
+      "usage": {
+        "title": "Usage Data",
+        "content": "We automatically collect information about how you interact with our platform, including IP addresses, browser information, device identifiers, and usage patterns."
+      }
+    },
+    "howWeUse": {
+      "title": "How We Use Your Information",
+      "item1": "Provide, maintain, and improve our AI voice services",
+      "item2": "Process voice cloning and text-to-speech requests",
+      "item3": "Personalize your experience and recommendations",
+      "item4": "Communicate with you about service updates and support",
+      "item5": "Ensure platform security and prevent fraud",
+      "item6": "Comply with legal obligations and enforce our terms"
+    },
+    "dataSharing": {
+      "title": "Data Sharing and Disclosure",
+      "intro": "We do not sell your personal information. We may share your information in the following circumstances:",
+      "providers": {
+        "title": "Service Providers",
+        "content": "With third-party vendors who assist in providing our services"
+      },
+      "legal": {
+        "title": "Legal Requirements",
+        "content": "When required by law or to protect our rights and safety"
+      },
+      "business": {
+        "title": "Business Transfers",
+        "content": "In connection with mergers, acquisitions, or asset sales"
+      },
+      "consent": {
+        "title": "Consent",
+        "content": "With your explicit consent for specific purposes"
+      }
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We implement industry-standard security measures to protect your information, including encryption, secure servers, and access controls. However, no method of transmission over the internet is 100% secure."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your personal information for as long as necessary to provide our services and comply with legal obligations. Voice data used for AI training may be retained longer to maintain model quality."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "intro": "Depending on your location, you may have the right to:",
+      "access": "Access and update your personal information",
+      "delete": "Delete your account and associated data",
+      "object": "Object to or restrict certain processing activities",
+      "portability": "Data portability for your personal information",
+      "withdraw": "Withdraw consent where processing is based on consent"
+    },
+    "internationalTransfers": {
+      "title": "International Transfers",
+      "content": "Your information may be processed and stored in countries other than your own. We ensure appropriate safeguards are in place for international data transfers."
+    },
+    "childrenPrivacy": {
+      "title": "Children's Privacy",
+      "content": "Our services are not intended for children under 13. We do not knowingly collect personal information from children under 13 years of age."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy periodically. We will notify you of significant changes by posting the new policy on our platform and updating the \"Last updated\" date."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have questions about this Privacy Policy or our privacy practices, please contact us at:",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectText": "Privacy Policy Inquiry"
+    }
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "agreement": {
+      "title": "Agreement to Terms",
+      "content": "These Terms of Service (\"Terms\") constitute a legally binding agreement between you and VEMLO YAZILIM BİLGİ İLETİŞİM TEKNOLOJİLERİ REKLAM PAZARLAMA LİMİTED ŞİRKETİ (\"Company,\" \"we,\" \"us,\" or \"our\") regarding your use of the VeeqAI platform and services. By accessing or using our services, you agree to be bound by these Terms."
+    },
+    "services": {
+      "title": "Description of Services",
+      "intro": "VeeqAI provides artificial intelligence-powered voice services including:",
+      "tts": "Text-to-speech conversion with synthetic voices",
+      "cloning": "Voice cloning and custom voice generation",
+      "music": "Music generation and audio processing",
+      "isolation": "Voice isolation and audio enhancement",
+      "api": "API access for developers and enterprises"
+    },
+    "account": {
+      "title": "Account Registration and Security",
+      "responsibility": "You must create an account to access certain features. You are responsible for maintaining the confidentiality of your account credentials and for all activities under your account.",
+      "accuracy": "You must provide accurate and complete information during registration and keep your account information updated."
+    },
+    "acceptableUse": {
+      "title": "Acceptable Use Policy",
+      "intro": "You agree NOT to use our services to:",
+      "laws": "Create content that violates any laws or regulations",
+      "consent": "Generate voices without proper consent from the voice owner",
+      "misleading": "Create misleading, defamatory, or fraudulent content",
+      "impersonate": "Impersonate others or misrepresent your identity",
+      "harassment": "Generate content for harassment, bullying, or threats",
+      "intellectual": "Violate intellectual property rights of third parties",
+      "reverse": "Attempt to reverse engineer or hack our systems",
+      "resell": "Share or resell access to our services without authorization"
+    },
+    "rights": {
+      "title": "Voice Data and Content Rights",
+      "yourContent": {
+        "title": "Your Content",
+        "content": "You retain ownership of any original content you provide, but you grant us a license to process, store, and use your content to provide our services."
+      },
+      "generated": {
+        "title": "Generated Content",
+        "content": "Content generated using our AI services is subject to our usage policies. You are responsible for ensuring you have proper rights and permissions for any voice data you use."
+      },
+      "voiceConsent": {
+        "title": "Voice Consent",
+        "content": "You must obtain explicit consent before cloning or using someone else's voice. We may require proof of consent for certain uses."
+      }
+    },
+    "payment": {
+      "title": "Payment and Billing",
+      "credits": "Our services operate on a credit-based system. You can purchase credits or subscribe to plans as outlined on our pricing page.",
+      "processing": "All payments are processed securely through third-party payment processors. Refunds are subject to our refund policy.",
+      "pricing": "We reserve the right to modify pricing with 30 days' notice to existing users."
+    },
+    "availability": {
+      "title": "Service Availability and Performance",
+      "content": "While we strive for high availability, we do not guarantee uninterrupted access to our services. We may perform maintenance, updates, or experience technical issues that temporarily affect service availability."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": "The VeeqAI platform, including software, algorithms, and user interfaces, is protected by intellectual property laws. You may not copy, modify, distribute, or create derivative works without our permission."
+    },
+    "privacy": {
+      "title": "Privacy and Data Protection",
+      "content": "Our collection and use of your information is governed by our Privacy Policy. By using our services, you consent to our data practices as described in the Privacy Policy."
+    },
+    "disclaimers": {
+      "title": "Disclaimers and Limitation of Liability",
+      "service": {
+        "title": "Service Disclaimer",
+        "content": "Our services are provided \"as is\" without warranties of any kind. We do not guarantee the accuracy, completeness, or quality of generated content."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "To the maximum extent permitted by law, our liability is limited to the amount you paid for services in the 12 months preceding any claim."
+      }
+    },
+    "indemnification": {
+      "title": "Indemnification",
+      "content": "You agree to indemnify and hold us harmless from any claims, damages, or expenses arising from your use of our services, violation of these Terms, or infringement of third-party rights."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "We may suspend or terminate your account at any time for violation of these Terms or for any other reason with or without notice. You may terminate your account at any time through your account settings."
+    },
+    "governingLaw": {
+      "title": "Governing Law and Disputes",
+      "content": "These Terms are governed by Turkish law. Any disputes shall be resolved through arbitration or in the courts of Turkey, as applicable."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "content": "We may modify these Terms at any time. We will provide notice of significant changes and your continued use constitutes acceptance of the modified Terms."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "intro": "For questions about these Terms, please contact us:",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectText": "Terms of Service Inquiry"
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated",
+    "whatAreCookies": {
+      "title": "What Are Cookies",
+      "content": "Cookies are small text files that are placed on your computer or mobile device when you visit our website. VEMLO YAZILIM BİLGİ İLETİŞİM TEKNOLOJİLERİ REKLAM PAZARLAMA LİMİTED ŞİRKETİ uses cookies to improve your experience on the VeeqAI platform, provide personalized services, and analyze website usage."
+    },
+    "typesOfCookies": {
+      "title": "Types of Cookies We Use",
+      "purpose": "Purpose",
+      "examples": "Examples",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "These cookies are necessary for the website to function properly and cannot be disabled.",
+        "purpose": "Authentication, security, session management",
+        "examples": "Login status, security tokens, user preferences"
+      },
+      "performance": {
+        "title": "Performance Cookies",
+        "description": "These cookies collect information about how you use our website to help us improve performance.",
+        "purpose": "Analytics, usage patterns, error reporting",
+        "examples": "Page views, bounce rates, feature usage statistics"
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "description": "These cookies enable enhanced functionality and personalization.",
+        "purpose": "Personalization, language preferences, UI settings",
+        "examples": "Theme selection, language choice, custom voice settings"
+      },
+      "marketing": {
+        "title": "Marketing Cookies",
+        "description": "These cookies track your online activity to help advertisers deliver relevant advertisements.",
+        "purpose": "Targeted advertising, conversion tracking",
+        "examples": "Google Analytics, Facebook Pixel, advertising identifiers"
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Cookies",
+      "intro": "We may use third-party services that place cookies on your device:",
+      "googleAnalytics": {
+        "title": "Google Analytics",
+        "description": "Helps us understand website usage and improve user experience."
+      },
+      "paymentProcessors": {
+        "title": "Payment Processors",
+        "description": "Secure payment processing for subscriptions and credit purchases."
+      },
+      "customerSupport": {
+        "title": "Customer Support",
+        "description": "Chat widgets and support tools for customer assistance."
+      },
+      "cdnServices": {
+        "title": "CDN Services",
+        "description": "Content delivery networks to improve website performance."
+      }
+    },
+    "duration": {
+      "title": "Cookie Duration",
+      "session": {
+        "title": "Session Cookies",
+        "description": "Temporary cookies that are deleted when you close your browser. Used for essential functions like maintaining your login session."
+      },
+      "persistent": {
+        "title": "Persistent Cookies",
+        "description": "Remain on your device for a set period or until manually deleted. Used for remembering preferences and improving user experience across visits."
+      }
+    },
+    "managing": {
+      "title": "Managing Your Cookie Preferences",
+      "browserSettings": {
+        "title": "Browser Settings",
+        "intro": "You can control cookies through your browser settings. Here's how to manage cookies in popular browsers:",
+        "chrome": "Settings > Privacy and Security > Cookies and other site data",
+        "firefox": "Settings > Privacy & Security > Cookies and Site Data",
+        "safari": "Preferences > Privacy > Manage Website Data",
+        "edge": "Settings > Site Permissions > Cookies and stored data"
+      },
+      "cookieBanner": {
+        "title": "Cookie Banner",
+        "description": "When you first visit our website, you'll see a cookie banner where you can choose which types of cookies to accept. You can change these preferences at any time through the cookie settings link in our footer."
+      },
+      "accountSettings": {
+        "title": "Account Settings",
+        "description": "Logged-in users can manage certain cookie preferences through their account settings, including analytics and marketing cookies."
+      }
+    },
+    "impact": {
+      "title": "Impact of Disabling Cookies",
+      "important": "Important",
+      "warning": "Disabling certain cookies may affect the functionality of our website and services.",
+      "essential": "Essential cookies: Disabling these will prevent core functionality",
+      "performance": "Performance cookies: You may experience slower load times and reduced optimization",
+      "functional": "Functional cookies: Personalization features may not work properly",
+      "marketing": "Marketing cookies: You may see less relevant advertisements"
+    },
+    "mobileApps": {
+      "title": "Mobile Applications",
+      "content": "Our mobile applications may use similar tracking technologies. You can control these through your device settings or app preferences. Refer to your device's help documentation for specific instructions."
+    },
+    "updates": {
+      "title": "Updates to This Policy",
+      "content": "We may update this Cookie Policy periodically to reflect changes in our practices or applicable laws. We will notify you of significant changes by posting the updated policy on our website and updating the \"Last updated\" date."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have questions about our use of cookies or this Cookie Policy, please contact us:",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectText": "Cookie Policy Inquiry"
+    },
+    "additionalResources": {
+      "title": "Additional Resources",
+      "intro": "For more information about cookies and online privacy, visit:"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team. We're here to help with any questions about Veeq AI and how our platform can transform your content creation workflow.",
+    "getInTouch": {
+      "title": "Get in touch",
+      "description": "Reach out to us directly using the information below. We're here to help with any questions about our AI audio platform and solutions."
+    },
+    "address": {
+      "title": "Office Address"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "businessHours": {
+      "title": "Business Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "weekend": "Saturday - Sunday: Closed",
+      "timezone": "(Turkey Time - GMT+3)"
+    },
+    "quickHelp": {
+      "title": "Need quick help?",
+      "docs": {
+        "title": "Documentation",
+        "description": "API guides, tutorials, and FAQs"
+      },
+      "features": {
+        "title": "Features",
+        "description": "Explore all our AI audio tools"
+      },
+      "pricing": {
+        "title": "Pricing",
+        "description": "Find the perfect plan for your needs"
+      }
+    },
+    "support": {
+      "title": "Still have questions?",
+      "description": "Our team is here to help you get the most out of Veeq AI. Whether you're just starting out or scaling your content production, we're committed to your success.",
+      "sales": {
+        "title": "Sales Inquiries",
+        "description": "Learn about our enterprise solutions and custom pricing options.",
+        "button": "Contact Sales"
+      },
+      "technical": {
+        "title": "Technical Support",
+        "description": "Get help with API integration, troubleshooting, and technical questions.",
+        "button": "Get Support"
+      }
+    }
+  },
+  "endpoints": {
+    "title": "API Reference",
+    "description": "Comprehensive API reference and documentation. Explore and test all endpoints."
+  },
+  "tableOfContents": {
+    "title": "On this page"
+  },
+  "introduction": {
+    "title": "Introduction",
+    "subtitle": "Veeq AI Public API Documentation",
+    "welcome": "Welcome to Veeq AI — your gateway to cutting-edge AI audio technology. Our API empowers developers, artists, and creators to generate, transform, and remix audio in revolutionary ways.",
+    "promise": "Whether you're building the next-gen AI music tool, automating voice workflows, or just experimenting with creative audio conversions — we've got you covered.",
+    "getApiKey": "Get API Key",
+    "quickStart": "Quick Start",
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "description": "Veeq AI is a comprehensive AI audio platform offering a wide range of features including:",
+      "musicGeneration": {
+        "title": "Music Generation (MusicAI)",
+        "description": "Turn text prompts into full-length songs."
+      },
+      "voiceChanging": {
+        "title": "Voice Changing",
+        "description": "Convert any voice into a new one — ideal for character work, privacy, or creativity."
+      },
+      "textToSpeech": {
+        "title": "Text-to-Speech (TTS)",
+        "description": "Convert text to expressive voice using custom voice profiles."
+      },
+      "audioProcessing": {
+        "title": "Audio Processing",
+        "description": "De-noise, de-echo, and de-reverb your recordings."
+      }
+    },
+    "sections": {
+      "authentication": {
+        "title": "Authentication",
+        "baseUrl": "Base URL",
+        "authTitle": "Authentication",
+        "authDescription": "All API requests require a JWT token in the Authorization header:",
+        "rateLimits": "Rate Limits",
+        "plans": {
+          "free": {
+            "name": "Free Plan",
+            "limit": "10 requests/minute"
+          },
+          "pro": {
+            "name": "Pro Plan",
+            "limit": "100 requests/minute"
+          },
+          "enterprise": {
+            "name": "Enterprise",
+            "limit": "Custom limits"
+          }
+        }
+      },
+      "quickStart": {
+        "title": "Quick Start",
+        "step1": {
+          "title": "1. Get Your API Key",
+          "description": "First, register for a Veeq AI account and obtain your JWT token from the dashboard.",
+          "button": "Get Started"
+        },
+        "step2": {
+          "title": "2. Make Your First Request",
+          "description": "Generate your first piece of music with a simple HTTP request:"
+        },
+        "examples": {
+          "curl": "cURL",
+          "javascript": "JavaScript"
+        }
+      },
+      "apiExplorer": {
+        "title": "API Explorer",
+        "description": "Test our API endpoints directly from your browser. Enter your JWT token and try making requests to see live responses."
+      },
+      "apiReference": {
+        "title": "Complete API Reference",
+        "description": "Comprehensive documentation for all Veeq AI endpoints with interactive testing capabilities."
+      },
+      "sdks": {
+        "title": "SDKs & Code Generation",
+        "description": "Get started quickly with our SDK generator. Download ready-to-use code for your preferred programming language."
+      },
+      "postman": {
+        "title": "Postman Collection",
+        "description": "Import our complete API collection into Postman for easy testing and development. Includes authentication setup and response examples."
+      },
+      "openapi": {
+        "title": "OpenAPI Specification",
+        "description": "Generate OpenAPI (Swagger) specification for automatic SDK generation, documentation, and integration with API tools."
+      },
+      "errorHandling": {
+        "title": "Error Handling",
+        "responseFormat": {
+          "title": "Error Response Format",
+          "description": "All errors follow a consistent format:"
+        },
+        "commonCodes": {
+          "title": "Common Error Codes",
+          "401": {
+            "code": "401 Unauthorized",
+            "description": "Invalid or missing JWT token"
+          },
+          "402": {
+            "code": "402 Payment Required",
+            "description": "Insufficient credits or exceeded limits"
+          },
+          "429": {
+            "code": "429 Rate Limit Exceeded",
+            "description": "Too many requests"
+          },
+          "500": {
+            "code": "500 Internal Server Error",
+            "description": "Server processing error"
+          }
+        }
+      },
+      "rateLimits": {
+        "title": "Rate Limits",
+        "understanding": {
+          "title": "Understanding Rate Limits",
+          "description": "Our API implements rate limiting to ensure fair usage and maintain service quality for all users."
+        },
+        "plans": {
+          "free": {
+            "name": "Free Plan",
+            "number": "10",
+            "unit": "requests/minute"
+          },
+          "pro": {
+            "name": "Pro Plan",
+            "number": "100",
+            "unit": "requests/minute"
+          },
+          "enterprise": {
+            "name": "Enterprise",
+            "number": "Custom",
+            "unit": "limits available"
+          }
+        }
+      },
+      "support": {
+        "title": "Community & Support",
+        "official": {
+          "title": "Official Resources",
+          "javascript": {
+            "title": "JavaScript/Node.js SDK",
+            "description": "Complete SDK with TypeScript support",
+            "availability": "Available via Generator"
+          },
+          "python": {
+            "title": "Python SDK",
+            "description": "Full-featured Python client library",
+            "availability": "Available via Generator"
+          },
+          "multiLang": {
+            "title": "Multi-Language Support",
+            "description": "PHP, Go, Ruby, and cURL examples",
+            "availability": "Available via Generator"
+          }
+        },
+        "community": {
+          "title": "Community",
+          "discord": {
+            "title": "Discord Community",
+            "description": "Join developers using Veeq AI"
+          },
+          "github": {
+            "title": "GitHub Examples",
+            "description": "Code samples and integrations"
+          },
+          "support": {
+            "title": "Support",
+            "description": "24/7 developer support"
+          }
+        },
+        "help": {
+          "title": "Need Help?",
+          "description": "Our developer support team is here to help you integrate Veeq AI into your applications successfully.",
+          "contactSupport": "Contact Support",
+          "joinDiscord": "Join Discord"
+        }
+      }
+    }
+  },
+  "docsLayout": {
+    "title": "API Documentation",
+    "searchPlaceholder": "Search documentation...",
+    "navigation": {
+      "gettingStarted": "Getting Started",
+      "introduction": "Introduction",
+      "authentication": "Authentication",
+      "quickStart": "Quick Start",
+      "apiExplorer": "API Explorer",
+      "apiReference": "API Reference",
+      "allEndpoints": "All Endpoints",
+      "billing": "Billing & Payments",
+      "paymentMethods": "Payment Methods",
+      "stripeIntegration": "Stripe Integration",
+      "iyzicoIntegration": "iyzico Integration",
+      "billingManagement": "Billing Management",
+      "toolsSdks": "Tools & SDKs",
+      "sdkGenerator": "SDK Generator",
+      "postman": "Postman Collection",
+      "openapi": "OpenAPI Spec",
+      "support": "Support",
+      "errorHandling": "Error Handling",
+      "rateLimits": "Rate Limits",
+      "getHelp": "Get Help"
+    }
+  },
+  "authentication": {
+    "title": "Authentication",
+    "description": "Learn how to authenticate your requests to the Veeq AI API using JWT tokens.",
+    "baseUrl": "Base URL",
+    "authTitle": "Authentication",
+    "authDescription": "All API requests require a JWT token in the Authorization header:",
+    "rateLimits": "Rate Limits",
+    "plans": {
+      "free": {
+        "name": "Free Plan",
+        "limit": "10 requests/minute"
+      },
+      "pro": {
+        "name": "Pro Plan",
+        "limit": "100 requests/minute"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "limit": "Custom limits"
+      }
+    },
+    "registration": {
+      "title": "User Registration",
+      "description": "Create a new user account and receive a JWT token:"
+    },
+    "response": "Response",
+    "login": {
+      "title": "User Login",
+      "description": "Login with existing credentials:"
+    }
+  },
+  "errorHandling": {
+    "title": "Error Handling",
+    "description": "Learn how to handle errors and understand response codes from the Veeq AI API.",
+    "copied": "Copied",
+    "copy": "Copy",
+    "responseFormat": {
+      "title": "Error Response Format",
+      "description": "All errors follow a consistent format:"
+    },
+    "statusCodes": {
+      "title": "HTTP Status Codes",
+      "200": {
+        "code": "200 OK",
+        "description": "Request successful"
+      },
+      "400": {
+        "code": "400 Bad Request",
+        "description": "Invalid request parameters"
+      },
+      "401": {
+        "code": "401 Unauthorized",
+        "description": "Invalid or missing JWT token"
+      },
+      "402": {
+        "code": "402 Payment Required",
+        "description": "Insufficient credits or exceeded limits"
+      },
+      "429": {
+        "code": "429 Rate Limit Exceeded",
+        "description": "Too many requests"
+      },
+      "500": {
+        "code": "500 Internal Server Error",
+        "description": "Server processing error"
+      }
+    },
+    "errorCodes": {
+      "title": "Error Code Reference",
+      "headers": {
+        "code": "Error Code",
+        "description": "Description",
+        "solution": "Solution"
+      },
+      "invalidCredentials": {
+        "description": "Invalid email or password",
+        "solution": "Check your credentials"
+      },
+      "insufficientCredits": {
+        "description": "Not enough credits for operation",
+        "solution": "Purchase more credits"
+      },
+      "rateLimitExceeded": {
+        "description": "Too many requests in time window",
+        "solution": "Wait before making more requests"
+      },
+      "invalidModel": {
+        "description": "Specified model not found",
+        "solution": "Use a valid model ID"
+      },
+      "textTooLong": {
+        "description": "Input text exceeds maximum length",
+        "solution": "Reduce text length"
+      }
+    }
+  },
+  "apiExplorer": {
+    "title": "API Explorer",
+    "description": "Test our API endpoints directly from your browser. Enter your JWT token and try making requests to see live responses.",
+    "endpoints": {
+      "getUserInfo": {
+        "title": "Get User Information",
+        "description": "Retrieve current user details and credit balance.",
+        "params": {
+          "authorization": "Bearer token for authentication"
+        }
+      },
+      "generateMusic": {
+        "title": "Generate Music",
+        "description": "Create original music from text prompts using AI models.",
+        "examplePrompt": "Upbeat electronic dance music with synthesizers",
+        "params": {
+          "prompt": {
+            "description": "Text description of the music to generate",
+            "example": "Upbeat electronic dance music"
+          },
+          "modelId": "ID of the AI model to use",
+          "duration": "Duration in seconds (10-120)"
+        }
+      },
+      "generateSpeech": {
+        "title": "Generate Speech",
+        "description": "Convert text to natural-sounding speech using AI voices.",
+        "exampleText": "Hello, welcome to Veeq AI. This is a sample text-to-speech generation.",
+        "params": {
+          "text": {
+            "description": "Text to convert to speech",
+            "example": "Hello, welcome to Veeq AI"
+          },
+          "voiceId": "ID of the voice to use",
+          "language": "Language code"
+        }
+      },
+      "getModels": {
+        "title": "Get Available Models",
+        "description": "Retrieve list of available AI models for music generation.",
+        "params": {
+          "type": "Filter by model type (music, tts)"
+        }
+      }
+    }
+  },
+  "endpoints": {
+    "title": "Complete API Reference",
+    "description": "Comprehensive documentation for all Veeq AI endpoints with interactive testing capabilities."
+  },
+  "sdkGenerator": {
+    "title": "SDKs & Code Generation",
+    "description": "Get started quickly with our SDK generator. Download ready-to-use code for your preferred programming language."
+  },
+  "postmanCollection": {
+    "title": "Postman Collection",
+    "description": "Import our complete API collection into Postman for easy testing and development. Includes authentication setup and response examples."
+  },
+  "openApiSpec": {
+    "title": "OpenAPI Specification",
+    "description": "Generate OpenAPI (Swagger) specification for automatic SDK generation, documentation, and integration with API tools."
+  },
+  "rateLimits": {
+    "title": "Rate Limits",
+    "description": "Understanding rate limiting and how to handle it in your applications.",
+    "understanding": {
+      "title": "Understanding Rate Limits",
+      "description": "Our API implements rate limiting to ensure fair usage and maintain service quality for all users. Rate limits are applied per API key and reset every minute."
+    },
+    "plans": {
+      "free": {
+        "name": "Free Plan",
+        "number": "10",
+        "unit": "requests/minute"
+      },
+      "pro": {
+        "name": "Pro Plan",
+        "number": "100", 
+        "unit": "requests/minute"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "number": "Custom",
+        "unit": "limits available"
+      }
+    },
+    "headers": {
+      "title": "Rate Limit Headers",
+      "description": "Every API response includes headers that help you track your rate limit status:",
+      "limit": {
+        "name": "X-RateLimit-Limit",
+        "description": "The maximum number of requests allowed per minute"
+      },
+      "remaining": {
+        "name": "X-RateLimit-Remaining",
+        "description": "The number of requests remaining in the current window"
+      },
+      "reset": {
+        "name": "X-RateLimit-Reset",
+        "description": "Unix timestamp when the rate limit window resets"
+      }
+    },
+    "handling": {
+      "title": "Handling Rate Limits",
+      "jsExample": "JavaScript Example",
+      "pythonExample": "Python Example"
+    },
+    "bestPractices": {
+      "title": "Best Practices",
+      "monitor": {
+        "title": "Monitor Rate Limit Headers",
+        "description": "Always check the rate limit headers in responses to avoid hitting limits"
+      },
+      "backoff": {
+        "title": "Implement Exponential Backoff",
+        "description": "Use exponential backoff when retrying failed requests"
+      },
+      "cache": {
+        "title": "Cache Responses",
+        "description": "Cache API responses when possible to reduce API calls"
+      },
+      "batch": {
+        "title": "Batch Requests",
+        "description": "Group multiple operations into single requests when supported"
+      },
+      "upgrade": {
+        "title": "Upgrade Your Plan",
+        "description": "Consider upgrading to Pro or Enterprise for higher rate limits"
+      }
+    }
+  },
+  "help": {
+    "title": "Get Help",
+    "description": "Our developer support team is here to help you integrate Veeq AI into your applications successfully."
+  },
+  "paymentMethods": {
+    "title": "Payment Methods",
+    "description": "Manage payment methods and billing information for your Veeq AI account.",
+    "supported": {
+      "title": "Supported Payment Methods",
+      "cards": "Credit & Debit Cards",
+      "turkish": "Turkish Payment Methods"
+    },
+    "security": {
+      "title": "Payment Security"
+    },
+    "api": {
+      "title": "Billing API Endpoints"
+    },
+    "currencies": {
+      "title": "Supported Currencies"
+    }
+  },
+  "stripeIntegration": {
+    "title": "Stripe Integration",
+    "description": "Integrate Stripe payments for international users with our comprehensive API.",
+    "copied": "Copied",
+    "copy": "Copy",
+    "setup": {
+      "title": "Setup Stripe"
+    },
+    "paymentIntent": {
+      "title": "Create Payment Intent"
+    },
+    "webhooks": {
+      "title": "Webhook Handling"
+    },
+    "testCards": {
+      "title": "Test Cards"
+    },
+    "bestPractices": {
+      "title": "Best Practices"
+    }
+  },
+  "iyzicoIntegration": {
+    "title": "iyzico Integration",
+    "description": "Integrate iyzico payments for Turkish users with full local payment method support.",
+    "copied": "Copied",
+    "copy": "Copy"
+  },
+  "billingManagement": {
+    "title": "Billing Management",
+    "description": "Manage subscriptions, invoices, and billing information through our API.",
+    "subscription": {
+      "title": "Subscription Management",
+      "getCurrent": "Get current subscription details",
+      "upgrade": "Upgrade subscription plan",
+      "cancel": "Cancel subscription (active until period end)",
+      "resume": "Resume cancelled subscription"
+    },
+    "invoice": {
+      "title": "Invoice Management",
+      "list": "List all invoices",
+      "getDetails": "Get specific invoice details",
+      "download": "Download invoice PDF"
+    },
+    "credits": {
+      "title": "Credits & Usage",
+      "getBalance": "Get current credit balance",
+      "purchase": "Purchase additional credits",
+      "getUsage": "Get usage statistics"
+    },
+    "address": {
+      "title": "Billing Address",
+      "getCurrent": "Get current billing address",
+      "update": "Update billing address"
+    },
+    "notifications": {
+      "title": "Billing Notifications",
+      "getPreferences": "Get notification preferences",
+      "updateSettings": "Update notification settings"
+    },
+    "plans": {
+      "title": "Plan Details"
+    }
+  }
+}
