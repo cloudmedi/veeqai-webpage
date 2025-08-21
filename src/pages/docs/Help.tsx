@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import i18n from '../../i18n'
 import DocsLayout from '../../components/DocsLayout'
 import { ExternalLink, HelpCircle } from 'lucide-react'
 
@@ -89,7 +90,7 @@ const HelpPage: React.FC = () => {
             <h4 className="font-bold text-black mb-2">How do I get an API key?</h4>
             <p className="text-gray-700">
               Register for a free account at{' '}
-              <a href="http://localhost:5173/register" className="text-blue-600 hover:underline">
+              <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`} className="text-blue-600 hover:underline">
                 our registration page
               </a>
               . You'll receive your JWT token immediately after creating an account.

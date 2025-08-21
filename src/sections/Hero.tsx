@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Play, Pause, Download, Mic, FileText, MessageSquare, Languages, Users, Sparkles } from 'lucide-react'
 
 const Hero: React.FC = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [selectedTab, setSelectedTab] = useState('text-to-speech')
   const [isPlaying, setIsPlaying] = useState(false)
   const [selectedLanguage, setSelectedLanguage] = useState(t('hero.languages.english'))
@@ -105,7 +105,7 @@ const Hero: React.FC = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <a
-                href="https://app.veeq.ai/register"
+                href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                 className="inline-block bg-black text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition-colors"
               >
                 {t('hero.cta.startCreating')}

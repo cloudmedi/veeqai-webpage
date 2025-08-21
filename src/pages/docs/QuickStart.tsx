@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import i18n from '../../i18n'
 import DocsLayout from '../../components/DocsLayout'
 import { Copy, Check, ExternalLink } from 'lucide-react'
 
@@ -56,7 +57,7 @@ const QuickStartPage: React.FC = () => {
           {t('quickStart.step1.description')}
         </p>
         <a
-          href="http://localhost:5173/register"
+          href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
           className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors"
         >
           {t('quickStart.step1.button')} <ExternalLink className="w-4 h-4" />

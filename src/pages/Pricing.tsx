@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Check, Star, Zap, Shield, Crown, ChevronDown } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import i18n from '../i18n'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { apiClient } from '../lib/api-client'
@@ -804,7 +805,7 @@ const PricingPage: React.FC = () => {
                     {/* CTA Button */}
                     <div className="mt-auto">
                       <a
-                        href='http://localhost:5173/register'
+                        href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                         className={`block w-full py-4 px-6 rounded-xl font-semibold text-sm text-center ${
                           plan.display.popular
                             ? 'bg-black text-white shadow-lg hover:bg-gray-800'

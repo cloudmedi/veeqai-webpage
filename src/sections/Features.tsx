@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Play, Pause, Star } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import i18n from '../i18n'
 
 const Features: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -177,7 +178,7 @@ const Features: React.FC = () => {
                 {t('features.cta.seeAllFeatures')}
               </a>
               <a
-                href="http://localhost:5173/register"
+                href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                 className="inline-block bg-black text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition-colors"
               >
                 {t('features.cta.startFreeTrial')}

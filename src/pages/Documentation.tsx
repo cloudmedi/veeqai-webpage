@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import i18n from '../i18n'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ApiExplorer from '../components/ApiExplorer'
@@ -220,7 +221,7 @@ const DocumentationPage: React.FC = () => {
                 
                 <div className="grid md:grid-cols-2 gap-6">
                   <a 
-                    href="http://localhost:5173/register"
+                    href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                     className="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
                   >
                     <Key className="w-5 h-5" />
@@ -346,7 +347,7 @@ const DocumentationPage: React.FC = () => {
                   {t('documentation.sections.quickStart.step1.description')}
                 </p>
                 <a
-                  href="http://localhost:5173/register"
+                  href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                   className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors"
                 >
                   {t('documentation.sections.quickStart.step1.button')} <ExternalLink className="w-4 h-4" />

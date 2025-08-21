@@ -225,7 +225,7 @@ const HeroNew: React.FC = () => {
 
           {/* CTA Section */}
           <div className="text-center">
-            <a href="http://localhost:5173/register" className="inline-block bg-white text-black font-semibold px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors mr-4">
+            <a href="https://app.veeq.ai/register" className="inline-block bg-white text-black font-semibold px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors mr-4">
               Get Started Free
             </a>
             <a href="/pricing" className="inline-block border border-gray-700 text-white font-semibold px-8 py-4 rounded-xl hover:bg-gray-900 transition-colors">

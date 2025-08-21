@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import i18n from '../i18n'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -212,7 +213,7 @@ const AboutPage: React.FC = () => {
                       {t('about.connect.tryPlatform.description')}
                     </p>
                     <a
-                      href="http://localhost:5173/register"
+                      href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                       className="inline-block bg-black text-white px-8 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors"
                     >
                       {t('about.connect.tryPlatform.button')}

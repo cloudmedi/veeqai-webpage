@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import i18n from '../../i18n'
 import DocsLayout from '../../components/DocsLayout'
 
 const IntroductionPage: React.FC = () => {
@@ -30,7 +31,7 @@ const IntroductionPage: React.FC = () => {
         
         <div className="grid md:grid-cols-2 gap-6">
           <a 
-            href="http://localhost:5173/register"
+            href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
             className="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
           >
             {t('introduction.getApiKey')}

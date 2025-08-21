@@ -120,10 +120,10 @@ const Header: React.FC = () => {
 
           <div className="hidden lg:flex items-center space-x-4">
             <LanguageSwitcher />
-            <a href="http://localhost:5173/login" className="text-gray-700  hover:text-black transition-colors font-medium">
+            <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/login`} className="text-gray-700  hover:text-black transition-colors font-medium">
               {t('nav.signIn')}
             </a>
-            <a href="http://localhost:5173/register" className="bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
+            <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`} className="bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
               {t('nav.signUp')}
             </a>
           </div>
@@ -223,11 +223,11 @@ const Header: React.FC = () => {
                 <div className="px-4 mb-4">
                   <LanguageSwitcher />
                 </div>
-                <a href="http://localhost:5173/login" className="block w-full text-left px-4 py-2 text-gray-700  hover:text-black hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors">
+                <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/login`} className="block w-full text-left px-4 py-2 text-gray-700  hover:text-black hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors">
                   {t('nav.signIn')}
                 </a>
                 <div className="px-4">
-                  <a href="http://localhost:5173/register" className="block bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors w-full text-center">
+                  <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`} className="block bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors w-full text-center">
                     {t('nav.signUp')}
                   </a>
                 </div>

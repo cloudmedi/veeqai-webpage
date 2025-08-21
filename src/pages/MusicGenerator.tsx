@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import i18n from '../i18n'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -356,7 +357,7 @@ const MusicGeneratorPage: React.FC = () => {
                 </p>
                 
                 <a
-                  href="http://localhost:5173/register"
+                  href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                   className="inline-block bg-black text-white px-12 py-6 rounded-xl font-bold text-xl hover:bg-gray-800 transition-colors mb-6"
                 >
                   {t('musicGeneratorPage.cta.button')}

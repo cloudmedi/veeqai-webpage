@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Play, Pause, Music } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+import i18n from '../i18n'
 
 interface FeaturedMusic {
   _id: string
@@ -279,7 +280,7 @@ const Demo: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="http://localhost:5173/register"
+              href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
               className="inline-block bg-black text-white px-12 py-6 rounded-xl font-semibold text-xl hover:bg-gray-800 transition-colors"
             >
               {t('demo.cta.startButton')}
