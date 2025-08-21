@@ -135,22 +135,39 @@ const PricingPage: React.FC = () => {
     return featureTranslations[feature] || feature
   }
 
-  // Translate feature descriptions
+  // Translate service descriptions
   const translateFeatureDesc = (desc: string, rates?: any) => {
-    if (i18n.language !== 'tr') return desc
+    if (i18n.language !== 'tr') {
+      if (desc.includes('Natural voices')) {
+        return 'Natural voice generation service'
+      } else if (desc.includes('Custom music from prompts')) {
+        return 'Custom music creation service from text prompts'
+      } else if (desc.includes('Clone any voice')) {
+        return 'Professional voice replication service'
+      } else if (desc.includes('Separate vocals')) {
+        return 'Vocal separation and audio enhancement service'
+      } else if (desc.includes('Integrate into applications')) {
+        return 'API integration service for developers'
+      } else if (desc.includes('Use for commercial purposes')) {
+        return 'Commercial usage rights for generated content'
+      } else if (desc.includes('24/7 dedicated support')) {
+        return '24/7 dedicated support team'
+      }
+      return desc
+    }
     
     if (desc.includes('Natural voices')) {
-      return `Doğal sesler (${rates?.tts || 1} kredi/karakter)`
+      return 'Doğal ses üretim hizmeti'
     } else if (desc.includes('Custom music from prompts')) {
-      return `Özel müzik üretimi (${rates?.music?.per30Seconds || 200} kredi/30s)`
+      return 'Metin açıklamalarından özel müzik oluşturma hizmeti'
     } else if (desc.includes('Clone any voice')) {
-      return `Herhangi bir sesi klonlayın (${rates?.voiceClone?.creation || 2000} kredi/ses)`
+      return 'Profesyonel ses kopyalama hizmeti'
     } else if (desc.includes('Separate vocals')) {
-      return `Vokalleri ayırın (${rates?.voiceIsolator?.perMinute || 100} kredi/dakika)`
+      return 'Vokal ayrıştırma ve ses geliştirme hizmeti'
     } else if (desc.includes('Integrate into applications')) {
-      return 'Uygulamalara entegre edin'
+      return 'Geliştiriciler için API entegrasyon hizmeti'
     } else if (desc.includes('Use for commercial purposes')) {
-      return 'Ticari kullanım için'
+      return 'Üretilen içerikler için ticari kullanım hakları'
     } else if (desc.includes('24/7 dedicated support')) {
       return '7/24 özel destek ekibi'
     }
@@ -363,20 +380,20 @@ const PricingPage: React.FC = () => {
     if (i18n.language === 'tr') {
       return [
         {
-          question: 'Kredi nedir ve nasıl çalışır?',
-          answer: 'Krediler kullanım tabanlı para birimizdir. Her AI özelliği kredi tüketir: Metin Seslendirme karakter başına 1 kredi, Müzik Üretimi 30 saniye başına 200 kredi, Ses Klonlama bir ses modeli oluşturmak için 2.000 kredi ve Ses Ayırıcı dakika başına 100 kredi kullanır.'
+          question: 'Hizmet paketleri nedir ve nasıl çalışır?',
+          answer: 'Hizmet paketleri kullanım tabanlı sistemimizdir. Her AI özelliği farklı hizmet miktarları içerir: Metin Seslendirme hizmeti, Müzik Üretim hizmeti, Ses Klonlama hizmeti ve Ses Ayırıcı hizmeti dahildir.'
         },
         {
-          question: 'Kullanılmayan krediler sonraki aya devredilir mi?',
-          answer: 'Evet! Kullanılmayan krediler otomatik olarak sonraki faturalama dönemine devredilir. 3 aya kadar kredi biriktirebilirsiniz, bu da VeeqAI\'ı nasıl kullandığınızda esneklik sağlar.'
+          question: 'Kullanılmayan hizmetler sonraki aya devredilir mi?',
+          answer: 'Evet! Kullanılmayan hizmet haklarınız otomatik olarak sonraki faturalama dönemine devredilir. 3 aya kadar hizmet hakları biriktirebilirsiniz, bu da VeeqAI\'ı nasıl kullandığınızda esneklik sağlar.'
         },
         {
           question: 'Aboneliğimi istediğim zaman iptal edebilir miyim?',
-          answer: 'Kesinlikle! Aboneliğinizi hesap ayarlarından istediğiniz zaman iptal edebilirsiniz. Planınız mevcut faturalama döneminin sonuna kadar aktif kalacak ve kullanılmayan tüm kredilerinizi saklayacaksınız.'
+          answer: 'Kesinlikle! Aboneliğinizi hesap ayarlarından istediğiniz zaman iptal edebilirsiniz. Planınız mevcut faturalama döneminin sonuna kadar aktif kalacak ve kullanılmayan tüm hizmet haklarınızı saklayacaksınız.'
         },
         {
           question: 'Aylık ve yıllık faturalama arasındaki fark nedir?',
-          answer: 'Yıllık faturalama size %17 indirim sağlar (2 ay ücretsiz eşdeğeri) ve yılda bir kez faturalandırılır. Aylık faturalama her ay tahsil edilir. Her iki seçenek de aynı özellikleri ve kredi tahsislerini içerir.'
+          answer: 'Yıllık faturalama size %17 indirim sağlar (2 ay ücretsiz eşdeğeri) ve yılda bir kez faturalandırılır. Aylık faturalama her ay tahsil edilir. Her iki seçenek de aynı özellikleri ve hizmet tahsislerini içerir.'
         },
         {
           question: 'İade sunuyor musunuz?',
@@ -398,20 +415,20 @@ const PricingPage: React.FC = () => {
     } else {
       return [
         {
-          question: 'What are credits and how do they work?',
-          answer: 'Credits are our usage-based currency. Each AI feature consumes credits: Text-to-Speech uses 1 credit per character, Music Generation uses 200 credits per 30 seconds, Voice Cloning uses 2,000 credits to create a voice model, and Voice Isolator uses 100 credits per minute.'
+          question: 'What are service packages and how do they work?',
+          answer: 'Service packages are our usage-based system. Each AI feature includes different service amounts: Text-to-Speech service, Music Generation service, Voice Cloning service, and Voice Isolator service are included.'
         },
         {
-          question: 'Do unused credits roll over to the next month?',
-          answer: 'Yes! Unused credits automatically roll over to the next billing cycle. You can accumulate up to 3 months worth of credits, giving you flexibility in how you use VeeqAI.'
+          question: 'Do unused services roll over to the next month?',
+          answer: 'Yes! Unused service allowances automatically roll over to the next billing cycle. You can accumulate up to 3 months worth of service rights, giving you flexibility in how you use VeeqAI.'
         },
         {
           question: 'Can I cancel my subscription anytime?',
-          answer: 'Absolutely! You can cancel your subscription at any time from your account settings. Your plan will remain active until the end of your current billing period, and you\'ll keep all unused credits.'
+          answer: 'Absolutely! You can cancel your subscription at any time from your account settings. Your plan will remain active until the end of your current billing period, and you\'ll keep all unused service allowances.'
         },
         {
           question: 'What\'s the difference between monthly and yearly billing?',
-          answer: 'Yearly billing gives you a 17% discount (equivalent to 2 months free) and is billed once per year. Monthly billing is charged every month. Both options include the same features and credit allocations.'
+          answer: 'Yearly billing gives you a 17% discount (equivalent to 2 months free) and is billed once per year. Monthly billing is charged every month. Both options include the same features and service allocations.'
         },
         {
           question: 'Do you offer refunds?',
@@ -434,13 +451,19 @@ const PricingPage: React.FC = () => {
   }
 
 
-  const formatCredits = (credits: number) => {
+  const formatServiceAllowance = (credits: number, language: string = 'en') => {
     if (credits >= 1000000) {
-      return `${(credits / 1000000).toFixed(1)}M`
+      return language === 'tr' ? 'Sınırsız' : 'Unlimited'
+    } else if (credits >= 500000) {
+      return language === 'tr' ? 'Geniş Paket' : 'Premium Package'
+    } else if (credits >= 100000) {
+      return language === 'tr' ? 'İleri Paket' : 'Advanced Package'
+    } else if (credits >= 10000) {
+      return language === 'tr' ? 'Standart Paket' : 'Standard Package'
     } else if (credits >= 1000) {
-      return `${(credits / 1000).toFixed(0)}K`
+      return language === 'tr' ? 'Başlangıç Paketi' : 'Starter Package'
     }
-    return credits.toString()
+    return language === 'tr' ? 'Sınırlı Paket' : 'Limited Package'
   }
 
   const getPlanIcon = (iconType: string) => {
@@ -621,10 +644,10 @@ const PricingPage: React.FC = () => {
                     <div className="text-center mb-8 h-24 flex items-center justify-center">
                       <div className="bg-gray-50 rounded-lg p-4 w-full flex flex-col justify-center min-h-[80px] border border-gray-200">
                         <div className="text-3xl font-bold text-black mb-1 min-w-[60px] flex items-center justify-center">
-                          {formatCredits(plan.credits.monthly)}
+                          {formatServiceAllowance(plan.credits.monthly, i18n.language)}
                         </div>
                         <div className="text-sm text-gray-600">
-                          {i18n.language === 'tr' ? 'aylık kredi' : 'credits per month'}
+                          {billingCycle === 'yearly' ? (i18n.language === 'tr' ? 'yıllık hizmet' : 'yearly services') : (i18n.language === 'tr' ? 'aylık hizmet' : 'monthly services')}
                         </div>
                       </div>
                     </div>
@@ -857,10 +880,10 @@ const PricingPage: React.FC = () => {
                   </thead>
                   <tbody>
                     <tr className="border-b border-gray-100">
-                      <td className="py-4 px-6 font-medium text-gray-900">{i18n.language === 'tr' ? 'Aylık Krediler' : 'Monthly Credits'}</td>
+                      <td className="py-4 px-6 font-medium text-gray-900">{billingCycle === 'yearly' ? (i18n.language === 'tr' ? 'Yıllık Hizmetler' : 'Yearly Services') : (i18n.language === 'tr' ? 'Aylık Hizmetler' : 'Monthly Services')}</td>
                       {plans.map((plan, index) => (
                         <td key={plan._id || index} className="py-4 px-6 text-center text-gray-700">
-                          {formatCredits(plan.credits.monthly)}
+                          {formatServiceAllowance(plan.credits.monthly, i18n.language)}
                         </td>
                       ))}
                     </tr>
