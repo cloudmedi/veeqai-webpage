@@ -30,12 +30,17 @@ const IntroductionPage: React.FC = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-6">
+          {/* Temporarily commented out - Coming Soon
           <a 
             href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
             className="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
           >
             {t('introduction.getApiKey')}
           </a>
+          */}
+          <div className="flex items-center justify-center gap-2 bg-gray-400 text-white px-6 py-3 rounded-lg font-semibold cursor-not-allowed">
+            Coming Soon
+          </div>
           <Link
             to="/docs/quick-start"
             className="flex items-center justify-center gap-2 bg-gray-100 text-black px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-200 transition-colors"

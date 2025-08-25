@@ -356,12 +356,17 @@ const MusicGeneratorPage: React.FC = () => {
                   {t('musicGeneratorPage.cta.subtitle')}
                 </p>
                 
+                {/* Temporarily commented out - Coming Soon
                 <a
                   href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                   className="inline-block bg-black text-white px-12 py-6 rounded-xl font-bold text-xl hover:bg-gray-800 transition-colors mb-6"
                 >
                   {t('musicGeneratorPage.cta.button')}
                 </a>
+                */}
+                <div className="inline-block bg-gray-400 text-white px-12 py-6 rounded-xl font-bold text-xl cursor-not-allowed mb-6">
+                  Coming Soon
+                </div>
                 <div className="text-gray-600 text-lg mb-4">
                   {t('musicGeneratorPage.cta.offer')}
                 </div>

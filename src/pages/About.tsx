@@ -212,12 +212,17 @@ const AboutPage: React.FC = () => {
                     <p className="text-gray-600 mb-6">
                       {t('about.connect.tryPlatform.description')}
                     </p>
+                    {/* Temporarily commented out - Coming Soon
                     <a
                       href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                       className="inline-block bg-black text-white px-8 py-3 rounded-xl font-semibold hover:bg-gray-800 transition-colors"
                     >
                       {t('about.connect.tryPlatform.button')}
                     </a>
+                    */}
+                    <div className="inline-block bg-gray-400 text-white px-8 py-3 rounded-xl font-semibold cursor-not-allowed">
+                      Coming Soon
+                    </div>
                   </div>
                   
                   <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">

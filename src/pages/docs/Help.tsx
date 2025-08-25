@@ -90,9 +90,14 @@ const HelpPage: React.FC = () => {
             <h4 className="font-bold text-black mb-2">How do I get an API key?</h4>
             <p className="text-gray-700">
               Register for a free account at{' '}
+              {/* Temporarily commented out - Coming Soon
               <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`} className="text-blue-600 hover:underline">
                 our registration page
               </a>
+              */}
+              <span className="text-gray-500 cursor-not-allowed">
+                our registration page (Coming Soon)
+              </span>
               . You'll receive your JWT token immediately after creating an account.
             </p>
           </div>

@@ -825,8 +825,9 @@ const PricingPage: React.FC = () => {
                       )}
                     </div>
 
-                    {/* CTA Button */}
+                    {/* CTA Button - Register link temporarily hidden */}
                     <div className="mt-auto">
+                      {/* 
                       <a
                         href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                         className={`block w-full py-4 px-6 rounded-xl font-semibold text-sm text-center ${
@@ -842,6 +843,10 @@ const PricingPage: React.FC = () => {
                           : (i18n.language === 'tr' ? 'Başla' : 'Get Started')
                         }
                       </a>
+                      */}
+                      <div className="block w-full py-4 px-6 rounded-xl font-semibold text-sm text-center bg-gray-300 text-gray-600 cursor-not-allowed">
+                        {i18n.language === 'tr' ? 'Yakında' : 'Coming Soon'}
+                      </div>
                     </div>
                   </div>
                 </div>

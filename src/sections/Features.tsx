@@ -177,12 +177,14 @@ const Features: React.FC = () => {
               >
                 {t('features.cta.seeAllFeatures')}
               </a>
+              {/* Register button temporarily hidden
               <a
                 href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                 className="inline-block bg-black text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition-colors"
               >
                 {t('features.cta.startFreeTrial')}
               </a>
+              */}
             </div>
             <div className="text-gray-600 text-lg">
               {t('features.cta.freeCreditsInfo')}

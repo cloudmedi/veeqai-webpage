@@ -56,12 +56,17 @@ const QuickStartPage: React.FC = () => {
         <p className="text-gray-700 mb-4">
           {t('quickStart.step1.description')}
         </p>
+        {/* Temporarily commented out - Coming Soon
         <a
           href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
           className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors"
         >
           {t('quickStart.step1.button')} <ExternalLink className="w-4 h-4" />
         </a>
+        */}
+        <div className="inline-flex items-center gap-2 bg-gray-400 text-white px-6 py-2 rounded-lg cursor-not-allowed">
+          Coming Soon <ExternalLink className="w-4 h-4" />
+        </div>
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200 p-8 mb-8">

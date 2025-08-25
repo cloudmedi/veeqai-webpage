@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
             </p>
             
             
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Temporarily Hidden
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <a
                 href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
@@ -110,6 +110,15 @@ const Hero: React.FC = () => {
               >
                 {t('hero.cta.startCreating')}
               </a>
+              <a
+                href="/features"
+                className="inline-block bg-gray-100 text-black px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-200 transition-colors border border-gray-300"
+              >
+                {t('hero.cta.exploreFeatures')}
+              </a>
+            </div>
+            */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <a
                 href="/features"
                 className="inline-block bg-gray-100 text-black px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-200 transition-colors border border-gray-300"

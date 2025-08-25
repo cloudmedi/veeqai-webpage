@@ -279,12 +279,14 @@ const Demo: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            {/* Register button temporarily hidden
             <a
               href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
               className="inline-block bg-black text-white px-12 py-6 rounded-xl font-semibold text-xl hover:bg-gray-800 transition-colors"
             >
               {t('demo.cta.startButton')}
             </a>
+            */}
             <a
               href="/features"
               className="inline-block bg-white text-black px-12 py-6 rounded-xl font-semibold text-xl border border-gray-300 hover:bg-gray-50 transition-colors"

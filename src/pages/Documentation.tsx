@@ -220,6 +220,7 @@ const DocumentationPage: React.FC = () => {
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-6">
+                  {/* Temporarily commented out - Coming Soon
                   <a 
                     href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                     className="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
@@ -227,6 +228,11 @@ const DocumentationPage: React.FC = () => {
                     <Key className="w-5 h-5" />
                     {t('documentation.intro.getApiKey')}
                   </a>
+                  */}
+                  <div className="flex items-center justify-center gap-2 bg-gray-400 text-white px-6 py-3 rounded-lg font-semibold cursor-not-allowed">
+                    <Key className="w-5 h-5" />
+                    Coming Soon
+                  </div>
                   <button
                     onClick={() => scrollToSection('quick-start')}
                     className="flex items-center justify-center gap-2 bg-gray-100 text-black px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-200 transition-colors"
@@ -346,12 +352,17 @@ const DocumentationPage: React.FC = () => {
                 <p className="text-gray-700 mb-4">
                   {t('documentation.sections.quickStart.step1.description')}
                 </p>
+                {/* Temporarily commented out - Coming Soon
                 <a
                   href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`}
                   className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors"
                 >
                   {t('documentation.sections.quickStart.step1.button')} <ExternalLink className="w-4 h-4" />
                 </a>
+                */}
+                <div className="inline-flex items-center gap-2 bg-gray-400 text-white px-6 py-2 rounded-lg cursor-not-allowed">
+                  Coming Soon <ExternalLink className="w-4 h-4" />
+                </div>
               </div>
 
               <div className="bg-white rounded-xl border border-gray-200 p-8 mb-8">

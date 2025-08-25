@@ -120,12 +120,14 @@ const Header: React.FC = () => {
 
           <div className="hidden lg:flex items-center space-x-4">
             <LanguageSwitcher />
+            {/* Login ve Register butonları geçici olarak gizlendi
             <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/login`} className="text-gray-700  hover:text-black transition-colors font-medium">
               {t('nav.signIn')}
             </a>
             <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/register`} className="bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
               {t('nav.signUp')}
             </a>
+            */}
           </div>
 
           <button 
@@ -223,6 +225,7 @@ const Header: React.FC = () => {
                 <div className="px-4 mb-4">
                   <LanguageSwitcher />
                 </div>
+                {/* Mobil Login ve Register butonları geçici olarak gizlendi
                 <a href={`https://app.veeq.ai${i18n.language === 'tr' ? '/tr' : ''}/login`} className="block w-full text-left px-4 py-2 text-gray-700  hover:text-black hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors">
                   {t('nav.signIn')}
                 </a>
@@ -231,6 +234,7 @@ const Header: React.FC = () => {
                     {t('nav.signUp')}
                   </a>
                 </div>
+                */}
               </div>
             </div>
           </div>
